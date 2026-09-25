@@ -224,7 +224,9 @@ def seed():
             opportunities_updated,
             queue_updated,
         ) = seed_opportunities(db)
-
+        # Make newly inserted opportunities visible to subsequent
+        # queries without committing the transaction yet.
+        db.flush()
         (
             ai_inserted,
             ai_updated,
