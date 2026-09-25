@@ -62,6 +62,36 @@ type AIExplanation = {
   model: string;
 };
 
+function normalizeEvidenceUsed(
+  value: unknown
+): string[] {
+  if (Array.isArray(value)) {
+    return value.map((item) => String(item));
+  }
+
+  if (
+    value !== null &&
+    typeof value === "object"
+  ) {
+    return Object.entries(
+      value as Record<string, unknown>
+    ).map(
+      ([key, item]) =>
+        `${key.replaceAll("_", " ")}: ${String(item)}`
+    );
+  }
+
+  if (
+    value === null ||
+    value === undefined ||
+    value === ""
+  ) {
+    return [];
+  }
+
+  return [String(value)];
+}
+
 type Page = "command" | "outlets" | "opportunities" | "team";
 
 type OutcomeLearning = {
@@ -324,8 +354,14 @@ function App() {
         );
       }
 
-      const data: AIExplanation =
-        await response.json();
+      const rawData = await response.json();
+
+      const data: AIExplanation = {
+        ...rawData,
+        evidence_used: normalizeEvidenceUsed(
+          rawData.evidence_used
+        ),
+      };
 
       setAiExplanation(data);
     } catch (error) {
@@ -571,7 +607,7 @@ function App() {
             </button>
 
             <div className="date">
-              DATA AS OF · 31 DEC 2025
+              DATA AS OF 31 DEC 2025
             </div>
           </div>
         </header>

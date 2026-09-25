@@ -245,6 +245,68 @@ def opportunity(
 
 
 # ---------------------------------------------------------------------------
+# Execution state
+# ---------------------------------------------------------------------------
+
+@app.get("/opportunities/{opportunity_id}/execution-state")
+def execution_state(
+    opportunity_id: str,
+    db: Session = Depends(get_db),
+):
+    """
+    Return the latest saved field action and outcome
+    for an opportunity.
+    """
+
+    opportunity = db.get(Opportunity, opportunity_id)
+
+    if opportunity is None:
+        raise HTTPException(
+            status_code=404,
+            detail="Opportunity not found",
+        )
+
+    action = (
+        db.query(OpportunityAction)
+        .filter(
+            OpportunityAction.opportunity_id == opportunity_id
+        )
+        .order_by(
+            OpportunityAction.created_at.desc()
+        )
+        .first()
+    )
+
+    if action is None:
+        return {
+            "opportunity_id": opportunity_id,
+            "action": None,
+            "outcome": None,
+        }
+
+    outcome = (
+        db.query(OpportunityOutcome)
+        .filter(
+            OpportunityOutcome.action_id == action.action_id
+        )
+        .order_by(
+            OpportunityOutcome.created_at.desc()
+        )
+        .first()
+    )
+
+    return {
+        "opportunity_id": opportunity_id,
+        "action": serialize_action(action),
+        "outcome": (
+            serialize_outcome(outcome)
+            if outcome is not None
+            else None
+        ),
+    }
+
+
+# ---------------------------------------------------------------------------
 # Actions
 # ---------------------------------------------------------------------------
 
