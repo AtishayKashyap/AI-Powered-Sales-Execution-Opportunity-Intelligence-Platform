@@ -956,11 +956,17 @@ function App() {
 
                       <div className="aiEvidence">
                         <b>
-                          AI evidence used
+                          Evidence used
                         </b>
 
                         <ul>
-                          {aiExplanation.evidence_used.map(
+                          {(
+                            aiExplanation.evidence_used.length > 0
+                              ? aiExplanation.evidence_used
+                              : normalizeEvidenceUsed(
+                                  selected.evidence
+                                )
+                          ).map(
                             (
                               evidence,
                               index
