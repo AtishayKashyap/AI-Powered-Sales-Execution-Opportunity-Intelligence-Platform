@@ -4,3 +4,6 @@ faker>=30.0
 scipy>=1.14
 scikit-learn>=1.5
 pydantic>=2.8
+SQLAlchemy>=2.0
+psycopg[binary]>=3.2
+requests>=2.32
