@@ -14,7 +14,7 @@ services:
           name: salesforge-db
           property: connectionString
       - key: CORS_ORIGINS
-        sync: false
+        value: https://salesforge-frontend.onrender.com
 
   - type: web
     name: salesforge-frontend
@@ -24,7 +24,7 @@ services:
     staticPublishPath: ./dist
     envVars:
       - key: VITE_API_URL
-        sync: false
+        value: https://salesforge-api-5c6d.onrender.com
 
 databases:
   - name: salesforge-db
