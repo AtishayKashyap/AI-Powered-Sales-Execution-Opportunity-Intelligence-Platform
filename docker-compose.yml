@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: salesforge-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: salesforge
+      POSTGRES_USER: salesforge
+      POSTGRES_PASSWORD: salesforge_dev_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - salesforge_pgdata:/var/lib/postgresql/data
+
+volumes:
+  salesforge_pgdata:

@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated synthetic data
+data/generated/*.csv
+data/generated_v2/
+data/generated_v3/
+data/generated_v4/
+data/generated_v5/
+data/processed_v2/
+data/processed_v3/
+data/processed_v4/
+data/processed_v5/
+
+# Local databases / runtime artifacts
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: salesforge-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: salesforge
+      POSTGRES_USER: salesforge
+      POSTGRES_PASSWORD: salesforge
+    ports:
+      - "5432:5432"
+    volumes:
+      - salesforge_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U salesforge -d salesforge"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  salesforge_pgdata:
