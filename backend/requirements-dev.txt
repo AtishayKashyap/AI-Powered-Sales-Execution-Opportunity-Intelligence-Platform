@@ -1,0 +1,9 @@
+# Pipeline and test dependencies, pinned so CI regenerates byte-identical seed data.
+-r requirements.txt
+numpy==2.5.4
+pandas==3.1.0
+pandas-stubs==3.1.0.261029
+pytest==8.4.2
+pytest-cov==7.1.0
+ruff==0.17.3
+mypy==2.4.1
