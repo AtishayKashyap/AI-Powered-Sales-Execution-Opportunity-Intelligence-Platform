@@ -1,552 +1,136 @@
 # SalesForge
 
-### AI-Powered CPG Sales Execution Intelligence
+[![CI](https://github.com/AtishayKashyap/AI-Powered-Sales-Execution-Opportunity-Intelligence-Platform/actions/workflows/ci.yml/badge.svg)](https://github.com/AtishayKashyap/AI-Powered-Sales-Execution-Opportunity-Intelligence-Platform/actions/workflows/ci.yml)
 
-SalesForge is an end-to-end sales-execution system that transforms outlet-level CPG sales, inventory, visit, and target data into **prioritized opportunities and actionable recommendations for field sales representatives**.
+Sales-execution intelligence for a consumer-goods distributor's field team. A data pipeline finds four kinds of
+opportunity across 2,000 retail outlets, prioritises them by severity and revenue at stake, and builds a daily
+queue for reps. Reps see the evidence and a plain-language explanation for each opportunity, then log what they
+did and how it went.
 
-Instead of stopping at dashboards and descriptive analytics, SalesForge closes the loop:
+**Live demo:** https://salesforge-frontend.onrender.com (free tier: the first load after a quiet spell can take a
+minute while the API wakes up)
 
-**Detect → Prioritize → Explain → Act → Record Outcome → Recover Execution State**
+![Today's queue](docs/screenshots/queue.png)
 
-> **Core principle:** deterministic analytics decides **WHAT** needs attention; the AI layer helps explain **WHY** it matters and communicates the recommended action using grounded evidence.
+## What it does
 
----
+| Opportunity | Detected when | Value at stake |
+|---|---|---|
+| **Revenue Recovery** | 60-day revenue at least 35% below the outlet's seasonally adjusted baseline, *and* a binomial test on orders per scheduled visit gives p <= 0.01 | the monthly shortfall |
+| **Inactive Outlet** | a regular buyer (2+ orders a month) has not ordered for 30+ days | its usual monthly revenue |
+| **Stock Risk** | shelf empty on 8%+ of the last 90 days | revenue lost at that rate |
+| **Cross-Sell** | an active outlet lacks a category that 90%+ of similar nearby outlets stock | the peers' median monthly sales of it |
 
-## Live Demo
+**Priority** is half severity and half revenue at stake (as a percentile), banded P1-P3. **Today's queue** takes the
+20 highest priorities with at most one per outlet and a cap per type, so a rep's day is not five visits for the same
+problem.
 
-**Application:** https://salesforge-frontend.onrender.com
+**Held-out accuracy** (thresholds tuned on one simulated year, scored on four others; details in
+[docs/EVALUATION.md](docs/EVALUATION.md)):
 
-**API:** https://salesforge-api-5c6d.onrender.com
+| Detector | Precision | Recall |
+|---|---:|---:|
+| Stock Risk | 0.96 | 0.91 |
+| Revenue Recovery | 0.78 | 0.68 |
+| Cross-Sell | 0.74 | 0.72 |
+| Inactive Outlet | 1.00 | 1.00 |
 
----
+## Explanations that cannot invent facts
 
-## Why SalesForge?
+Each opportunity gets a short explanation for the rep. With an LLM configured (Groq's free tier by default, or a
+local model through Ollama), the model gets the evidence and returns structured JSON. Then a **grounding check**
+verifies it before anyone sees it:
 
-Field sales teams can have thousands of outlets but limited time to visit them.
+- every number must equal an evidence value, a rounding of one, or a ratio or change between two evidence values
+  **of the same kind** (rupees with rupees, never days with rupees);
+- units must match: a percentage claim needs a percentage field, a ₹ claim a money field;
+- number words and multipliers are parsed ("seven in ten", "doubled", "3x");
+- a product category may be mentioned only if it is the one in the evidence;
+- `evidence_used` must name real evidence fields.
 
-A traditional analytics workflow might expose:
-
-```text
-Sales Data → Dashboard → Human Interpretation → Manual Decision
-```
-
-SalesForge turns that into:
-
-```text
-Sales / Inventory / Visit Data
-            ↓
-     Opportunity Detection
-            ↓
-      Priority Scoring
-            ↓
-       Action Queue
-            ↓
-  Evidence-Grounded Explanation
-            ↓
-       Field Action
-            ↓
-      Outcome Capture
-            ↓
-     Execution Feedback
-```
-
-The goal is not to replace the sales representative's judgment. It is to help the representative spend limited field time on the opportunities that deserve attention.
-
----
-
-## Key Capabilities
-
-| Capability | Description |
-|---|---|
-| Opportunity Detection | Identifies revenue recovery, inactive outlet, stock risk, and cross-sell opportunities |
-| Priority Scoring | Scores and prioritizes detected opportunities |
-| Action Queue | Produces a focused queue of high-priority outlet actions |
-| Evidence-Grounded AI | Explains recommendations using structured opportunity evidence |
-| Field Execution | Allows representatives to record actions taken |
-| Outcome Capture | Records the result of an executed action |
-| Execution State | Recovers the latest action/outcome after page refresh |
-| PostgreSQL Persistence | Stores opportunities, actions, outcomes, and AI explanations |
-| Production Deployment | React frontend + FastAPI backend + PostgreSQL |
-
----
-
-## Opportunity Types
-
-### Revenue Recovery
-
-Detects meaningful deterioration in outlet revenue and surfaces the outlet for investigation and recovery action.
-
-### Inactive Outlet
-
-Identifies outlets showing a lack of recent ordering/activity and recommends re-engagement.
-
-### Stock Risk
-
-Identifies repeated stockout or low-stock behavior and surfaces the outlet for replenishment or availability investigation.
-
-### Cross-Sell
-
-Identifies outlets eligible for additional product/category opportunities based on the project's controlled cross-sell eligibility logic.
-
----
+A failed answer is retried once with the list of problems. If it fails again, or no model is configured, the app
+shows a **rule-based summary** built from the evidence, and labels it as such. Only validated LLM answers are
+cached. The test suite includes adversarial answers that must be rejected, such as "Snacks sales grew 3x and the
+outlet has 7 competitors nearby" and "offer a 5 percent discount".
 
 ## Architecture
 
-The high-level architecture is:
-
-```text
-Synthetic CPG Data
-        ↓
-Feature Engineering
-        ↓
-Opportunity Detection
-        ↓
-Priority Scoring
-        ↓
-Top Action Selection
-        ↓
-Evidence-Grounded Explanation
-        ↓
-React Sales Copilot
-        ↓
-Field Action
-        ↓
-FastAPI
-        ↓
-PostgreSQL
-        ↓
-Execution State
-        ↓
-React Sales Copilot
+```mermaid
+flowchart LR
+  subgraph Offline["Offline pipeline (Python, pandas)"]
+    G[generate<br/>outlets, beats, orders,<br/>stock, planted scenarios] --> F[features<br/>per outlet as of date]
+    F --> D[4 detectors] --> P[prioritise + queue] --> S[(data/seed/*.csv)]
+    D --> E[evaluate<br/>held-out seeds]
+  end
+  S -- "salesforge seed<br/>(GitHub Action, nightly reset)" --> DB[(PostgreSQL<br/>Neon)]
+  subgraph API["FastAPI (Render)"]
+    R[REST API<br/>Pydantic models, Alembic] --> X[explainer]
+    X --> L[LLM provider<br/>Groq / Ollama] --> V{grounding check}
+    V -- fail --> RB[rule-based summary]
+  end
+  DB <--> R
+  UI[React + TanStack Query] <--> R
 ```
 
-SalesForge deliberately separates **business decisioning** from **language generation**.
-
-```text
-Structured Data
-      ↓
-Deterministic Analytics
-      ↓
-Opportunity + Evidence + Priority
-      ↓
-AI Explanation
-      ↓
-Human Field Execution
-```
-
-The AI layer does not decide that an outlet has a revenue or inventory problem. Those signals are produced by the analytics pipeline.
-
-For the detailed system architecture, data flow, database model, API boundaries, and evaluation methodology, see [`ARCHITECTURE.md`](ARCHITECTURE.md).
-
----
-
-## Data Pipeline
-
-The project uses a controlled synthetic CPG environment.
-
-The generated dataset contains:
-
-- Territories
-- Distributors
-- Sales representatives
-- Outlets
-- Products
-- Orders
-- Order items
-- Inventory snapshots
-- Visits
-- Targets
-
-The primary dataset covers:
-
-**1 January 2025 → 31 December 2025**
-
-The application therefore displays:
-
-**DATA CUTOFF - 31 DEC 2025**
-
-This is the analytical cutoff of the dataset, not the current date.
-
----
-
-## Synthetic Data and Benchmarking
-
-Public outlet-level CPG sales-execution data is generally limited because these datasets often contain commercially sensitive information.
-
-SalesForge therefore uses controlled synthetic data so that specific scenarios can be planted and evaluated.
-
-The V5 scenario set planted:
-
-| Scenario | Planted |
-|---|---:|
-| Revenue Recovery | 120 |
-| Inactive Outlet | 100 |
-| Stock Risk | 110 |
-| Cross-Sell | 140 |
-| **Total** | **470** |
-
-The resulting opportunity pipeline produced:
-
-**2,060 detected opportunities**
-
-The benchmark recovered all planted scenarios:
-
-**470 / 470 planted scenarios detected**
-
-This corresponds to **100% recall on the controlled planted benchmark**.
-
-However, the additional detected opportunities are not automatically treated as false business opportunities. In a real environment, an unplanted outlet could still represent a legitimate business opportunity.
-
-Therefore, the benchmark should be interpreted as:
-
-> **Validation that the detector can recover known planted scenarios, not proof of commercial business performance.**
-
----
-
-## Prioritized Action Queue
-
-From the 2,060 detected opportunities, SalesForge creates a focused top-action queue.
-
-Current queue:
-
-**20 unique outlets**
-
-| Opportunity Type | Actions |
-|---|---:|
-| Revenue Recovery | 7 |
-| Cross-Sell | 5 |
-| Stock Risk | 5 |
-| Inactive Outlet | 3 |
-
-The prioritization pipeline currently produces:
-
-| Priority | Opportunities |
-|---|---:|
-| P1 | 148 |
-| P2 | 351 |
-| P3 | 1,561 |
-
-The top-action queue turns a large opportunity universe into a manageable field-execution workload.
-
----
-
-## AI Design
-
-SalesForge uses AI downstream of the deterministic opportunity engine.
-
-The explanation layer receives structured opportunity information such as:
-
-- Opportunity type
-- Priority
-- Score
-- Evidence
-- Recommended action
-- Supporting metrics
-
-The system is designed so that the AI layer does not invent numeric business evidence.
-
-### Deterministic fallback
-
-The application also contains a deterministic explanation fallback.
-
-If an external AI provider is unavailable, the system can still present an evidence-grounded explanation generated from the structured opportunity data.
-
-This makes the deployed demo independent of a live LLM dependency.
-
----
-
-## Execution Loop
-
-The application is designed around an execution feedback loop rather than a one-way dashboard.
-
-```text
-Opportunity
-     ↓
-Explanation
-     ↓
-Recommended Action
-     ↓
-Sales Representative Executes
-     ↓
-Action Recorded
-     ↓
-Outcome Recorded
-     ↓
-Execution State Persisted
-     ↓
-State Recovered on Refresh
-```
-
-This allows the system to represent what happened after an opportunity was surfaced.
-
----
-
-## Technology Stack
-
-### Data & Analytics
-
-- Python
-- Pandas
-- NumPy
-- SciPy
-- scikit-learn
-
-### Backend
-
-- FastAPI
-- SQLAlchemy
-- PostgreSQL
-- psycopg
-- Pydantic
-
-### Frontend
-
-- React
-- TypeScript
-- Vite
-
-### Infrastructure
-
-- Docker for local PostgreSQL
-- Render for production deployment
-
----
-
-## Repository Structure
-
-```text
-SalesForge/
-│
-├── backend/
-│   └── app/
-│       ├── main.py
-│       ├── models.py
-│       ├── db.py
-│       ├── init_db.py
-│       └── seed_db.py
-│
-├── frontend/
-│   └── src/
-│       └── App.tsx
-│
-├── scripts/
-│   ├── generate_data.py
-│   ├── generate_scenarios_v5.py
-│   ├── build_features_v5.py
-│   ├── detect_opportunities_v5.py
-│   ├── prioritize_opportunities_v5.py
-│   ├── select_top_actions_v5.py
-│   └── explain_opportunity_v5.py
-│
-├── data/
-│   ├── generated_v5/
-│   ├── processed_v5/
-│   └── seed/
-│
-├── render.yaml
-├── requirements.txt
-├── ARCHITECTURE.md
-└── README.md
-```
-
----
-
-## Running Locally
-
-### Prerequisites
-
-- Python 3.11+
-- Node.js
-- npm
-- PostgreSQL 16 or Docker
-
-### Backend
-
-From the project root:
+| Endpoint | Purpose |
+|---|---|
+| `GET /opportunities/queue` | today's 20, with status from the latest action |
+| `GET /opportunities` | filter by type, priority, status; search outlet or city; paginated |
+| `GET /opportunities/{id}` | detail with evidence and action history |
+| `POST /opportunities/{id}/actions` | log a visit or call (assigned to the outlet's rep) |
+| `PUT /actions/{id}/outcome` | record or correct the outcome; one per action, so counts never inflate |
+| `GET /opportunities/{id}/explanation` | validated LLM explanation or rule-based summary |
+| `GET /analytics/summary` | resolution rate by type, outcome mix, most active reps |
+
+Interactive API docs are at `/docs` on the API.
+
+## Run it
 
 ```bash
-pip install -r requirements.txt
+docker compose up --build        # Postgres, API on :8000, web on :5173
 ```
 
-Configure the database connection using `DATABASE_URL`.
-
-Example local database URL:
-
-```text
-postgresql+psycopg://routeiq:routeiq@localhost:5432/routeiq
-```
-
-Initialize/seed the database:
+Or without Docker (Python 3.12+, Node 22, a local Postgres):
 
 ```bash
-python -m backend.app.seed_db
+cd backend
+python -m venv .venv && source .venv/bin/activate
+pip install -r requirements-dev.txt
+cp .env.example .env              # set DATABASE_URL; optionally LLM_PROVIDER and LLM_API_KEY
+salesforge migrate && salesforge seed
+uvicorn salesforge.main:app --reload
+
+cd ../frontend && npm ci && npm run dev
 ```
 
-Start the API:
+`salesforge pipeline` regenerates `data/seed/` and the evaluation from scratch (about 40 s). Use `--seed` for
+another simulated year.
 
-```bash
-uvicorn backend.app.main:app --reload
-```
+## Tests
 
-The local API runs on:
+- **Backend:** 42 tests, 92% coverage, run against real PostgreSQL.
+  - API behaviour: status lifecycle, outcome replacement, validation, rate limiting.
+  - Grounding: adversarial answers rejected; every rule-based summary in the dataset passes.
+  - Explainer: valid answers cached; one retry with feedback; fallback on failure.
+  - Providers: mocked HTTP.
+  - Pipeline: determinism; detectors never read the ground truth.
+  - Migrations: they match the models, and downgrade and upgrade cleanly.
+- **Frontend:** Vitest and Testing Library tests for the logging and outcome flow, error states and formatting.
+- **CI:** ruff, mypy `--strict`, ESLint, TypeScript, both test suites, a production build, and a check that the
+  committed seed data is exactly what the pipeline produces.
 
-```text
-http://127.0.0.1:8000
-```
+## Deploy (free)
 
-### Frontend
+1. **Neon:** create a project; copy the pooled and the direct connection strings.
+2. **GitHub:** add the repository secret `DEMO_DATABASE_URL` (the direct string), then run *Reset demo data* from
+   the Actions tab. It migrates and seeds, and repeats nightly so the public demo stays clean.
+3. **Render:** deploy the blueprint (`render.yaml`). Set `DATABASE_URL` (pooled string) and optionally `LLM_API_KEY`
+   (a free key from console.groq.com). Without a key the app runs with rule-based summaries.
+4. *Keep demo warm* pings the API during Indian working hours, so the first visit does not wait for a cold start.
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+## Data
 
-For a production build:
+All outlets, reps and transactions are synthetic, generated by `backend/salesforge/pipeline/generate.py` with a
+fixed seed. Amounts are Indian rupees.
 
-```bash
-npm run build
-```
-
-The frontend reads the API URL from:
-
-```text
-VITE_API_URL
-```
-
----
-
-## API
-
-The backend exposes endpoints for:
-
-- Health checks
-- Opportunity retrieval
-- Top-priority opportunities
-- AI explanations
-- Field actions
-- Outcomes
-- Execution-state recovery
-- Analytics
-
-One important execution endpoint is:
-
-```text
-GET /opportunities/{opportunity_id}/execution-state
-```
-
-It returns the latest saved action and outcome associated with an opportunity.
-
-API documentation is available through FastAPI when the backend is running:
-
-```text
-http://127.0.0.1:8000/docs
-```
-
----
-
-## Production Deployment
-
-SalesForge is deployed as three production components:
-
-```text
-React Static Site
-       │
-       ▼
-FastAPI Web Service
-       │
-       ▼
-PostgreSQL Database
-```
-
-Production frontend:
-
-```text
-https://salesforge-frontend.onrender.com
-```
-
-Production API:
-
-```text
-https://salesforge-api-5c6d.onrender.com
-```
-
-The deployment configuration is defined in:
-
-```text
-render.yaml
-```
-
----
-
-## Engineering Decisions
-
-### Why deterministic detection?
-
-Opportunity detection affects business actions, so it should be reproducible and auditable.
-
-### Why AI after detection?
-
-The AI layer is useful for communicating complex signals to a human user, but it should not be responsible for inventing the underlying business evidence.
-
-### Why PostgreSQL?
-
-The application needs persistent relational state for opportunities, actions, outcomes, and their relationships.
-
-### Why an execution-state endpoint?
-
-A sales-execution application must remember what happened after an opportunity was surfaced. Persistence makes the workflow stateful instead of treating every page load as a fresh analysis.
-
----
-
-## Limitations
-
-SalesForge is a portfolio/research prototype built using controlled synthetic CPG data.
-
-The benchmark does **not** establish:
-
-- commercial sales uplift
-- real-world model accuracy
-- production-scale performance
-- causal impact of recommendations
-- real customer adoption
-
-A production implementation would require real transactional data, business-defined thresholds, authentication/authorization, monitoring, stronger data validation, model evaluation, and integration with existing CRM/field-sales systems.
-
----
-
-## Future Extensions
-
-Potential next steps include:
-
-- Real CPG/retail data integration
-- Rep-level personalization
-- Learning from action outcomes
-- Offline evaluation against historical outcomes
-- More sophisticated opportunity ranking
-- LLM provider integration with structured outputs
-- Authentication and role-based access
-- CRM integration
-- Automated daily opportunity refresh
-- Experimentation/A-B testing of recommended actions
-- Monitoring and model/data drift detection
-
----
-
-## Project Status
-
-**Status: Working production MVP**
-
-The current implementation supports the complete flow from opportunity detection through field-action and outcome persistence.
-
----
-
-## Author
-
-**Atishay Kashyap**
-
-B.Tech Computer Science & Engineering
-
-SalesForge was built as an independent portfolio project exploring the intersection of:
-
-**Data Analytics × AI × Sales Execution × Full-Stack Engineering**
+MIT licensed.
