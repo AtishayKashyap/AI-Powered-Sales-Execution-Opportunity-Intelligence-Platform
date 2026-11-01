@@ -1,0 +1,32 @@
+name: Reset demo data
+
+# Applies migrations and replaces the demo database contents with data/seed/.
+# Needs the repository secret DEMO_DATABASE_URL (Neon *direct* connection string).
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 21 * * *"  # nightly, 02:47 IST
+
+permissions:
+  contents: read
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Migrate and seed
+        env:
+          DATABASE_URL: ${{ secrets.DEMO_DATABASE_URL }}
+        run: |
+          test -n "$DATABASE_URL" || { echo "::error::Add the DEMO_DATABASE_URL secret first"; exit 1; }
+          salesforge migrate
+          salesforge seed
