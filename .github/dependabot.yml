@@ -6,6 +6,10 @@ updates:
   - package-ecosystem: npm
     directory: /frontend
     schedule: { interval: monthly }
+    ignore:
+      # typescript-eslint supports TypeScript < 6.1; bump both together when it catches up.
+      - dependency-name: typescript
+        versions: [">=6.1.0"]
   - package-ecosystem: github-actions
     directory: /
     schedule: { interval: monthly }
