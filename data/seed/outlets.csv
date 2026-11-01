@@ -1,0 +1,2001 @@
+outlet_id,outlet_name,outlet_type,tier,city,territory,rep_id,baseline_monthly_revenue,days_since_last_order
+OUT-0001,Gupta Medicals,General Trade,A,Pune,West 2,REP-006,54351.0,0
+OUT-0002,Gupta Supermarket,Pharmacy,B,Hyderabad,South 3,REP-047,17400.0,5
+OUT-0003,Khan Mart,Pharmacy,A,Kolkata,East 1,REP-040,56856.0,8
+OUT-0004,Reddy Medicals,General Trade,A,Kochi,South 1,REP-027,44905.0,2
+OUT-0005,Sharma General Store,General Trade,C,Ahmedabad,West 1,REP-026,5241.0,0
+OUT-0006,Iyer Medicals,General Trade,B,Bhubaneswar,East 1,REP-052,8107.0,9
+OUT-0007,Gupta Supermarket,Pharmacy,C,Mumbai,West 2,REP-006,6176.0,0
+OUT-0008,Nair General Store,Pharmacy,B,Ahmedabad,West 2,REP-042,22096.0,49
+OUT-0009,Iyer General Store,Pharmacy,C,Delhi,North 1,REP-013,4936.0,2
+OUT-0010,Das Medicals,General Trade,B,Surat,West 2,REP-006,11612.0,2
+OUT-0011,Reddy Traders,General Trade,C,Bhubaneswar,East 2,REP-032,6735.0,0
+OUT-0012,Iyer Provisions,Modern Trade,C,Chennai,South 3,REP-059,6224.0,0
+OUT-0013,Khan Medicals,General Trade,B,Chandigarh,North 3,REP-045,11784.0,5
+OUT-0014,Khan Supermarket,Pharmacy,C,Surat,West 3,REP-046,5839.0,0
+OUT-0015,Nair Mart,General Trade,B,Kolkata,East 2,REP-044,27259.0,0
+OUT-0016,Singh Supermarket,General Trade,A,Kolkata,East 3,REP-048,60496.0,1
+OUT-0017,Das Provisions,Modern Trade,C,Chennai,South 2,REP-031,5279.0,1
+OUT-0018,Reddy General Store,General Trade,C,Kolkata,East 2,REP-008,4447.0,6
+OUT-0019,Nair Traders,Modern Trade,A,Hyderabad,South 1,REP-051,52046.0,1
+OUT-0020,Khan Mart,General Trade,B,Bhubaneswar,East 1,REP-028,20367.0,4
+OUT-0021,Iyer Traders,Convenience,C,Hyderabad,South 2,REP-031,6873.0,6
+OUT-0022,Iyer Medicals,Convenience,C,Bengaluru,South 3,REP-023,4443.0,4
+OUT-0023,Nair Kirana,Convenience,C,Kochi,South 3,REP-011,5716.0,1
+OUT-0024,Patel Kirana,Modern Trade,B,Guwahati,East 2,REP-056,19813.0,19
+OUT-0025,Patel Traders,Modern Trade,C,Hyderabad,South 3,REP-047,6643.0,5
+OUT-0026,Khan General Store,Modern Trade,B,Bengaluru,South 1,REP-039,20293.0,5
+OUT-0027,Iyer Mart,General Trade,C,Jaipur,North 1,REP-025,6504.0,4
+OUT-0028,Singh Provisions,General Trade,B,Ahmedabad,West 1,REP-050,14216.0,4
+OUT-0029,Sharma Supermarket,Modern Trade,C,Lucknow,North 3,REP-033,6852.0,0
+OUT-0030,Gupta Traders,General Trade,B,Bengaluru,South 1,REP-027,20448.0,12
+OUT-0031,Khan Medicals,General Trade,C,Guwahati,East 1,REP-028,9045.0,1
+OUT-0032,Iyer General Store,Convenience,C,Surat,West 1,REP-014,7041.0,5
+OUT-0033,Iyer Mart,General Trade,B,Ahmedabad,West 2,REP-006,17697.0,1
+OUT-0034,Iyer Mart,Modern Trade,C,Pune,West 3,REP-034,4905.0,1
+OUT-0035,Patel Provisions,Modern Trade,B,Ahmedabad,West 2,REP-054,12103.0,4
+OUT-0036,Patel Supermarket,General Trade,C,Kolkata,East 1,REP-004,2494.0,0
+OUT-0037,Das Supermarket,Convenience,B,Bhubaneswar,East 1,REP-052,24958.0,1
+OUT-0038,Mehta General Store,General Trade,B,Mumbai,West 1,REP-050,20240.0,5
+OUT-0039,Iyer Mart,Convenience,B,Delhi,North 2,REP-017,22769.0,4
+OUT-0040,Nair Supermarket,Pharmacy,A,Ahmedabad,West 1,REP-038,49930.0,2
+OUT-0041,Singh Traders,General Trade,A,Ahmedabad,West 3,REP-010,57160.0,0
+OUT-0042,Reddy Provisions,General Trade,C,Surat,West 3,REP-046,8782.0,6
+OUT-0043,Gupta Medicals,General Trade,C,Hyderabad,South 2,REP-043,2561.0,12
+OUT-0044,Khan Kirana,General Trade,C,Surat,West 3,REP-022,5782.0,5
+OUT-0045,Iyer Medicals,General Trade,A,Chandigarh,North 2,REP-005,55726.0,2
+OUT-0046,Reddy Provisions,Convenience,B,Chennai,South 3,REP-059,19999.0,2
+OUT-0047,Patel Kirana,General Trade,A,Kochi,South 1,REP-027,47519.0,1
+OUT-0048,Iyer Supermarket,Convenience,C,Pune,West 2,REP-054,6427.0,4
+OUT-0049,Gupta Provisions,General Trade,C,Lucknow,North 2,REP-041,4569.0,47
+OUT-0050,Das Mart,Convenience,B,Bengaluru,South 3,REP-047,21085.0,1
+OUT-0051,Reddy Provisions,General Trade,C,Mumbai,West 3,REP-046,4010.0,4
+OUT-0052,Khan General Store,General Trade,A,Bhubaneswar,East 3,REP-012,56946.0,4
+OUT-0053,Singh Supermarket,Modern Trade,B,Pune,West 3,REP-022,21308.0,6
+OUT-0054,Sharma Medicals,General Trade,A,Lucknow,North 2,REP-029,41212.0,18
+OUT-0055,Gupta Supermarket,Convenience,B,Mumbai,West 2,REP-030,19599.0,4
+OUT-0056,Singh Kirana,General Trade,C,Chennai,South 1,REP-003,7983.0,5
+OUT-0057,Khan Supermarket,Modern Trade,C,Lucknow,North 3,REP-033,5780.0,0
+OUT-0058,Patel Mart,Modern Trade,B,Ahmedabad,West 3,REP-010,17452.0,2
+OUT-0059,Singh Mart,Modern Trade,B,Chandigarh,North 3,REP-045,16272.0,12
+OUT-0060,Nair Mart,General Trade,C,Chandigarh,North 2,REP-041,4711.0,13
+OUT-0061,Reddy Supermarket,General Trade,C,Guwahati,East 2,REP-056,4878.0,2
+OUT-0062,Singh Kirana,General Trade,C,Delhi,North 3,REP-045,5761.0,5
+OUT-0063,Patel Mart,General Trade,B,Ahmedabad,West 3,REP-022,22767.0,0
+OUT-0064,Patel Provisions,General Trade,C,Bengaluru,South 3,REP-059,6499.0,12
+OUT-0065,Iyer Traders,Convenience,B,Jaipur,North 1,REP-025,25066.0,2
+OUT-0066,Sharma Kirana,Modern Trade,C,Kolkata,East 2,REP-020,5948.0,5
+OUT-0067,Mehta Traders,Modern Trade,B,Chennai,South 2,REP-055,21871.0,2
+OUT-0068,Gupta Mart,General Trade,C,Bengaluru,South 3,REP-023,7440.0,53
+OUT-0069,Patel Medicals,General Trade,A,Lucknow,North 2,REP-005,42758.0,1
+OUT-0070,Sharma Kirana,Modern Trade,B,Delhi,North 2,REP-029,23018.0,0
+OUT-0071,Iyer General Store,General Trade,C,Bhubaneswar,East 3,REP-048,5231.0,4
+OUT-0072,Nair Provisions,General Trade,C,Bhubaneswar,East 3,REP-012,7381.0,2
+OUT-0073,Sharma Medicals,General Trade,B,Kolkata,East 1,REP-028,19878.0,5
+OUT-0074,Nair Medicals,Modern Trade,C,Kolkata,East 2,REP-008,7658.0,12
+OUT-0075,Sharma Provisions,Convenience,C,Surat,West 2,REP-042,6622.0,6
+OUT-0076,Sharma Provisions,General Trade,B,Lucknow,North 2,REP-029,18757.0,0
+OUT-0077,Gupta Traders,General Trade,B,Patna,East 2,REP-020,21028.0,12
+OUT-0078,Sharma Supermarket,General Trade,B,Surat,West 1,REP-014,20901.0,48
+OUT-0079,Sharma Supermarket,General Trade,C,Mumbai,West 3,REP-034,8284.0,5
+OUT-0080,Das Mart,Pharmacy,B,Chandigarh,North 2,REP-041,19751.0,2
+OUT-0081,Reddy Mart,General Trade,B,Delhi,North 3,REP-057,22168.0,4
+OUT-0082,Reddy General Store,Modern Trade,C,Hyderabad,South 1,REP-027,6373.0,2
+OUT-0083,Reddy Supermarket,General Trade,C,Mumbai,West 3,REP-010,6610.0,8
+OUT-0084,Iyer Medicals,General Trade,C,Mumbai,West 1,REP-050,7101.0,6
+OUT-0085,Singh Medicals,Convenience,C,Pune,West 1,REP-038,8160.0,41
+OUT-0086,Nair Traders,General Trade,C,Bengaluru,South 2,REP-043,5878.0,1
+OUT-0087,Mehta Mart,Pharmacy,C,Pune,West 2,REP-006,4887.0,1
+OUT-0088,Khan Kirana,General Trade,C,Bengaluru,South 2,REP-019,5435.0,1
+OUT-0089,Das Kirana,Convenience,B,Bengaluru,South 3,REP-047,16065.0,8
+OUT-0090,Das Provisions,General Trade,B,Surat,West 1,REP-050,18678.0,9
+OUT-0091,Iyer Provisions,General Trade,B,Kochi,South 1,REP-027,8642.0,1
+OUT-0092,Patel Provisions,Pharmacy,C,Chandigarh,North 1,REP-049,8559.0,2
+OUT-0093,Patel Medicals,General Trade,B,Bengaluru,South 1,REP-051,16717.0,1
+OUT-0094,Iyer Provisions,General Trade,B,Patna,East 3,REP-024,21243.0,4
+OUT-0095,Patel Kirana,Convenience,C,Pune,West 2,REP-054,5309.0,1
+OUT-0096,Mehta General Store,Modern Trade,B,Pune,West 2,REP-018,14662.0,37
+OUT-0097,Reddy General Store,Pharmacy,B,Chennai,South 1,REP-015,25921.0,1
+OUT-0098,Iyer Traders,Modern Trade,C,Lucknow,North 2,REP-041,3382.0,4
+OUT-0099,Gupta Mart,Convenience,C,Chennai,South 1,REP-039,7896.0,0
+OUT-0100,Patel Mart,Convenience,A,Jaipur,North 3,REP-009,43111.0,2
+OUT-0101,Mehta Provisions,Modern Trade,A,Surat,West 1,REP-050,51943.0,4
+OUT-0102,Reddy Mart,General Trade,B,Guwahati,East 3,REP-012,20054.0,1
+OUT-0103,Sharma Provisions,General Trade,C,Jaipur,North 1,REP-049,6068.0,4
+OUT-0104,Das Medicals,Modern Trade,C,Delhi,North 1,REP-001,6653.0,4
+OUT-0105,Reddy Supermarket,Convenience,A,Bhubaneswar,East 3,REP-048,61241.0,64
+OUT-0106,Sharma Supermarket,General Trade,C,Patna,East 3,REP-048,6563.0,13
+OUT-0107,Nair Traders,General Trade,A,Kochi,South 3,REP-047,47473.0,11
+OUT-0108,Das Supermarket,General Trade,B,Patna,East 1,REP-040,24148.0,22
+OUT-0109,Khan Mart,Modern Trade,C,Delhi,North 2,REP-029,7769.0,4
+OUT-0110,Sharma Provisions,Convenience,A,Bengaluru,South 2,REP-043,58511.0,2
+OUT-0111,Reddy Traders,General Trade,A,Delhi,North 2,REP-017,61897.0,1
+OUT-0112,Gupta Mart,Modern Trade,B,Chennai,South 3,REP-047,22625.0,1
+OUT-0113,Iyer Supermarket,Pharmacy,C,Pune,West 3,REP-034,6295.0,48
+OUT-0114,Nair Supermarket,Convenience,C,Guwahati,East 1,REP-028,5818.0,0
+OUT-0115,Sharma Kirana,General Trade,C,Kochi,South 2,REP-031,6824.0,0
+OUT-0116,Khan Supermarket,Convenience,A,Bengaluru,South 3,REP-035,46148.0,2
+OUT-0117,Patel Mart,Modern Trade,A,Kochi,South 1,REP-003,48349.0,4
+OUT-0118,Das Supermarket,Pharmacy,C,Lucknow,North 3,REP-009,4300.0,74
+OUT-0119,Singh Mart,General Trade,B,Chennai,South 1,REP-015,23611.0,0
+OUT-0120,Mehta Mart,Modern Trade,C,Chennai,South 2,REP-007,4773.0,8
+OUT-0121,Gupta Mart,Modern Trade,C,Chennai,South 1,REP-027,5822.0,5
+OUT-0122,Mehta Traders,General Trade,A,Delhi,North 2,REP-041,50543.0,0
+OUT-0123,Singh Traders,General Trade,C,Guwahati,East 1,REP-040,4764.0,5
+OUT-0124,Das Kirana,Modern Trade,A,Delhi,North 2,REP-029,57468.0,1
+OUT-0125,Sharma Mart,Modern Trade,B,Kolkata,East 1,REP-052,13170.0,2
+OUT-0126,Gupta Mart,General Trade,C,Pune,West 3,REP-034,6856.0,6
+OUT-0127,Reddy Kirana,General Trade,B,Delhi,North 2,REP-005,17096.0,4
+OUT-0128,Reddy General Store,General Trade,C,Mumbai,West 3,REP-046,6785.0,4
+OUT-0129,Gupta Supermarket,Convenience,C,Chennai,South 3,REP-035,3933.0,6
+OUT-0130,Das Provisions,Convenience,C,Chennai,South 1,REP-039,5636.0,1
+OUT-0131,Patel Traders,General Trade,C,Mumbai,West 3,REP-034,4187.0,6
+OUT-0132,Reddy Provisions,General Trade,B,Surat,West 3,REP-034,18502.0,4
+OUT-0133,Nair General Store,General Trade,A,Surat,West 2,REP-006,65616.0,2
+OUT-0134,Gupta General Store,General Trade,C,Ahmedabad,West 3,REP-034,6526.0,0
+OUT-0135,Reddy Medicals,Convenience,C,Bhubaneswar,East 3,REP-048,5960.0,19
+OUT-0136,Nair Medicals,Modern Trade,B,Kochi,South 2,REP-019,20021.0,0
+OUT-0137,Nair Medicals,General Trade,B,Jaipur,North 1,REP-037,15079.0,4
+OUT-0138,Nair General Store,General Trade,B,Pune,West 1,REP-002,18471.0,1
+OUT-0139,Sharma Medicals,General Trade,A,Delhi,North 3,REP-021,34438.0,5
+OUT-0140,Sharma Traders,Convenience,C,Hyderabad,South 1,REP-027,5602.0,5
+OUT-0141,Sharma Traders,Modern Trade,B,Bengaluru,South 3,REP-059,18957.0,6
+OUT-0142,Nair Mart,Modern Trade,C,Lucknow,North 1,REP-013,6093.0,9
+OUT-0143,Khan Provisions,General Trade,C,Chandigarh,North 2,REP-017,4892.0,0
+OUT-0144,Sharma General Store,Convenience,C,Delhi,North 1,REP-025,7029.0,2
+OUT-0145,Reddy Medicals,General Trade,B,Bhubaneswar,East 3,REP-060,19608.0,2
+OUT-0146,Khan Supermarket,Convenience,B,Patna,East 1,REP-052,22814.0,4
+OUT-0147,Sharma Medicals,Convenience,C,Chennai,South 1,REP-003,4661.0,1
+OUT-0148,Sharma Supermarket,General Trade,C,Hyderabad,South 1,REP-015,6681.0,1
+OUT-0149,Patel Provisions,Convenience,B,Mumbai,West 1,REP-050,22455.0,19
+OUT-0150,Reddy Mart,General Trade,C,Guwahati,East 1,REP-004,7298.0,5
+OUT-0151,Iyer General Store,Pharmacy,A,Patna,East 1,REP-052,63315.0,0
+OUT-0152,Patel Supermarket,General Trade,C,Jaipur,North 2,REP-017,4136.0,23
+OUT-0153,Iyer Traders,General Trade,A,Guwahati,East 2,REP-056,62407.0,4
+OUT-0154,Singh General Store,General Trade,A,Mumbai,West 2,REP-018,42396.0,0
+OUT-0155,Iyer Mart,General Trade,B,Chennai,South 1,REP-027,22813.0,5
+OUT-0156,Khan Traders,General Trade,A,Guwahati,East 1,REP-040,35112.0,1
+OUT-0157,Sharma General Store,General Trade,A,Patna,East 2,REP-008,48128.0,0
+OUT-0158,Singh General Store,Modern Trade,A,Mumbai,West 3,REP-034,47970.0,0
+OUT-0159,Das Provisions,General Trade,B,Chennai,South 2,REP-031,22560.0,42
+OUT-0160,Khan Traders,General Trade,C,Guwahati,East 3,REP-048,4885.0,2
+OUT-0161,Das Provisions,Convenience,A,Guwahati,East 3,REP-060,58348.0,0
+OUT-0162,Patel Provisions,Convenience,C,Guwahati,East 1,REP-040,6181.0,20
+OUT-0163,Mehta General Store,General Trade,C,Jaipur,North 1,REP-025,5591.0,1
+OUT-0164,Sharma Medicals,General Trade,A,Chandigarh,North 1,REP-025,44479.0,6
+OUT-0165,Sharma Supermarket,Modern Trade,A,Pune,West 1,REP-026,41781.0,67
+OUT-0166,Sharma Supermarket,Pharmacy,C,Chandigarh,North 1,REP-049,4936.0,0
+OUT-0167,Reddy General Store,General Trade,C,Guwahati,East 2,REP-020,5738.0,0
+OUT-0168,Sharma Mart,Pharmacy,B,Bengaluru,South 3,REP-011,9196.0,4
+OUT-0169,Nair General Store,General Trade,C,Chandigarh,North 3,REP-021,4492.0,5
+OUT-0170,Singh Supermarket,General Trade,A,Ahmedabad,West 1,REP-002,46392.0,69
+OUT-0171,Reddy Provisions,Pharmacy,B,Hyderabad,South 2,REP-007,21785.0,0
+OUT-0172,Gupta Supermarket,Modern Trade,C,Surat,West 2,REP-006,4051.0,1
+OUT-0173,Patel Supermarket,Convenience,B,Bengaluru,South 3,REP-047,22053.0,0
+OUT-0174,Nair Provisions,General Trade,C,Bhubaneswar,East 2,REP-044,5728.0,8
+OUT-0175,Khan Supermarket,General Trade,B,Mumbai,West 2,REP-042,22745.0,6
+OUT-0176,Iyer General Store,General Trade,C,Patna,East 1,REP-028,6468.0,2
+OUT-0177,Patel Provisions,General Trade,B,Kolkata,East 2,REP-044,11782.0,2
+OUT-0178,Das Traders,General Trade,B,Mumbai,West 3,REP-010,21244.0,1
+OUT-0179,Gupta General Store,Modern Trade,B,Kochi,South 2,REP-055,24227.0,12
+OUT-0180,Sharma Kirana,Modern Trade,B,Chennai,South 2,REP-031,18642.0,4
+OUT-0181,Gupta Provisions,Pharmacy,C,Jaipur,North 3,REP-057,3903.0,12
+OUT-0182,Das Mart,General Trade,A,Pune,West 3,REP-010,59758.0,7
+OUT-0183,Singh Kirana,General Trade,A,Ahmedabad,West 2,REP-030,56434.0,43
+OUT-0184,Singh Mart,Pharmacy,A,Ahmedabad,West 2,REP-042,56113.0,0
+OUT-0185,Sharma General Store,General Trade,A,Ahmedabad,West 2,REP-030,50525.0,0
+OUT-0186,Mehta General Store,Convenience,C,Kochi,South 1,REP-027,4944.0,0
+OUT-0187,Mehta Medicals,General Trade,B,Pune,West 3,REP-010,19555.0,0
+OUT-0188,Patel Provisions,Modern Trade,C,Kochi,South 3,REP-023,5441.0,23
+OUT-0189,Patel Mart,Convenience,A,Kochi,South 1,REP-015,56745.0,0
+OUT-0190,Nair Traders,Modern Trade,C,Hyderabad,South 2,REP-019,5450.0,11
+OUT-0191,Reddy Mart,Modern Trade,B,Mumbai,West 2,REP-042,19916.0,2
+OUT-0192,Gupta General Store,Pharmacy,B,Pune,West 1,REP-038,23469.0,0
+OUT-0193,Reddy Kirana,General Trade,C,Lucknow,North 1,REP-037,5696.0,63
+OUT-0194,Khan Supermarket,Pharmacy,C,Pune,West 3,REP-022,5279.0,15
+OUT-0195,Reddy Supermarket,Convenience,C,Pune,West 3,REP-058,5097.0,0
+OUT-0196,Das Traders,Convenience,A,Pune,West 2,REP-006,57584.0,0
+OUT-0197,Reddy Kirana,General Trade,B,Delhi,North 3,REP-021,16549.0,6
+OUT-0198,Nair General Store,General Trade,C,Kolkata,East 2,REP-008,6468.0,1
+OUT-0199,Nair Mart,Pharmacy,B,Chandigarh,North 3,REP-021,19808.0,5
+OUT-0200,Nair Provisions,Modern Trade,C,Mumbai,West 3,REP-058,6424.0,6
+OUT-0201,Nair Medicals,General Trade,C,Surat,West 3,REP-022,7170.0,13
+OUT-0202,Iyer Provisions,General Trade,C,Chennai,South 2,REP-055,4809.0,9
+OUT-0203,Singh Provisions,General Trade,C,Surat,West 2,REP-030,8575.0,5
+OUT-0204,Das Supermarket,General Trade,C,Pune,West 2,REP-042,8067.0,0
+OUT-0205,Nair Provisions,General Trade,A,Guwahati,East 1,REP-028,65636.0,2
+OUT-0206,Singh Traders,General Trade,A,Bhubaneswar,East 1,REP-016,57808.0,1
+OUT-0207,Sharma General Store,General Trade,C,Surat,West 3,REP-046,3205.0,2
+OUT-0208,Reddy General Store,Convenience,B,Bengaluru,South 3,REP-059,15599.0,8
+OUT-0209,Reddy General Store,General Trade,B,Guwahati,East 1,REP-016,15561.0,2
+OUT-0210,Mehta General Store,General Trade,B,Chennai,South 3,REP-047,19164.0,1
+OUT-0211,Gupta Traders,General Trade,C,Patna,East 1,REP-016,3930.0,6
+OUT-0212,Patel Supermarket,General Trade,C,Kolkata,East 2,REP-044,7938.0,8
+OUT-0213,Mehta Medicals,Convenience,C,Guwahati,East 3,REP-048,5935.0,6
+OUT-0214,Mehta Supermarket,Convenience,B,Hyderabad,South 1,REP-027,11943.0,0
+OUT-0215,Gupta Mart,General Trade,B,Chandigarh,North 3,REP-045,15988.0,2
+OUT-0216,Singh Medicals,General Trade,B,Lucknow,North 2,REP-017,20151.0,4
+OUT-0217,Reddy Traders,General Trade,B,Delhi,North 2,REP-005,21839.0,19
+OUT-0218,Gupta General Store,General Trade,C,Pune,West 2,REP-006,5738.0,8
+OUT-0219,Singh Mart,General Trade,C,Chennai,South 1,REP-027,4071.0,0
+OUT-0220,Sharma Traders,General Trade,A,Bengaluru,South 2,REP-055,60270.0,21
+OUT-0221,Singh Mart,General Trade,A,Guwahati,East 2,REP-008,25360.0,0
+OUT-0222,Nair Medicals,Modern Trade,B,Guwahati,East 1,REP-028,21574.0,1
+OUT-0223,Sharma Medicals,General Trade,C,Hyderabad,South 2,REP-043,8071.0,6
+OUT-0224,Reddy Supermarket,General Trade,C,Lucknow,North 1,REP-013,6029.0,13
+OUT-0225,Patel General Store,General Trade,A,Bhubaneswar,East 2,REP-044,54741.0,1
+OUT-0226,Das Medicals,General Trade,C,Hyderabad,South 2,REP-019,6213.0,4
+OUT-0227,Mehta Supermarket,General Trade,B,Delhi,North 1,REP-049,18401.0,6
+OUT-0228,Khan Mart,General Trade,B,Hyderabad,South 3,REP-035,25591.0,0
+OUT-0229,Reddy Supermarket,General Trade,C,Chandigarh,North 3,REP-033,7134.0,5
+OUT-0230,Iyer Kirana,General Trade,A,Kochi,South 3,REP-011,43786.0,0
+OUT-0231,Patel Kirana,Convenience,B,Bhubaneswar,East 1,REP-028,15954.0,0
+OUT-0232,Reddy General Store,Convenience,C,Guwahati,East 1,REP-052,6946.0,5
+OUT-0233,Patel Kirana,General Trade,A,Ahmedabad,West 1,REP-002,59337.0,0
+OUT-0234,Iyer General Store,General Trade,C,Pune,West 3,REP-046,4020.0,1
+OUT-0235,Nair Mart,Pharmacy,B,Pune,West 2,REP-030,11147.0,2
+OUT-0236,Sharma General Store,Modern Trade,A,Bhubaneswar,East 2,REP-044,40795.0,4
+OUT-0237,Khan Provisions,General Trade,B,Guwahati,East 1,REP-040,19286.0,4
+OUT-0238,Reddy Mart,General Trade,B,Mumbai,West 1,REP-026,17009.0,2
+OUT-0239,Reddy Traders,General Trade,A,Chennai,South 2,REP-019,59741.0,4
+OUT-0240,Das Traders,Modern Trade,A,Ahmedabad,West 1,REP-038,59584.0,1
+OUT-0241,Gupta Provisions,General Trade,C,Chandigarh,North 3,REP-009,5085.0,1
+OUT-0242,Mehta Kirana,General Trade,B,Patna,East 3,REP-036,23672.0,1
+OUT-0243,Das Provisions,General Trade,B,Ahmedabad,West 2,REP-006,20368.0,1
+OUT-0244,Das Traders,General Trade,A,Bengaluru,South 1,REP-039,61190.0,4
+OUT-0245,Patel General Store,General Trade,B,Pune,West 1,REP-038,20778.0,2
+OUT-0246,Singh Kirana,Pharmacy,B,Surat,West 2,REP-006,17460.0,0
+OUT-0247,Reddy Traders,Modern Trade,C,Ahmedabad,West 3,REP-046,5849.0,0
+OUT-0248,Reddy Medicals,General Trade,B,Chandigarh,North 1,REP-025,22894.0,1
+OUT-0249,Gupta Provisions,General Trade,C,Kolkata,East 3,REP-048,4204.0,0
+OUT-0250,Iyer Kirana,Convenience,C,Chennai,South 1,REP-003,5199.0,5
+OUT-0251,Patel Provisions,General Trade,A,Kochi,South 3,REP-011,57101.0,0
+OUT-0252,Nair Kirana,General Trade,A,Surat,West 2,REP-030,35849.0,0
+OUT-0253,Khan Mart,General Trade,A,Guwahati,East 3,REP-012,56605.0,0
+OUT-0254,Mehta Kirana,Convenience,C,Patna,East 2,REP-020,7866.0,15
+OUT-0255,Gupta General Store,Pharmacy,A,Guwahati,East 1,REP-040,27529.0,1
+OUT-0256,Reddy Medicals,Convenience,C,Jaipur,North 3,REP-009,7596.0,1
+OUT-0257,Sharma General Store,Modern Trade,C,Chandigarh,North 2,REP-041,5710.0,0
+OUT-0258,Singh Traders,General Trade,C,Kochi,South 2,REP-007,6235.0,4
+OUT-0259,Reddy Kirana,General Trade,B,Chennai,South 3,REP-011,14251.0,0
+OUT-0260,Patel General Store,General Trade,C,Patna,East 3,REP-036,6394.0,1
+OUT-0261,Sharma General Store,Pharmacy,A,Guwahati,East 3,REP-048,40143.0,1
+OUT-0262,Patel Supermarket,Modern Trade,B,Chennai,South 3,REP-011,23299.0,4
+OUT-0263,Reddy General Store,General Trade,B,Pune,West 2,REP-018,22595.0,4
+OUT-0264,Sharma Kirana,Convenience,C,Bhubaneswar,East 2,REP-056,9561.0,5
+OUT-0265,Singh Traders,General Trade,C,Guwahati,East 3,REP-060,10417.0,6
+OUT-0266,Sharma Mart,General Trade,C,Bengaluru,South 3,REP-035,7185.0,0
+OUT-0267,Khan Mart,General Trade,A,Kochi,South 1,REP-027,57990.0,2
+OUT-0268,Mehta Medicals,Convenience,C,Jaipur,North 3,REP-021,6867.0,11
+OUT-0269,Iyer Provisions,Convenience,B,Delhi,North 1,REP-037,20551.0,2
+OUT-0270,Iyer General Store,General Trade,B,Patna,East 3,REP-036,23367.0,1
+OUT-0271,Mehta Provisions,Convenience,C,Pune,West 2,REP-018,5110.0,8
+OUT-0272,Iyer Supermarket,Convenience,B,Ahmedabad,West 1,REP-002,18270.0,9
+OUT-0273,Patel Supermarket,Convenience,B,Ahmedabad,West 3,REP-010,17552.0,1
+OUT-0274,Gupta Supermarket,Convenience,C,Mumbai,West 3,REP-058,5243.0,1
+OUT-0275,Nair Supermarket,General Trade,A,Pune,West 1,REP-026,52812.0,0
+OUT-0276,Nair Medicals,Pharmacy,B,Delhi,North 2,REP-029,18436.0,13
+OUT-0277,Patel Kirana,Modern Trade,A,Jaipur,North 2,REP-029,54588.0,0
+OUT-0278,Khan Kirana,Pharmacy,A,Hyderabad,South 3,REP-047,54359.0,0
+OUT-0279,Patel Traders,General Trade,C,Guwahati,East 1,REP-004,8342.0,2
+OUT-0280,Mehta General Store,Pharmacy,C,Delhi,North 2,REP-005,4237.0,7
+OUT-0281,Gupta Supermarket,Convenience,B,Lucknow,North 2,REP-017,20800.0,6
+OUT-0282,Khan General Store,General Trade,B,Pune,West 2,REP-030,25087.0,39
+OUT-0283,Sharma Mart,Convenience,B,Jaipur,North 2,REP-041,22573.0,2
+OUT-0284,Patel General Store,General Trade,C,Ahmedabad,West 2,REP-030,5216.0,5
+OUT-0285,Patel Mart,General Trade,C,Bengaluru,South 1,REP-027,7619.0,5
+OUT-0286,Singh Supermarket,General Trade,C,Chandigarh,North 3,REP-057,4717.0,8
+OUT-0287,Sharma Supermarket,Pharmacy,B,Pune,West 3,REP-010,22425.0,0
+OUT-0288,Patel Traders,Modern Trade,B,Bengaluru,South 3,REP-035,22828.0,0
+OUT-0289,Sharma General Store,General Trade,B,Chandigarh,North 3,REP-033,23118.0,11
+OUT-0290,Patel Kirana,Modern Trade,C,Chandigarh,North 2,REP-029,5534.0,4
+OUT-0291,Khan Traders,General Trade,B,Lucknow,North 1,REP-049,20009.0,0
+OUT-0292,Gupta Medicals,General Trade,C,Lucknow,North 2,REP-017,5120.0,2
+OUT-0293,Das Supermarket,Convenience,C,Mumbai,West 3,REP-058,4132.0,0
+OUT-0294,Nair Kirana,Pharmacy,B,Patna,East 2,REP-020,24139.0,4
+OUT-0295,Reddy Kirana,Pharmacy,B,Jaipur,North 3,REP-033,23023.0,6
+OUT-0296,Sharma Provisions,Modern Trade,B,Guwahati,East 2,REP-032,21244.0,1
+OUT-0297,Iyer Medicals,Convenience,A,Chennai,South 1,REP-051,41361.0,1
+OUT-0298,Mehta Kirana,General Trade,A,Hyderabad,South 1,REP-027,31016.0,1
+OUT-0299,Singh Kirana,General Trade,C,Pune,West 2,REP-018,7896.0,5
+OUT-0300,Patel General Store,General Trade,B,Ahmedabad,West 1,REP-002,15110.0,0
+OUT-0301,Patel Provisions,Modern Trade,B,Mumbai,West 3,REP-022,15456.0,5
+OUT-0302,Khan Traders,Modern Trade,C,Ahmedabad,West 1,REP-050,4386.0,4
+OUT-0303,Khan Mart,Pharmacy,C,Delhi,North 1,REP-001,5458.0,8
+OUT-0304,Singh Provisions,General Trade,B,Ahmedabad,West 2,REP-054,13570.0,0
+OUT-0305,Sharma Medicals,General Trade,C,Delhi,North 3,REP-033,6556.0,5
+OUT-0306,Iyer General Store,Modern Trade,C,Chandigarh,North 3,REP-009,6622.0,50
+OUT-0307,Mehta General Store,Convenience,C,Kochi,South 2,REP-019,6676.0,1
+OUT-0308,Reddy General Store,General Trade,C,Ahmedabad,West 3,REP-034,9072.0,1
+OUT-0309,Khan Supermarket,General Trade,A,Kochi,South 2,REP-019,54930.0,2
+OUT-0310,Iyer General Store,General Trade,C,Kochi,South 2,REP-007,5020.0,6
+OUT-0311,Patel Provisions,General Trade,B,Kolkata,East 1,REP-040,21470.0,2
+OUT-0312,Singh Provisions,General Trade,C,Lucknow,North 2,REP-041,5703.0,0
+OUT-0313,Nair Kirana,General Trade,C,Patna,East 2,REP-008,5074.0,5
+OUT-0314,Das Supermarket,Modern Trade,A,Chandigarh,North 2,REP-017,72911.0,1
+OUT-0315,Khan Traders,General Trade,A,Kochi,South 1,REP-015,36658.0,0
+OUT-0316,Khan General Store,General Trade,C,Guwahati,East 1,REP-040,7774.0,4
+OUT-0317,Patel Medicals,General Trade,C,Patna,East 2,REP-044,2661.0,1
+OUT-0318,Singh General Store,Convenience,A,Kolkata,East 2,REP-044,41057.0,67
+OUT-0319,Sharma General Store,General Trade,C,Delhi,North 3,REP-057,3528.0,1
+OUT-0320,Das Traders,General Trade,C,Bengaluru,South 3,REP-047,5543.0,8
+OUT-0321,Iyer General Store,General Trade,B,Guwahati,East 2,REP-020,12256.0,0
+OUT-0322,Mehta Kirana,Modern Trade,B,Hyderabad,South 2,REP-007,20804.0,5
+OUT-0323,Das Supermarket,Convenience,A,Jaipur,North 1,REP-037,51017.0,1
+OUT-0324,Patel Medicals,General Trade,C,Chennai,South 2,REP-055,5064.0,6
+OUT-0325,Nair Supermarket,General Trade,B,Bengaluru,South 3,REP-059,17564.0,4
+OUT-0326,Reddy Medicals,General Trade,C,Ahmedabad,West 1,REP-014,5839.0,18
+OUT-0327,Mehta Traders,Modern Trade,B,Chennai,South 1,REP-015,12822.0,0
+OUT-0328,Sharma Medicals,Convenience,C,Kochi,South 1,REP-003,5841.0,14
+OUT-0329,Singh Kirana,General Trade,B,Delhi,North 3,REP-009,20519.0,5
+OUT-0330,Nair Mart,General Trade,A,Surat,West 3,REP-034,25608.0,2
+OUT-0331,Sharma Provisions,Pharmacy,C,Delhi,North 3,REP-033,6836.0,1
+OUT-0332,Khan Mart,Pharmacy,B,Chennai,South 3,REP-023,23624.0,0
+OUT-0333,Gupta General Store,General Trade,B,Chennai,South 2,REP-019,24153.0,2
+OUT-0334,Sharma Mart,General Trade,C,Ahmedabad,West 1,REP-050,4404.0,1
+OUT-0335,Khan Traders,General Trade,C,Bhubaneswar,East 1,REP-028,4652.0,9
+OUT-0336,Patel Traders,Pharmacy,C,Delhi,North 1,REP-049,6572.0,2
+OUT-0337,Iyer Kirana,Pharmacy,A,Pune,West 3,REP-058,47487.0,1
+OUT-0338,Nair Provisions,Pharmacy,C,Bhubaneswar,East 2,REP-020,6971.0,13
+OUT-0339,Singh Traders,Convenience,C,Jaipur,North 1,REP-013,5139.0,15
+OUT-0340,Mehta Kirana,General Trade,B,Mumbai,West 3,REP-058,23539.0,2
+OUT-0341,Patel Traders,General Trade,A,Bengaluru,South 1,REP-039,70794.0,5
+OUT-0342,Das Medicals,General Trade,C,Ahmedabad,West 2,REP-018,5331.0,37
+OUT-0343,Iyer Mart,Convenience,B,Pune,West 1,REP-038,17324.0,0
+OUT-0344,Patel General Store,Modern Trade,C,Hyderabad,South 2,REP-031,8746.0,1
+OUT-0345,Gupta Kirana,General Trade,C,Bengaluru,South 2,REP-055,6827.0,6
+OUT-0346,Khan Supermarket,General Trade,C,Bhubaneswar,East 1,REP-016,5616.0,2
+OUT-0347,Singh Medicals,Pharmacy,B,Kolkata,East 3,REP-060,20077.0,1
+OUT-0348,Patel Supermarket,Pharmacy,B,Lucknow,North 3,REP-057,21669.0,5
+OUT-0349,Singh Medicals,Pharmacy,B,Kochi,South 3,REP-011,24431.0,2
+OUT-0350,Iyer Traders,General Trade,A,Pune,West 3,REP-010,57397.0,0
+OUT-0351,Singh General Store,Convenience,C,Kolkata,East 2,REP-032,7136.0,0
+OUT-0352,Nair General Store,Pharmacy,C,Bengaluru,South 1,REP-003,5326.0,63
+OUT-0353,Singh General Store,Pharmacy,B,Pune,West 2,REP-018,20380.0,11
+OUT-0354,Sharma Traders,Pharmacy,B,Bengaluru,South 1,REP-027,21825.0,5
+OUT-0355,Reddy Kirana,Convenience,C,Kochi,South 3,REP-059,5728.0,4
+OUT-0356,Reddy Traders,Convenience,A,Guwahati,East 3,REP-060,51665.0,2
+OUT-0357,Nair Kirana,Modern Trade,B,Surat,West 3,REP-010,22336.0,1
+OUT-0358,Mehta Kirana,General Trade,B,Surat,West 2,REP-054,19917.0,1
+OUT-0359,Nair Supermarket,General Trade,C,Ahmedabad,West 2,REP-006,6682.0,0
+OUT-0360,Patel Supermarket,Convenience,A,Jaipur,North 3,REP-045,51438.0,2
+OUT-0361,Singh Traders,Modern Trade,C,Chennai,South 1,REP-051,5635.0,0
+OUT-0362,Patel Traders,General Trade,B,Pune,West 2,REP-054,17927.0,4
+OUT-0363,Reddy Supermarket,General Trade,C,Surat,West 1,REP-014,5767.0,11
+OUT-0364,Singh Supermarket,Convenience,A,Pune,West 2,REP-054,62746.0,0
+OUT-0365,Patel Traders,Convenience,B,Chennai,South 2,REP-007,18596.0,0
+OUT-0366,Gupta Traders,Convenience,B,Bhubaneswar,East 2,REP-032,22076.0,4
+OUT-0367,Nair Supermarket,General Trade,B,Jaipur,North 2,REP-029,25170.0,1
+OUT-0368,Iyer Supermarket,Pharmacy,A,Chennai,South 2,REP-019,57572.0,2
+OUT-0369,Iyer General Store,Convenience,A,Mumbai,West 1,REP-002,32505.0,0
+OUT-0370,Iyer Kirana,General Trade,B,Bengaluru,South 3,REP-047,14476.0,2
+OUT-0371,Sharma Provisions,General Trade,A,Delhi,North 3,REP-021,54933.0,0
+OUT-0372,Nair General Store,Convenience,C,Patna,East 1,REP-040,7114.0,2
+OUT-0373,Singh Medicals,General Trade,B,Chandigarh,North 1,REP-025,21224.0,6
+OUT-0374,Sharma Mart,Modern Trade,C,Chennai,South 3,REP-023,7343.0,13
+OUT-0375,Iyer Kirana,Pharmacy,C,Ahmedabad,West 2,REP-054,7404.0,7
+OUT-0376,Das Traders,Pharmacy,A,Pune,West 2,REP-006,65711.0,0
+OUT-0377,Gupta General Store,General Trade,C,Jaipur,North 3,REP-045,7962.0,6
+OUT-0378,Gupta Provisions,Pharmacy,C,Delhi,North 3,REP-045,3651.0,4
+OUT-0379,Nair Kirana,General Trade,C,Hyderabad,South 3,REP-023,7768.0,1
+OUT-0380,Reddy Provisions,Convenience,B,Bhubaneswar,East 1,REP-016,23693.0,0
+OUT-0381,Sharma Traders,General Trade,B,Jaipur,North 1,REP-001,20317.0,2
+OUT-0382,Patel Provisions,Pharmacy,A,Lucknow,North 3,REP-057,22702.0,0
+OUT-0383,Khan Provisions,Pharmacy,B,Jaipur,North 3,REP-057,14301.0,0
+OUT-0384,Gupta Kirana,General Trade,C,Chennai,South 1,REP-015,7825.0,0
+OUT-0385,Nair Mart,General Trade,C,Ahmedabad,West 1,REP-002,8496.0,11
+OUT-0386,Nair Supermarket,Pharmacy,A,Bhubaneswar,East 2,REP-008,62001.0,1
+OUT-0387,Mehta Kirana,General Trade,C,Delhi,North 2,REP-005,6679.0,4
+OUT-0388,Mehta Provisions,General Trade,B,Pune,West 1,REP-050,17040.0,2
+OUT-0389,Nair Kirana,General Trade,C,Pune,West 2,REP-054,4487.0,9
+OUT-0390,Patel Mart,Convenience,A,Surat,West 3,REP-010,48862.0,2
+OUT-0391,Singh General Store,Modern Trade,C,Jaipur,North 3,REP-045,7394.0,5
+OUT-0392,Iyer Supermarket,General Trade,C,Kochi,South 3,REP-011,7204.0,2
+OUT-0393,Reddy Provisions,Convenience,A,Hyderabad,South 3,REP-023,58083.0,1
+OUT-0394,Gupta General Store,General Trade,A,Kolkata,East 3,REP-036,58373.0,1
+OUT-0395,Reddy Medicals,General Trade,C,Patna,East 2,REP-044,3290.0,2
+OUT-0396,Singh Provisions,General Trade,A,Chandigarh,North 2,REP-053,55519.0,6
+OUT-0397,Singh General Store,General Trade,B,Chennai,South 1,REP-003,20028.0,0
+OUT-0398,Das General Store,General Trade,C,Bhubaneswar,East 3,REP-012,6862.0,1
+OUT-0399,Sharma Supermarket,Pharmacy,C,Chandigarh,North 2,REP-017,5614.0,2
+OUT-0400,Khan Supermarket,General Trade,B,Hyderabad,South 2,REP-019,19321.0,9
+OUT-0401,Singh General Store,Pharmacy,B,Kolkata,East 3,REP-060,19672.0,5
+OUT-0402,Nair Medicals,General Trade,A,Chennai,South 3,REP-047,52746.0,2
+OUT-0403,Khan Kirana,General Trade,C,Patna,East 2,REP-020,3050.0,4
+OUT-0404,Khan Provisions,General Trade,B,Chennai,South 3,REP-059,18472.0,1
+OUT-0405,Sharma Provisions,Modern Trade,A,Surat,West 2,REP-030,54666.0,0
+OUT-0406,Singh Medicals,Pharmacy,B,Bengaluru,South 2,REP-031,15796.0,6
+OUT-0407,Khan Kirana,General Trade,C,Hyderabad,South 1,REP-027,6209.0,9
+OUT-0408,Iyer Mart,General Trade,A,Chandigarh,North 3,REP-009,55240.0,12
+OUT-0409,Singh Kirana,General Trade,C,Chandigarh,North 3,REP-057,5648.0,8
+OUT-0410,Das General Store,Convenience,C,Lucknow,North 1,REP-001,7813.0,68
+OUT-0411,Das Supermarket,General Trade,C,Kochi,South 3,REP-011,6840.0,0
+OUT-0412,Mehta General Store,Pharmacy,C,Pune,West 1,REP-014,7095.0,2
+OUT-0413,Nair Kirana,General Trade,C,Lucknow,North 2,REP-017,6258.0,5
+OUT-0414,Nair General Store,General Trade,C,Bhubaneswar,East 2,REP-008,5827.0,0
+OUT-0415,Khan Traders,Pharmacy,A,Mumbai,West 1,REP-002,54443.0,5
+OUT-0416,Gupta Mart,General Trade,C,Delhi,North 2,REP-041,4276.0,12
+OUT-0417,Khan Supermarket,General Trade,B,Kochi,South 3,REP-059,24281.0,2
+OUT-0418,Sharma Medicals,Convenience,B,Kolkata,East 2,REP-008,16705.0,2
+OUT-0419,Das General Store,General Trade,C,Pune,West 2,REP-018,4544.0,5
+OUT-0420,Sharma Medicals,General Trade,C,Hyderabad,South 2,REP-031,7831.0,5
+OUT-0421,Reddy Provisions,General Trade,C,Bhubaneswar,East 2,REP-056,6592.0,6
+OUT-0422,Khan Traders,General Trade,B,Ahmedabad,West 2,REP-042,25587.0,0
+OUT-0423,Reddy Supermarket,Pharmacy,B,Surat,West 3,REP-046,20192.0,0
+OUT-0424,Patel Traders,General Trade,B,Kochi,South 3,REP-035,11389.0,5
+OUT-0425,Iyer Mart,Convenience,B,Surat,West 1,REP-026,21222.0,0
+OUT-0426,Iyer Kirana,Modern Trade,B,Bhubaneswar,East 3,REP-012,16850.0,0
+OUT-0427,Gupta General Store,Convenience,A,Guwahati,East 1,REP-052,67263.0,15
+OUT-0428,Singh Provisions,Convenience,A,Lucknow,North 1,REP-049,54032.0,0
+OUT-0429,Gupta Provisions,Convenience,C,Ahmedabad,West 1,REP-002,6444.0,9
+OUT-0430,Khan Medicals,Modern Trade,B,Kochi,South 2,REP-043,22004.0,0
+OUT-0431,Das Kirana,General Trade,C,Surat,West 2,REP-006,6133.0,1
+OUT-0432,Patel Kirana,General Trade,C,Delhi,North 3,REP-045,4379.0,5
+OUT-0433,Mehta Provisions,Pharmacy,A,Surat,West 1,REP-050,52415.0,2
+OUT-0434,Khan Mart,General Trade,A,Bhubaneswar,East 2,REP-008,38633.0,2
+OUT-0435,Das General Store,Pharmacy,B,Kochi,South 1,REP-027,23728.0,4
+OUT-0436,Patel Kirana,General Trade,C,Bhubaneswar,East 2,REP-008,4330.0,0
+OUT-0437,Mehta Traders,Convenience,B,Kochi,South 3,REP-035,13498.0,6
+OUT-0438,Khan Traders,General Trade,B,Patna,East 2,REP-056,21076.0,0
+OUT-0439,Khan General Store,Convenience,C,Delhi,North 2,REP-005,5570.0,1
+OUT-0440,Nair Supermarket,General Trade,C,Kolkata,East 3,REP-024,6592.0,9
+OUT-0441,Iyer Mart,General Trade,B,Chennai,South 3,REP-059,17166.0,0
+OUT-0442,Das Mart,Convenience,A,Bengaluru,South 2,REP-019,60113.0,0
+OUT-0443,Sharma General Store,Convenience,A,Patna,East 2,REP-008,23968.0,2
+OUT-0444,Singh Traders,Pharmacy,A,Mumbai,West 2,REP-030,63385.0,0
+OUT-0445,Patel Provisions,Convenience,A,Bengaluru,South 2,REP-031,56317.0,2
+OUT-0446,Patel Traders,General Trade,C,Bhubaneswar,East 1,REP-040,6080.0,4
+OUT-0447,Sharma Supermarket,Convenience,C,Kochi,South 2,REP-019,6397.0,1
+OUT-0448,Gupta Medicals,General Trade,B,Mumbai,West 3,REP-058,21031.0,0
+OUT-0449,Reddy Traders,Modern Trade,C,Bhubaneswar,East 2,REP-032,5190.0,1
+OUT-0450,Mehta Medicals,General Trade,B,Ahmedabad,West 2,REP-018,21697.0,4
+OUT-0451,Sharma Supermarket,General Trade,C,Ahmedabad,West 3,REP-058,4928.0,1
+OUT-0452,Singh Kirana,Modern Trade,C,Kolkata,East 2,REP-056,4809.0,7
+OUT-0453,Gupta General Store,Pharmacy,C,Ahmedabad,West 2,REP-030,2529.0,2
+OUT-0454,Sharma General Store,General Trade,C,Mumbai,West 1,REP-002,5835.0,2
+OUT-0455,Patel Provisions,Convenience,B,Kolkata,East 3,REP-036,20709.0,74
+OUT-0456,Gupta Medicals,Modern Trade,A,Pune,West 3,REP-034,41637.0,1
+OUT-0457,Reddy Provisions,General Trade,B,Chandigarh,North 3,REP-009,14171.0,75
+OUT-0458,Patel Provisions,Modern Trade,B,Bengaluru,South 1,REP-039,20241.0,1
+OUT-0459,Sharma General Store,General Trade,C,Kochi,South 1,REP-051,5941.0,13
+OUT-0460,Sharma Medicals,General Trade,B,Kochi,South 2,REP-007,18212.0,0
+OUT-0461,Reddy Kirana,Pharmacy,C,Guwahati,East 2,REP-044,5166.0,11
+OUT-0462,Khan Medicals,General Trade,B,Jaipur,North 3,REP-009,18068.0,1
+OUT-0463,Iyer General Store,General Trade,A,Delhi,North 3,REP-045,55950.0,1
+OUT-0464,Iyer Traders,Pharmacy,B,Mumbai,West 1,REP-026,21023.0,2
+OUT-0465,Das Medicals,General Trade,C,Chandigarh,North 1,REP-001,6688.0,4
+OUT-0466,Sharma Medicals,Convenience,C,Mumbai,West 3,REP-058,6745.0,23
+OUT-0467,Sharma Supermarket,Pharmacy,B,Ahmedabad,West 3,REP-010,25121.0,6
+OUT-0468,Iyer Traders,General Trade,B,Patna,East 3,REP-036,13004.0,5
+OUT-0469,Khan Traders,Modern Trade,C,Kochi,South 3,REP-011,6502.0,4
+OUT-0470,Das Provisions,General Trade,A,Bhubaneswar,East 2,REP-056,40671.0,2
+OUT-0471,Singh Kirana,Modern Trade,C,Lucknow,North 3,REP-045,5078.0,1
+OUT-0472,Nair Kirana,General Trade,A,Chandigarh,North 1,REP-049,40814.0,1
+OUT-0473,Das Kirana,Convenience,A,Surat,West 1,REP-026,52424.0,1
+OUT-0474,Khan Traders,General Trade,B,Jaipur,North 2,REP-029,20550.0,6
+OUT-0475,Iyer Kirana,Pharmacy,B,Hyderabad,South 1,REP-039,22731.0,0
+OUT-0476,Gupta Kirana,General Trade,B,Bhubaneswar,East 3,REP-048,24687.0,6
+OUT-0477,Singh Medicals,General Trade,B,Kochi,South 1,REP-051,16604.0,0
+OUT-0478,Khan Provisions,General Trade,C,Pune,West 1,REP-002,5173.0,65
+OUT-0479,Patel Provisions,Modern Trade,B,Patna,East 1,REP-040,17725.0,2
+OUT-0480,Reddy Kirana,Convenience,B,Kochi,South 2,REP-007,19966.0,2
+OUT-0481,Reddy Kirana,General Trade,B,Surat,West 2,REP-018,20975.0,4
+OUT-0482,Iyer Supermarket,General Trade,A,Ahmedabad,West 1,REP-050,65770.0,1
+OUT-0483,Sharma Medicals,General Trade,C,Kolkata,East 1,REP-016,6642.0,0
+OUT-0484,Mehta Kirana,General Trade,B,Patna,East 3,REP-048,20815.0,16
+OUT-0485,Nair Supermarket,Convenience,C,Patna,East 1,REP-028,4085.0,0
+OUT-0486,Patel Medicals,Convenience,A,Ahmedabad,West 1,REP-014,61227.0,0
+OUT-0487,Reddy Supermarket,Convenience,C,Lucknow,North 3,REP-021,8762.0,48
+OUT-0488,Iyer Medicals,General Trade,B,Guwahati,East 2,REP-032,23110.0,2
+OUT-0489,Das Mart,General Trade,C,Mumbai,West 3,REP-046,4478.0,1
+OUT-0490,Gupta Kirana,Pharmacy,B,Jaipur,North 1,REP-037,21810.0,71
+OUT-0491,Reddy Supermarket,General Trade,A,Bhubaneswar,East 2,REP-056,40430.0,5
+OUT-0492,Mehta General Store,Pharmacy,C,Chandigarh,North 2,REP-053,3132.0,5
+OUT-0493,Mehta Medicals,General Trade,C,Mumbai,West 3,REP-046,5667.0,11
+OUT-0494,Nair Supermarket,General Trade,C,Chandigarh,North 1,REP-037,4686.0,6
+OUT-0495,Iyer General Store,Convenience,B,Mumbai,West 2,REP-018,21685.0,9
+OUT-0496,Nair Medicals,General Trade,C,Delhi,North 1,REP-025,5603.0,1
+OUT-0497,Reddy Medicals,Convenience,C,Guwahati,East 2,REP-008,2563.0,9
+OUT-0498,Das Medicals,General Trade,C,Kochi,South 3,REP-023,7132.0,4
+OUT-0499,Iyer Traders,General Trade,B,Guwahati,East 2,REP-056,25014.0,6
+OUT-0500,Khan Medicals,General Trade,C,Ahmedabad,West 1,REP-026,3996.0,4
+OUT-0501,Mehta Traders,General Trade,C,Hyderabad,South 2,REP-007,4918.0,11
+OUT-0502,Mehta Kirana,Modern Trade,C,Bhubaneswar,East 1,REP-040,6056.0,9
+OUT-0503,Iyer General Store,General Trade,B,Ahmedabad,West 3,REP-058,19239.0,21
+OUT-0504,Gupta Supermarket,Modern Trade,B,Lucknow,North 2,REP-053,12140.0,1
+OUT-0505,Mehta Medicals,Convenience,C,Jaipur,North 2,REP-017,6091.0,0
+OUT-0506,Sharma Kirana,General Trade,B,Guwahati,East 1,REP-028,16384.0,0
+OUT-0507,Das Kirana,General Trade,C,Patna,East 2,REP-032,5206.0,58
+OUT-0508,Khan Medicals,General Trade,B,Hyderabad,South 1,REP-015,25133.0,11
+OUT-0509,Gupta Supermarket,Pharmacy,B,Lucknow,North 2,REP-017,23831.0,1
+OUT-0510,Khan Mart,Modern Trade,C,Hyderabad,South 1,REP-015,7392.0,11
+OUT-0511,Nair Provisions,General Trade,A,Bhubaneswar,East 3,REP-060,45181.0,1
+OUT-0512,Gupta Supermarket,Modern Trade,A,Delhi,North 3,REP-045,58034.0,1
+OUT-0513,Patel Provisions,General Trade,C,Chennai,South 1,REP-051,7452.0,1
+OUT-0514,Reddy Provisions,General Trade,C,Jaipur,North 1,REP-049,5753.0,15
+OUT-0515,Khan Provisions,General Trade,C,Pune,West 3,REP-058,6703.0,5
+OUT-0516,Singh Medicals,Convenience,B,Kochi,South 2,REP-007,26910.0,1
+OUT-0517,Mehta Supermarket,General Trade,A,Chandigarh,North 2,REP-053,49275.0,0
+OUT-0518,Singh Mart,General Trade,C,Bhubaneswar,East 1,REP-004,6664.0,12
+OUT-0519,Sharma Kirana,General Trade,A,Jaipur,North 2,REP-029,21253.0,0
+OUT-0520,Singh Medicals,Modern Trade,A,Kolkata,East 3,REP-036,58321.0,0
+OUT-0521,Nair Kirana,General Trade,B,Surat,West 3,REP-022,23898.0,0
+OUT-0522,Gupta Provisions,General Trade,B,Chandigarh,North 3,REP-009,20856.0,2
+OUT-0523,Singh General Store,General Trade,C,Patna,East 3,REP-012,4773.0,1
+OUT-0524,Nair Traders,Pharmacy,C,Surat,West 1,REP-050,5983.0,0
+OUT-0525,Das Kirana,General Trade,C,Guwahati,East 2,REP-020,4731.0,0
+OUT-0526,Mehta Kirana,Convenience,A,Hyderabad,South 2,REP-019,51006.0,2
+OUT-0527,Gupta General Store,General Trade,B,Kolkata,East 2,REP-056,16131.0,5
+OUT-0528,Mehta Mart,General Trade,B,Delhi,North 3,REP-009,19962.0,1
+OUT-0529,Iyer Medicals,Convenience,A,Kochi,South 2,REP-055,57966.0,2
+OUT-0530,Mehta Kirana,Convenience,B,Bhubaneswar,East 2,REP-056,22642.0,2
+OUT-0531,Khan General Store,General Trade,B,Kolkata,East 3,REP-036,20647.0,13
+OUT-0532,Mehta General Store,Convenience,A,Mumbai,West 3,REP-010,58249.0,0
+OUT-0533,Sharma Kirana,Modern Trade,C,Surat,West 3,REP-010,6000.0,11
+OUT-0534,Sharma Mart,General Trade,C,Pune,West 2,REP-018,5354.0,5
+OUT-0535,Gupta Supermarket,Convenience,A,Chennai,South 3,REP-035,57533.0,0
+OUT-0536,Reddy Medicals,Pharmacy,B,Ahmedabad,West 3,REP-010,24096.0,2
+OUT-0537,Gupta Mart,General Trade,C,Patna,East 1,REP-028,4126.0,1
+OUT-0538,Das Supermarket,Modern Trade,C,Kochi,South 2,REP-007,5654.0,2
+OUT-0539,Singh Mart,General Trade,C,Lucknow,North 3,REP-033,5744.0,13
+OUT-0540,Reddy Traders,General Trade,B,Pune,West 1,REP-002,17161.0,2
+OUT-0541,Iyer Provisions,Convenience,C,Chennai,South 2,REP-043,6964.0,5
+OUT-0542,Das Kirana,Modern Trade,B,Guwahati,East 1,REP-004,23896.0,0
+OUT-0543,Nair Provisions,Modern Trade,B,Bhubaneswar,East 3,REP-012,22921.0,0
+OUT-0544,Khan Mart,Modern Trade,A,Kochi,South 3,REP-011,63288.0,0
+OUT-0545,Patel Traders,Modern Trade,B,Pune,West 1,REP-050,21522.0,4
+OUT-0546,Gupta Kirana,General Trade,B,Kolkata,East 1,REP-004,16617.0,5
+OUT-0547,Khan Kirana,Convenience,B,Surat,West 1,REP-026,22162.0,6
+OUT-0548,Mehta Provisions,Modern Trade,C,Kolkata,East 3,REP-036,6931.0,11
+OUT-0549,Patel General Store,Pharmacy,B,Kochi,South 2,REP-031,23745.0,0
+OUT-0550,Reddy Medicals,General Trade,B,Lucknow,North 2,REP-041,13909.0,4
+OUT-0551,Khan Provisions,General Trade,A,Delhi,North 1,REP-049,52193.0,5
+OUT-0552,Gupta Kirana,General Trade,B,Guwahati,East 3,REP-024,17701.0,11
+OUT-0553,Reddy Traders,General Trade,B,Mumbai,West 1,REP-050,20675.0,2
+OUT-0554,Patel Kirana,General Trade,B,Patna,East 2,REP-020,23007.0,0
+OUT-0555,Reddy Traders,Pharmacy,B,Patna,East 3,REP-060,23546.0,0
+OUT-0556,Sharma Medicals,Convenience,C,Hyderabad,South 2,REP-031,5395.0,2
+OUT-0557,Mehta Kirana,General Trade,C,Lucknow,North 3,REP-045,4675.0,2
+OUT-0558,Nair Provisions,General Trade,B,Lucknow,North 2,REP-053,18128.0,7
+OUT-0559,Nair Supermarket,Pharmacy,C,Patna,East 3,REP-048,6701.0,0
+OUT-0560,Khan Kirana,General Trade,C,Bhubaneswar,East 1,REP-052,6935.0,20
+OUT-0561,Nair Supermarket,Convenience,C,Delhi,North 3,REP-033,2786.0,0
+OUT-0562,Gupta Kirana,General Trade,C,Hyderabad,South 1,REP-003,6759.0,12
+OUT-0563,Sharma Provisions,General Trade,C,Mumbai,West 2,REP-030,8763.0,0
+OUT-0564,Singh Mart,General Trade,C,Bengaluru,South 3,REP-011,7456.0,2
+OUT-0565,Reddy Provisions,Convenience,C,Ahmedabad,West 2,REP-054,6267.0,0
+OUT-0566,Iyer Medicals,General Trade,B,Bengaluru,South 1,REP-015,18560.0,2
+OUT-0567,Das Provisions,Pharmacy,A,Surat,West 1,REP-014,63834.0,1
+OUT-0568,Sharma Kirana,General Trade,A,Bengaluru,South 1,REP-015,61434.0,4
+OUT-0569,Nair Medicals,General Trade,B,Bengaluru,South 1,REP-039,24053.0,4
+OUT-0570,Reddy Traders,Convenience,B,Kochi,South 3,REP-035,23466.0,4
+OUT-0571,Patel Medicals,General Trade,B,Delhi,North 3,REP-057,21829.0,5
+OUT-0572,Mehta General Store,General Trade,C,Chandigarh,North 1,REP-025,7115.0,50
+OUT-0573,Reddy Traders,Modern Trade,C,Jaipur,North 2,REP-017,6978.0,70
+OUT-0574,Singh Kirana,Convenience,C,Kochi,South 1,REP-003,6300.0,5
+OUT-0575,Reddy Traders,General Trade,A,Chandigarh,North 1,REP-001,69992.0,1
+OUT-0576,Nair Traders,General Trade,B,Bengaluru,South 3,REP-023,23187.0,11
+OUT-0577,Patel Medicals,Convenience,C,Patna,East 2,REP-056,5339.0,57
+OUT-0578,Khan Mart,Pharmacy,C,Bhubaneswar,East 2,REP-032,7768.0,2
+OUT-0579,Das Medicals,Convenience,C,Surat,West 2,REP-054,6270.0,0
+OUT-0580,Patel General Store,Pharmacy,C,Bengaluru,South 2,REP-007,5878.0,5
+OUT-0581,Sharma Medicals,Pharmacy,C,Mumbai,West 2,REP-006,5759.0,53
+OUT-0582,Gupta Medicals,General Trade,B,Chennai,South 1,REP-051,20182.0,2
+OUT-0583,Gupta Traders,General Trade,B,Bengaluru,South 2,REP-007,16877.0,4
+OUT-0584,Nair Medicals,Pharmacy,B,Patna,East 1,REP-004,19085.0,42
+OUT-0585,Iyer Provisions,Pharmacy,C,Delhi,North 1,REP-025,7451.0,5
+OUT-0586,Singh Medicals,Convenience,C,Guwahati,East 2,REP-056,3692.0,5
+OUT-0587,Mehta Traders,Modern Trade,B,Surat,West 2,REP-042,18703.0,53
+OUT-0588,Patel Kirana,General Trade,C,Mumbai,West 2,REP-006,6739.0,13
+OUT-0589,Das Medicals,General Trade,B,Hyderabad,South 1,REP-051,20246.0,6
+OUT-0590,Iyer Traders,Modern Trade,A,Hyderabad,South 1,REP-051,31624.0,0
+OUT-0591,Khan Medicals,General Trade,A,Lucknow,North 1,REP-049,57829.0,1
+OUT-0592,Sharma Traders,Pharmacy,A,Kochi,South 2,REP-055,32940.0,1
+OUT-0593,Reddy Medicals,Modern Trade,C,Hyderabad,South 1,REP-015,6258.0,2
+OUT-0594,Khan General Store,General Trade,B,Hyderabad,South 3,REP-059,20586.0,12
+OUT-0595,Reddy General Store,Modern Trade,C,Kolkata,East 2,REP-020,4746.0,4
+OUT-0596,Khan Provisions,Modern Trade,C,Delhi,North 1,REP-049,5808.0,5
+OUT-0597,Nair Provisions,Convenience,A,Hyderabad,South 3,REP-035,57397.0,1
+OUT-0598,Das Provisions,General Trade,A,Kochi,South 3,REP-047,46829.0,2
+OUT-0599,Iyer Provisions,Modern Trade,C,Pune,West 1,REP-038,7357.0,7
+OUT-0600,Reddy Kirana,General Trade,B,Hyderabad,South 1,REP-039,20690.0,5
+OUT-0601,Gupta Traders,Modern Trade,C,Delhi,North 1,REP-037,5126.0,5
+OUT-0602,Reddy General Store,General Trade,A,Chennai,South 3,REP-047,55998.0,2
+OUT-0603,Sharma Kirana,Convenience,C,Chandigarh,North 3,REP-045,7347.0,5
+OUT-0604,Mehta Mart,Convenience,C,Lucknow,North 3,REP-009,6014.0,4
+OUT-0605,Khan Provisions,Modern Trade,B,Mumbai,West 1,REP-050,15179.0,5
+OUT-0606,Das General Store,Modern Trade,B,Chandigarh,North 3,REP-033,13215.0,5
+OUT-0607,Nair Mart,General Trade,C,Guwahati,East 2,REP-020,7008.0,6
+OUT-0608,Reddy Mart,Modern Trade,B,Chennai,South 2,REP-031,20729.0,2
+OUT-0609,Gupta Mart,General Trade,B,Chennai,South 3,REP-059,17338.0,0
+OUT-0610,Reddy Mart,Pharmacy,B,Bhubaneswar,East 1,REP-052,23980.0,46
+OUT-0611,Iyer Supermarket,General Trade,B,Kochi,South 1,REP-051,22470.0,6
+OUT-0612,Iyer Traders,Pharmacy,C,Patna,East 1,REP-028,6496.0,12
+OUT-0613,Nair Supermarket,General Trade,C,Kolkata,East 3,REP-048,7728.0,0
+OUT-0614,Sharma Provisions,Pharmacy,B,Kolkata,East 3,REP-024,24316.0,2
+OUT-0615,Mehta Supermarket,Modern Trade,C,Surat,West 2,REP-042,6887.0,1
+OUT-0616,Nair Supermarket,General Trade,B,Kochi,South 1,REP-039,21884.0,0
+OUT-0617,Khan Traders,General Trade,A,Kochi,South 1,REP-015,54221.0,4
+OUT-0618,Iyer Mart,Convenience,C,Kolkata,East 1,REP-016,7563.0,6
+OUT-0619,Singh Traders,Modern Trade,C,Kolkata,East 1,REP-004,7558.0,50
+OUT-0620,Reddy Provisions,General Trade,A,Jaipur,North 3,REP-009,60942.0,5
+OUT-0621,Nair Supermarket,General Trade,B,Bengaluru,South 1,REP-027,18744.0,4
+OUT-0622,Reddy Mart,General Trade,B,Jaipur,North 2,REP-029,19783.0,9
+OUT-0623,Das Kirana,Modern Trade,C,Ahmedabad,West 3,REP-010,5336.0,5
+OUT-0624,Patel Medicals,Modern Trade,A,Pune,West 1,REP-026,55355.0,2
+OUT-0625,Khan Supermarket,General Trade,B,Delhi,North 1,REP-037,25404.0,5
+OUT-0626,Iyer Kirana,Modern Trade,C,Pune,West 1,REP-014,5000.0,12
+OUT-0627,Das Provisions,Pharmacy,B,Lucknow,North 3,REP-021,20622.0,2
+OUT-0628,Reddy Supermarket,Pharmacy,A,Hyderabad,South 3,REP-023,41391.0,2
+OUT-0629,Mehta Supermarket,General Trade,A,Chennai,South 2,REP-031,39430.0,0
+OUT-0630,Patel Mart,General Trade,B,Pune,West 3,REP-022,21697.0,2
+OUT-0631,Reddy General Store,General Trade,B,Lucknow,North 3,REP-045,12957.0,1
+OUT-0632,Das Provisions,General Trade,C,Kolkata,East 2,REP-020,5819.0,2
+OUT-0633,Nair Supermarket,General Trade,C,Kochi,South 1,REP-027,4278.0,0
+OUT-0634,Das Traders,General Trade,C,Kochi,South 3,REP-023,5585.0,9
+OUT-0635,Khan Supermarket,General Trade,C,Bengaluru,South 3,REP-011,6007.0,6
+OUT-0636,Iyer General Store,Pharmacy,B,Surat,West 2,REP-042,25976.0,0
+OUT-0637,Nair Medicals,General Trade,B,Bengaluru,South 1,REP-015,16726.0,42
+OUT-0638,Sharma Mart,Pharmacy,C,Pune,West 2,REP-018,6610.0,4
+OUT-0639,Reddy Medicals,General Trade,B,Bhubaneswar,East 3,REP-048,16257.0,2
+OUT-0640,Nair Kirana,Modern Trade,C,Jaipur,North 3,REP-057,4811.0,2
+OUT-0641,Gupta Mart,General Trade,C,Delhi,North 2,REP-041,6427.0,1
+OUT-0642,Das General Store,Pharmacy,A,Bengaluru,South 2,REP-055,53337.0,4
+OUT-0643,Patel Medicals,Pharmacy,B,Bhubaneswar,East 1,REP-052,21656.0,9
+OUT-0644,Gupta Mart,General Trade,B,Delhi,North 2,REP-029,13755.0,0
+OUT-0645,Khan General Store,Modern Trade,A,Chennai,South 3,REP-047,59468.0,2
+OUT-0646,Gupta Medicals,General Trade,B,Patna,East 2,REP-020,16627.0,4
+OUT-0647,Reddy Traders,Modern Trade,B,Guwahati,East 1,REP-028,15379.0,2
+OUT-0648,Reddy Traders,General Trade,C,Chandigarh,North 3,REP-033,7177.0,1
+OUT-0649,Reddy Mart,General Trade,C,Surat,West 3,REP-058,2936.0,1
+OUT-0650,Khan Provisions,General Trade,C,Hyderabad,South 1,REP-051,6754.0,5
+OUT-0651,Das Traders,Convenience,B,Ahmedabad,West 2,REP-030,20130.0,2
+OUT-0652,Mehta Mart,General Trade,B,Patna,East 1,REP-040,19528.0,1
+OUT-0653,Mehta Traders,Modern Trade,B,Delhi,North 1,REP-013,19672.0,7
+OUT-0654,Nair Mart,General Trade,A,Chandigarh,North 1,REP-049,41005.0,2
+OUT-0655,Das Traders,General Trade,C,Pune,West 3,REP-034,5542.0,12
+OUT-0656,Singh General Store,General Trade,B,Patna,East 2,REP-032,16499.0,5
+OUT-0657,Nair Mart,Convenience,B,Mumbai,West 3,REP-046,13366.0,1
+OUT-0658,Singh Traders,Pharmacy,C,Pune,West 1,REP-038,5301.0,0
+OUT-0659,Gupta Provisions,General Trade,B,Lucknow,North 2,REP-005,19446.0,4
+OUT-0660,Nair General Store,Pharmacy,A,Pune,West 2,REP-018,50155.0,4
+OUT-0661,Reddy Mart,General Trade,A,Hyderabad,South 3,REP-011,52228.0,1
+OUT-0662,Mehta Provisions,General Trade,C,Delhi,North 3,REP-045,2505.0,0
+OUT-0663,Khan Provisions,Modern Trade,C,Bengaluru,South 1,REP-003,5629.0,0
+OUT-0664,Reddy Supermarket,General Trade,B,Chandigarh,North 1,REP-013,22268.0,23
+OUT-0665,Iyer Mart,General Trade,C,Patna,East 3,REP-036,5018.0,2
+OUT-0666,Reddy Traders,Pharmacy,C,Pune,West 2,REP-042,7146.0,1
+OUT-0667,Iyer Mart,General Trade,C,Chennai,South 2,REP-031,7753.0,41
+OUT-0668,Iyer General Store,Convenience,B,Bhubaneswar,East 1,REP-052,18329.0,4
+OUT-0669,Mehta Traders,Pharmacy,A,Bhubaneswar,East 2,REP-056,37587.0,5
+OUT-0670,Patel Supermarket,Convenience,C,Patna,East 2,REP-008,5346.0,4
+OUT-0671,Singh Traders,Modern Trade,B,Surat,West 3,REP-058,23121.0,0
+OUT-0672,Singh Supermarket,Convenience,C,Chandigarh,North 1,REP-037,5277.0,0
+OUT-0673,Das Traders,General Trade,C,Bengaluru,South 1,REP-039,7164.0,4
+OUT-0674,Sharma Traders,Modern Trade,A,Ahmedabad,West 2,REP-006,45346.0,40
+OUT-0675,Mehta Medicals,Modern Trade,C,Surat,West 1,REP-038,6544.0,65
+OUT-0676,Das Provisions,Convenience,C,Patna,East 2,REP-044,7831.0,1
+OUT-0677,Iyer Traders,General Trade,C,Bengaluru,South 3,REP-035,4197.0,4
+OUT-0678,Mehta Supermarket,Modern Trade,B,Mumbai,West 2,REP-006,22779.0,15
+OUT-0679,Reddy Mart,Pharmacy,C,Bhubaneswar,East 2,REP-032,7372.0,6
+OUT-0680,Singh General Store,General Trade,B,Chandigarh,North 3,REP-057,14518.0,1
+OUT-0681,Sharma Medicals,Convenience,C,Kolkata,East 2,REP-044,5213.0,26
+OUT-0682,Sharma Mart,General Trade,C,Lucknow,North 3,REP-009,6485.0,1
+OUT-0683,Mehta Traders,General Trade,C,Pune,West 3,REP-058,6908.0,6
+OUT-0684,Das Kirana,Modern Trade,B,Pune,West 3,REP-058,14564.0,7
+OUT-0685,Sharma Mart,General Trade,A,Hyderabad,South 3,REP-011,59464.0,0
+OUT-0686,Das General Store,General Trade,B,Chandigarh,North 1,REP-049,21075.0,5
+OUT-0687,Nair Traders,General Trade,B,Delhi,North 1,REP-025,19406.0,2
+OUT-0688,Iyer Provisions,General Trade,B,Kolkata,East 3,REP-036,16196.0,2
+OUT-0689,Gupta Supermarket,Pharmacy,C,Chennai,South 1,REP-027,6584.0,6
+OUT-0690,Iyer Traders,Convenience,B,Chennai,South 3,REP-047,15568.0,6
+OUT-0691,Gupta General Store,Modern Trade,C,Bhubaneswar,East 3,REP-060,5952.0,5
+OUT-0692,Reddy Supermarket,General Trade,C,Bhubaneswar,East 3,REP-048,6321.0,0
+OUT-0693,Gupta General Store,Modern Trade,B,Kolkata,East 2,REP-056,16235.0,4
+OUT-0694,Das Kirana,Convenience,C,Jaipur,North 3,REP-057,7431.0,5
+OUT-0695,Reddy Medicals,Pharmacy,C,Ahmedabad,West 2,REP-006,7417.0,1
+OUT-0696,Mehta Traders,General Trade,B,Patna,East 1,REP-016,16539.0,2
+OUT-0697,Reddy Traders,General Trade,A,Bhubaneswar,East 2,REP-044,49301.0,6
+OUT-0698,Nair General Store,Convenience,C,Patna,East 3,REP-036,5517.0,9
+OUT-0699,Khan General Store,Convenience,C,Patna,East 1,REP-004,5565.0,0
+OUT-0700,Sharma Kirana,General Trade,C,Mumbai,West 2,REP-006,7127.0,1
+OUT-0701,Das Provisions,Convenience,C,Kolkata,East 2,REP-032,5166.0,13
+OUT-0702,Sharma Mart,General Trade,C,Delhi,North 1,REP-037,7526.0,7
+OUT-0703,Khan Supermarket,General Trade,B,Hyderabad,South 3,REP-011,23826.0,1
+OUT-0704,Mehta Supermarket,Pharmacy,C,Bengaluru,South 3,REP-011,6529.0,2
+OUT-0705,Nair General Store,Modern Trade,B,Bhubaneswar,East 2,REP-008,20764.0,2
+OUT-0706,Sharma Mart,General Trade,C,Surat,West 3,REP-034,5294.0,6
+OUT-0707,Gupta Traders,Convenience,A,Lucknow,North 1,REP-001,44100.0,16
+OUT-0708,Reddy Supermarket,Convenience,B,Hyderabad,South 3,REP-035,20285.0,2
+OUT-0709,Singh Kirana,General Trade,C,Delhi,North 2,REP-029,6968.0,11
+OUT-0710,Singh Medicals,Modern Trade,B,Patna,East 1,REP-028,25994.0,4
+OUT-0711,Das Provisions,Pharmacy,C,Chandigarh,North 2,REP-041,4442.0,5
+OUT-0712,Patel Medicals,Modern Trade,B,Patna,East 2,REP-032,26251.0,1
+OUT-0713,Mehta Provisions,Convenience,C,Guwahati,East 2,REP-044,9339.0,6
+OUT-0714,Nair Medicals,Pharmacy,C,Ahmedabad,West 3,REP-046,7301.0,4
+OUT-0715,Singh Medicals,General Trade,B,Patna,East 2,REP-056,22492.0,6
+OUT-0716,Singh Medicals,General Trade,C,Kolkata,East 3,REP-048,6904.0,4
+OUT-0717,Iyer Medicals,Convenience,B,Kolkata,East 2,REP-032,13824.0,4
+OUT-0718,Khan Medicals,Convenience,C,Pune,West 2,REP-030,5157.0,2
+OUT-0719,Singh Provisions,General Trade,C,Chennai,South 1,REP-015,5688.0,63
+OUT-0720,Nair Kirana,General Trade,C,Bhubaneswar,East 3,REP-036,7671.0,4
+OUT-0721,Patel Supermarket,Pharmacy,A,Lucknow,North 3,REP-009,49713.0,0
+OUT-0722,Nair Kirana,General Trade,B,Patna,East 2,REP-056,20359.0,2
+OUT-0723,Gupta Medicals,General Trade,C,Hyderabad,South 1,REP-051,5616.0,4
+OUT-0724,Patel Kirana,Convenience,C,Guwahati,East 2,REP-008,5036.0,2
+OUT-0725,Das Medicals,Convenience,B,Bhubaneswar,East 3,REP-048,14275.0,1
+OUT-0726,Das Medicals,Convenience,A,Guwahati,East 2,REP-008,42307.0,6
+OUT-0727,Singh Provisions,Pharmacy,B,Patna,East 2,REP-044,17279.0,2
+OUT-0728,Gupta Mart,General Trade,C,Surat,West 2,REP-006,6080.0,1
+OUT-0729,Nair Supermarket,Convenience,A,Pune,West 2,REP-030,58343.0,4
+OUT-0730,Patel Medicals,General Trade,B,Kolkata,East 1,REP-040,20978.0,1
+OUT-0731,Nair Provisions,General Trade,C,Kolkata,East 2,REP-044,4853.0,1
+OUT-0732,Reddy Provisions,Convenience,A,Mumbai,West 1,REP-026,64679.0,5
+OUT-0733,Khan Supermarket,Pharmacy,C,Guwahati,East 2,REP-056,3954.0,1
+OUT-0734,Gupta Supermarket,Convenience,B,Bengaluru,South 3,REP-047,20258.0,0
+OUT-0735,Mehta Mart,General Trade,C,Chandigarh,North 1,REP-013,5771.0,1
+OUT-0736,Das Provisions,Convenience,C,Chandigarh,North 2,REP-041,6051.0,2
+OUT-0737,Reddy Mart,Modern Trade,C,Patna,East 2,REP-044,5377.0,2
+OUT-0738,Khan Medicals,Pharmacy,B,Chandigarh,North 3,REP-021,21223.0,1
+OUT-0739,Mehta Medicals,Convenience,B,Chandigarh,North 3,REP-045,21839.0,20
+OUT-0740,Das Kirana,General Trade,C,Surat,West 2,REP-054,3109.0,1
+OUT-0741,Gupta Mart,Pharmacy,B,Pune,West 1,REP-050,21355.0,4
+OUT-0742,Khan Mart,Modern Trade,B,Pune,West 3,REP-046,23471.0,2
+OUT-0743,Sharma Medicals,Pharmacy,A,Bengaluru,South 1,REP-039,60744.0,0
+OUT-0744,Singh Kirana,Convenience,C,Chandigarh,North 2,REP-017,6689.0,26
+OUT-0745,Sharma General Store,Pharmacy,C,Guwahati,East 3,REP-048,6816.0,11
+OUT-0746,Patel Medicals,General Trade,C,Ahmedabad,West 3,REP-022,4474.0,2
+OUT-0747,Reddy Mart,General Trade,C,Kolkata,East 2,REP-032,7332.0,0
+OUT-0748,Singh Provisions,Convenience,B,Kochi,South 2,REP-019,21587.0,0
+OUT-0749,Das Traders,Convenience,B,Chennai,South 2,REP-019,23572.0,4
+OUT-0750,Nair Mart,Convenience,B,Ahmedabad,West 3,REP-010,21309.0,5
+OUT-0751,Singh General Store,General Trade,C,Ahmedabad,West 3,REP-058,4795.0,11
+OUT-0752,Das Kirana,General Trade,B,Delhi,North 3,REP-009,14160.0,4
+OUT-0753,Das Kirana,Pharmacy,C,Mumbai,West 2,REP-006,6148.0,6
+OUT-0754,Patel Medicals,Pharmacy,C,Delhi,North 3,REP-057,5439.0,13
+OUT-0755,Gupta Kirana,General Trade,B,Surat,West 3,REP-034,21429.0,2
+OUT-0756,Iyer Traders,Modern Trade,C,Kochi,South 1,REP-027,7828.0,2
+OUT-0757,Khan Mart,General Trade,A,Jaipur,North 3,REP-045,63582.0,0
+OUT-0758,Reddy Mart,General Trade,C,Chennai,South 3,REP-023,6451.0,4
+OUT-0759,Sharma Provisions,General Trade,C,Patna,East 2,REP-008,5154.0,5
+OUT-0760,Reddy Mart,General Trade,C,Patna,East 2,REP-044,5114.0,2
+OUT-0761,Patel Provisions,General Trade,B,Hyderabad,South 3,REP-011,20502.0,67
+OUT-0762,Khan Traders,Convenience,A,Pune,West 3,REP-034,59160.0,2
+OUT-0763,Khan General Store,Pharmacy,B,Lucknow,North 3,REP-057,15699.0,2
+OUT-0764,Iyer Mart,Convenience,A,Jaipur,North 3,REP-057,53998.0,1
+OUT-0765,Singh General Store,General Trade,A,Ahmedabad,West 3,REP-022,30892.0,5
+OUT-0766,Khan Medicals,General Trade,A,Kochi,South 3,REP-047,54174.0,18
+OUT-0767,Singh Kirana,General Trade,C,Delhi,North 1,REP-037,4225.0,4
+OUT-0768,Reddy Traders,Modern Trade,A,Delhi,North 2,REP-029,54082.0,2
+OUT-0769,Reddy Supermarket,General Trade,A,Lucknow,North 3,REP-009,51816.0,2
+OUT-0770,Reddy Supermarket,Pharmacy,C,Bengaluru,South 3,REP-023,3853.0,5
+OUT-0771,Gupta Provisions,Convenience,C,Kolkata,East 1,REP-040,5851.0,9
+OUT-0772,Iyer Provisions,Convenience,C,Guwahati,East 3,REP-060,6828.0,5
+OUT-0773,Khan Supermarket,General Trade,C,Jaipur,North 1,REP-001,6129.0,72
+OUT-0774,Gupta Medicals,Modern Trade,C,Bhubaneswar,East 2,REP-044,6437.0,4
+OUT-0775,Khan Medicals,General Trade,C,Kochi,South 1,REP-051,6793.0,0
+OUT-0776,Iyer Kirana,General Trade,B,Mumbai,West 3,REP-058,15549.0,1
+OUT-0777,Khan Supermarket,Pharmacy,C,Pune,West 1,REP-026,7432.0,6
+OUT-0778,Gupta General Store,Modern Trade,B,Kolkata,East 2,REP-008,17994.0,4
+OUT-0779,Singh Medicals,Pharmacy,B,Jaipur,North 2,REP-017,15989.0,5
+OUT-0780,Patel Provisions,General Trade,B,Kolkata,East 1,REP-052,18551.0,1
+OUT-0781,Gupta General Store,Convenience,A,Chandigarh,North 2,REP-053,52308.0,11
+OUT-0782,Khan Medicals,Convenience,C,Chennai,South 1,REP-039,8089.0,18
+OUT-0783,Reddy Provisions,General Trade,B,Kolkata,East 2,REP-008,24119.0,2
+OUT-0784,Khan Mart,Convenience,A,Kolkata,East 2,REP-008,53216.0,1
+OUT-0785,Iyer Kirana,General Trade,B,Delhi,North 2,REP-029,20887.0,0
+OUT-0786,Gupta Provisions,Pharmacy,C,Kolkata,East 3,REP-036,4145.0,4
+OUT-0787,Patel Provisions,Convenience,B,Mumbai,West 1,REP-002,18282.0,6
+OUT-0788,Nair General Store,Convenience,C,Ahmedabad,West 2,REP-042,5522.0,6
+OUT-0789,Mehta Traders,Convenience,C,Chandigarh,North 3,REP-033,3679.0,74
+OUT-0790,Gupta Supermarket,General Trade,A,Chandigarh,North 1,REP-001,58338.0,2
+OUT-0791,Sharma Mart,Convenience,C,Surat,West 2,REP-006,4335.0,0
+OUT-0792,Gupta Traders,Pharmacy,B,Guwahati,East 1,REP-028,20870.0,2
+OUT-0793,Sharma General Store,General Trade,B,Patna,East 2,REP-044,14200.0,12
+OUT-0794,Singh Mart,General Trade,C,Pune,West 1,REP-050,4059.0,0
+OUT-0795,Patel Kirana,Pharmacy,C,Ahmedabad,West 1,REP-026,4983.0,2
+OUT-0796,Patel Supermarket,Modern Trade,B,Pune,West 2,REP-018,14456.0,0
+OUT-0797,Nair Supermarket,Modern Trade,C,Hyderabad,South 3,REP-059,5691.0,0
+OUT-0798,Khan Medicals,Convenience,B,Guwahati,East 1,REP-028,25158.0,0
+OUT-0799,Gupta Traders,Pharmacy,C,Bengaluru,South 2,REP-019,4095.0,2
+OUT-0800,Sharma Mart,General Trade,C,Kochi,South 1,REP-027,7437.0,1
+OUT-0801,Patel General Store,General Trade,C,Chandigarh,North 1,REP-001,5657.0,2
+OUT-0802,Reddy Mart,Modern Trade,C,Hyderabad,South 2,REP-019,6578.0,4
+OUT-0803,Sharma Traders,Pharmacy,A,Chennai,South 2,REP-031,53985.0,1
+OUT-0804,Nair Mart,Modern Trade,C,Patna,East 2,REP-056,5606.0,0
+OUT-0805,Reddy General Store,Modern Trade,C,Delhi,North 3,REP-045,6344.0,12
+OUT-0806,Sharma Mart,Pharmacy,C,Chennai,South 3,REP-047,2541.0,2
+OUT-0807,Khan Supermarket,Pharmacy,A,Lucknow,North 3,REP-033,31569.0,70
+OUT-0808,Das Supermarket,Convenience,B,Hyderabad,South 2,REP-007,21345.0,6
+OUT-0809,Gupta Provisions,General Trade,B,Kolkata,East 3,REP-024,22906.0,5
+OUT-0810,Reddy Medicals,Pharmacy,A,Bhubaneswar,East 3,REP-060,59036.0,0
+OUT-0811,Mehta Kirana,Modern Trade,B,Kochi,South 1,REP-003,22872.0,0
+OUT-0812,Singh General Store,General Trade,B,Delhi,North 2,REP-053,20408.0,4
+OUT-0813,Singh Kirana,Pharmacy,C,Mumbai,West 2,REP-042,5043.0,0
+OUT-0814,Reddy General Store,Pharmacy,B,Surat,West 2,REP-018,19470.0,2
+OUT-0815,Das Kirana,Modern Trade,C,Hyderabad,South 3,REP-047,7157.0,6
+OUT-0816,Iyer Traders,Pharmacy,B,Hyderabad,South 1,REP-051,16642.0,1
+OUT-0817,Mehta Traders,General Trade,C,Kochi,South 1,REP-003,5451.0,4
+OUT-0818,Sharma Mart,General Trade,B,Hyderabad,South 2,REP-007,24286.0,5
+OUT-0819,Patel Supermarket,General Trade,B,Bhubaneswar,East 1,REP-040,23689.0,0
+OUT-0820,Singh Medicals,General Trade,C,Kolkata,East 3,REP-060,3564.0,11
+OUT-0821,Gupta Medicals,Pharmacy,C,Surat,West 1,REP-002,4415.0,5
+OUT-0822,Khan Supermarket,Convenience,B,Guwahati,East 1,REP-040,23725.0,1
+OUT-0823,Patel Kirana,Pharmacy,B,Jaipur,North 3,REP-009,12679.0,4
+OUT-0824,Nair General Store,General Trade,C,Bhubaneswar,East 1,REP-040,8328.0,5
+OUT-0825,Nair Medicals,General Trade,C,Ahmedabad,West 1,REP-038,5452.0,11
+OUT-0826,Iyer Kirana,General Trade,A,Mumbai,West 2,REP-006,52327.0,2
+OUT-0827,Reddy Mart,Pharmacy,B,Delhi,North 2,REP-041,18190.0,51
+OUT-0828,Patel Traders,General Trade,B,Ahmedabad,West 2,REP-054,20776.0,5
+OUT-0829,Singh Provisions,Modern Trade,C,Bhubaneswar,East 1,REP-052,3985.0,5
+OUT-0830,Gupta Supermarket,Pharmacy,B,Ahmedabad,West 1,REP-002,22312.0,2
+OUT-0831,Gupta Kirana,Pharmacy,B,Chennai,South 1,REP-015,17990.0,12
+OUT-0832,Khan Supermarket,General Trade,C,Kochi,South 1,REP-015,2930.0,4
+OUT-0833,Das Traders,General Trade,B,Patna,East 1,REP-028,19857.0,6
+OUT-0834,Nair Kirana,Pharmacy,A,Delhi,North 3,REP-009,60212.0,0
+OUT-0835,Reddy Traders,Modern Trade,B,Kolkata,East 1,REP-052,21369.0,0
+OUT-0836,Sharma Kirana,General Trade,A,Kochi,South 3,REP-047,68161.0,8
+OUT-0837,Das Supermarket,Convenience,A,Lucknow,North 1,REP-049,59229.0,9
+OUT-0838,Mehta General Store,Modern Trade,B,Patna,East 3,REP-012,19322.0,5
+OUT-0839,Das Medicals,General Trade,C,Delhi,North 1,REP-001,6053.0,19
+OUT-0840,Khan Mart,General Trade,C,Bengaluru,South 2,REP-055,5558.0,1
+OUT-0841,Iyer Supermarket,General Trade,A,Mumbai,West 2,REP-018,60060.0,0
+OUT-0842,Singh Supermarket,General Trade,C,Kolkata,East 1,REP-040,3634.0,2
+OUT-0843,Nair Supermarket,General Trade,A,Hyderabad,South 2,REP-055,60889.0,1
+OUT-0844,Sharma Supermarket,Modern Trade,C,Bengaluru,South 1,REP-003,6645.0,5
+OUT-0845,Sharma Provisions,General Trade,A,Delhi,North 1,REP-001,42070.0,0
+OUT-0846,Singh Kirana,Convenience,C,Jaipur,North 1,REP-001,6876.0,0
+OUT-0847,Iyer Medicals,Convenience,B,Ahmedabad,West 3,REP-010,18813.0,1
+OUT-0848,Gupta Supermarket,General Trade,C,Patna,East 1,REP-004,5473.0,1
+OUT-0849,Nair Mart,General Trade,B,Mumbai,West 1,REP-050,22185.0,14
+OUT-0850,Sharma Mart,Pharmacy,C,Lucknow,North 1,REP-037,3801.0,9
+OUT-0851,Nair Traders,Convenience,B,Chennai,South 3,REP-059,24130.0,5
+OUT-0852,Nair Mart,Convenience,C,Delhi,North 1,REP-049,7718.0,1
+OUT-0853,Mehta Traders,General Trade,B,Ahmedabad,West 3,REP-058,24211.0,4
+OUT-0854,Singh Traders,General Trade,C,Kochi,South 1,REP-015,6726.0,8
+OUT-0855,Khan Supermarket,General Trade,C,Ahmedabad,West 2,REP-018,3891.0,8
+OUT-0856,Reddy Mart,Convenience,C,Bengaluru,South 1,REP-051,5473.0,2
+OUT-0857,Iyer Medicals,Modern Trade,B,Chennai,South 1,REP-015,16134.0,0
+OUT-0858,Patel Kirana,Modern Trade,B,Bhubaneswar,East 1,REP-004,22546.0,5
+OUT-0859,Gupta Supermarket,Modern Trade,B,Chandigarh,North 2,REP-041,15252.0,4
+OUT-0860,Khan General Store,General Trade,B,Chandigarh,North 1,REP-049,19025.0,2
+OUT-0861,Sharma Kirana,Modern Trade,C,Kochi,South 3,REP-059,6849.0,4
+OUT-0862,Singh General Store,General Trade,C,Guwahati,East 2,REP-056,5421.0,1
+OUT-0863,Singh Supermarket,Modern Trade,C,Bhubaneswar,East 2,REP-008,7965.0,5
+OUT-0864,Sharma Traders,Pharmacy,B,Hyderabad,South 3,REP-047,24315.0,0
+OUT-0865,Reddy Provisions,Pharmacy,C,Hyderabad,South 1,REP-051,7421.0,0
+OUT-0866,Nair Traders,General Trade,C,Ahmedabad,West 2,REP-042,6834.0,4
+OUT-0867,Reddy Kirana,Convenience,C,Ahmedabad,West 1,REP-050,6673.0,1
+OUT-0868,Sharma Mart,Pharmacy,B,Bengaluru,South 1,REP-051,20678.0,2
+OUT-0869,Patel Supermarket,General Trade,B,Kochi,South 1,REP-027,23120.0,2
+OUT-0870,Gupta Kirana,General Trade,C,Bengaluru,South 1,REP-003,6533.0,6
+OUT-0871,Patel Traders,Modern Trade,B,Patna,East 1,REP-028,17776.0,4
+OUT-0872,Singh Mart,General Trade,B,Jaipur,North 1,REP-013,19708.0,1
+OUT-0873,Patel General Store,General Trade,C,Kochi,South 2,REP-007,7287.0,5
+OUT-0874,Singh General Store,General Trade,C,Kolkata,East 2,REP-008,9583.0,0
+OUT-0875,Nair Provisions,General Trade,C,Pune,West 2,REP-042,7371.0,5
+OUT-0876,Gupta Traders,General Trade,C,Chennai,South 2,REP-031,5162.0,35
+OUT-0877,Reddy General Store,Modern Trade,B,Delhi,North 3,REP-033,14385.0,1
+OUT-0878,Patel Provisions,General Trade,B,Delhi,North 3,REP-045,23037.0,4
+OUT-0879,Patel General Store,Pharmacy,B,Jaipur,North 3,REP-033,20555.0,1
+OUT-0880,Singh Traders,General Trade,C,Surat,West 1,REP-038,5618.0,2
+OUT-0881,Iyer Medicals,General Trade,B,Pune,West 2,REP-006,9428.0,0
+OUT-0882,Nair Provisions,General Trade,C,Guwahati,East 1,REP-052,8363.0,11
+OUT-0883,Khan Supermarket,Pharmacy,B,Hyderabad,South 1,REP-027,16777.0,5
+OUT-0884,Singh Kirana,Convenience,C,Surat,West 3,REP-010,4038.0,9
+OUT-0885,Reddy Provisions,General Trade,B,Chandigarh,North 1,REP-049,22654.0,0
+OUT-0886,Reddy General Store,General Trade,B,Lucknow,North 3,REP-045,8849.0,6
+OUT-0887,Nair Provisions,General Trade,A,Bhubaneswar,East 1,REP-004,39136.0,0
+OUT-0888,Sharma Medicals,General Trade,A,Kolkata,East 3,REP-012,60846.0,2
+OUT-0889,Singh Provisions,Convenience,C,Lucknow,North 1,REP-001,5678.0,8
+OUT-0890,Khan Mart,General Trade,B,Delhi,North 2,REP-017,25120.0,0
+OUT-0891,Nair General Store,Convenience,B,Ahmedabad,West 2,REP-006,19506.0,0
+OUT-0892,Singh Supermarket,Modern Trade,C,Hyderabad,South 2,REP-043,5088.0,9
+OUT-0893,Khan Kirana,Modern Trade,C,Guwahati,East 2,REP-032,4727.0,5
+OUT-0894,Das Kirana,Convenience,A,Hyderabad,South 3,REP-059,49994.0,0
+OUT-0895,Singh Provisions,General Trade,B,Jaipur,North 3,REP-045,21125.0,23
+OUT-0896,Mehta Supermarket,Pharmacy,A,Jaipur,North 1,REP-037,40667.0,4
+OUT-0897,Das Traders,General Trade,C,Hyderabad,South 2,REP-031,7601.0,6
+OUT-0898,Sharma Traders,Convenience,B,Patna,East 1,REP-004,18004.0,4
+OUT-0899,Singh General Store,Modern Trade,A,Jaipur,North 2,REP-005,41055.0,0
+OUT-0900,Nair Mart,General Trade,A,Jaipur,North 1,REP-037,44134.0,0
+OUT-0901,Khan Mart,Convenience,C,Lucknow,North 1,REP-001,5593.0,4
+OUT-0902,Das Medicals,General Trade,A,Bengaluru,South 1,REP-003,57740.0,2
+OUT-0903,Das Supermarket,General Trade,C,Ahmedabad,West 1,REP-014,7255.0,5
+OUT-0904,Reddy Kirana,Pharmacy,A,Pune,West 2,REP-054,50638.0,21
+OUT-0905,Patel Traders,General Trade,C,Patna,East 1,REP-028,4198.0,0
+OUT-0906,Nair Supermarket,Convenience,B,Chennai,South 2,REP-043,26779.0,6
+OUT-0907,Sharma Medicals,Modern Trade,B,Delhi,North 1,REP-025,19562.0,0
+OUT-0908,Khan Provisions,Modern Trade,A,Hyderabad,South 3,REP-011,50581.0,0
+OUT-0909,Nair Kirana,General Trade,C,Hyderabad,South 3,REP-023,5446.0,5
+OUT-0910,Gupta Medicals,General Trade,C,Surat,West 2,REP-006,4166.0,2
+OUT-0911,Patel Kirana,Convenience,A,Chennai,South 3,REP-047,37611.0,0
+OUT-0912,Sharma Kirana,General Trade,A,Bhubaneswar,East 3,REP-012,24627.0,2
+OUT-0913,Singh Provisions,Modern Trade,C,Hyderabad,South 3,REP-023,5797.0,61
+OUT-0914,Reddy Traders,General Trade,B,Hyderabad,South 3,REP-059,25736.0,2
+OUT-0915,Nair Traders,General Trade,A,Bhubaneswar,East 3,REP-036,54095.0,2
+OUT-0916,Patel Traders,Modern Trade,B,Guwahati,East 1,REP-028,26336.0,5
+OUT-0917,Khan Kirana,Pharmacy,C,Chandigarh,North 3,REP-033,3686.0,26
+OUT-0918,Mehta Kirana,Pharmacy,C,Kolkata,East 3,REP-048,4824.0,6
+OUT-0919,Iyer Supermarket,Convenience,C,Patna,East 1,REP-016,5207.0,0
+OUT-0920,Das Kirana,General Trade,C,Hyderabad,South 1,REP-039,6234.0,4
+OUT-0921,Khan Mart,General Trade,B,Lucknow,North 2,REP-053,21602.0,0
+OUT-0922,Singh Provisions,General Trade,B,Chennai,South 3,REP-035,20848.0,6
+OUT-0923,Patel Traders,Pharmacy,B,Bengaluru,South 1,REP-027,25419.0,2
+OUT-0924,Reddy Provisions,General Trade,B,Lucknow,North 3,REP-009,11558.0,4
+OUT-0925,Sharma Mart,Modern Trade,B,Hyderabad,South 1,REP-015,24236.0,4
+OUT-0926,Iyer Kirana,General Trade,A,Delhi,North 3,REP-057,58752.0,22
+OUT-0927,Reddy Kirana,Convenience,B,Lucknow,North 3,REP-033,22965.0,1
+OUT-0928,Das Medicals,Convenience,C,Kochi,South 2,REP-019,5141.0,23
+OUT-0929,Sharma General Store,Convenience,A,Ahmedabad,West 1,REP-026,43364.0,4
+OUT-0930,Sharma Provisions,General Trade,B,Kochi,South 3,REP-035,23030.0,9
+OUT-0931,Gupta Kirana,Convenience,C,Jaipur,North 3,REP-033,7566.0,2
+OUT-0932,Das Supermarket,General Trade,C,Mumbai,West 2,REP-042,5031.0,1
+OUT-0933,Reddy Kirana,General Trade,C,Bhubaneswar,East 1,REP-016,7937.0,13
+OUT-0934,Das General Store,General Trade,C,Bengaluru,South 1,REP-039,4939.0,0
+OUT-0935,Gupta Kirana,General Trade,C,Bengaluru,South 1,REP-027,5486.0,0
+OUT-0936,Sharma Mart,Modern Trade,A,Delhi,North 3,REP-057,26908.0,0
+OUT-0937,Khan Traders,General Trade,B,Surat,West 3,REP-010,20672.0,5
+OUT-0938,Reddy Supermarket,General Trade,C,Chandigarh,North 3,REP-009,5025.0,7
+OUT-0939,Khan Kirana,Pharmacy,B,Patna,East 1,REP-028,7887.0,0
+OUT-0940,Das General Store,Convenience,A,Hyderabad,South 2,REP-031,66075.0,0
+OUT-0941,Iyer General Store,Pharmacy,B,Pune,West 2,REP-042,12666.0,6
+OUT-0942,Mehta Mart,Modern Trade,B,Delhi,North 1,REP-025,21783.0,2
+OUT-0943,Singh Mart,General Trade,B,Kochi,South 2,REP-055,18199.0,5
+OUT-0944,Iyer Supermarket,Convenience,A,Chandigarh,North 2,REP-029,50482.0,2
+OUT-0945,Singh Mart,General Trade,C,Patna,East 2,REP-008,5177.0,5
+OUT-0946,Reddy Provisions,General Trade,C,Patna,East 2,REP-008,6422.0,6
+OUT-0947,Iyer Mart,General Trade,B,Kochi,South 3,REP-059,19428.0,1
+OUT-0948,Das General Store,Pharmacy,C,Jaipur,North 3,REP-009,4032.0,18
+OUT-0949,Singh Provisions,General Trade,A,Jaipur,North 3,REP-057,39172.0,0
+OUT-0950,Singh Traders,Pharmacy,C,Jaipur,North 2,REP-017,2589.0,1
+OUT-0951,Patel Traders,General Trade,C,Pune,West 2,REP-006,8539.0,1
+OUT-0952,Iyer Provisions,General Trade,A,Hyderabad,South 2,REP-019,58859.0,2
+OUT-0953,Gupta Provisions,General Trade,C,Delhi,North 1,REP-037,5155.0,2
+OUT-0954,Das Medicals,General Trade,C,Pune,West 1,REP-026,5951.0,4
+OUT-0955,Patel General Store,General Trade,C,Patna,East 3,REP-048,7680.0,1
+OUT-0956,Sharma Supermarket,Modern Trade,C,Jaipur,North 1,REP-037,6016.0,4
+OUT-0957,Reddy Provisions,Modern Trade,C,Jaipur,North 1,REP-025,4982.0,2
+OUT-0958,Patel Provisions,General Trade,A,Chennai,South 1,REP-039,54132.0,1
+OUT-0959,Gupta General Store,Pharmacy,C,Chennai,South 3,REP-059,5081.0,1
+OUT-0960,Sharma Traders,General Trade,C,Chandigarh,North 1,REP-025,7110.0,2
+OUT-0961,Iyer Traders,General Trade,C,Ahmedabad,West 3,REP-010,5082.0,1
+OUT-0962,Nair General Store,General Trade,B,Lucknow,North 1,REP-025,24065.0,5
+OUT-0963,Patel Supermarket,General Trade,C,Chennai,South 1,REP-051,4666.0,0
+OUT-0964,Mehta Mart,General Trade,A,Surat,West 1,REP-014,49341.0,0
+OUT-0965,Mehta Traders,Pharmacy,C,Delhi,North 3,REP-057,7138.0,7
+OUT-0966,Iyer General Store,General Trade,A,Bhubaneswar,East 3,REP-036,50919.0,1
+OUT-0967,Khan Kirana,Pharmacy,C,Delhi,North 1,REP-037,7586.0,4
+OUT-0968,Gupta Mart,General Trade,C,Guwahati,East 2,REP-020,5387.0,6
+OUT-0969,Patel Kirana,Modern Trade,B,Patna,East 2,REP-056,15434.0,0
+OUT-0970,Sharma Mart,Pharmacy,B,Chennai,South 1,REP-003,8795.0,0
+OUT-0971,Gupta Provisions,General Trade,B,Mumbai,West 2,REP-018,20626.0,16
+OUT-0972,Nair Mart,General Trade,C,Surat,West 1,REP-026,5490.0,19
+OUT-0973,Mehta Kirana,Modern Trade,C,Jaipur,North 2,REP-029,6385.0,5
+OUT-0974,Das Mart,Convenience,B,Jaipur,North 2,REP-029,7398.0,13
+OUT-0975,Nair General Store,Convenience,A,Chandigarh,North 3,REP-009,40648.0,0
+OUT-0976,Gupta Mart,General Trade,B,Mumbai,West 1,REP-014,20918.0,4
+OUT-0977,Mehta General Store,Pharmacy,B,Pune,West 2,REP-006,22175.0,4
+OUT-0978,Gupta General Store,General Trade,C,Bengaluru,South 3,REP-035,5844.0,4
+OUT-0979,Gupta Kirana,General Trade,C,Mumbai,West 3,REP-022,5635.0,12
+OUT-0980,Mehta Supermarket,Pharmacy,B,Mumbai,West 3,REP-034,18895.0,0
+OUT-0981,Iyer General Store,Modern Trade,C,Kolkata,East 3,REP-036,6429.0,6
+OUT-0982,Nair Kirana,Modern Trade,B,Kochi,South 2,REP-043,22106.0,1
+OUT-0983,Sharma Supermarket,Convenience,C,Jaipur,North 3,REP-033,2851.0,6
+OUT-0984,Reddy Mart,General Trade,B,Kochi,South 1,REP-039,24898.0,4
+OUT-0985,Sharma Traders,Pharmacy,C,Patna,East 3,REP-036,7142.0,6
+OUT-0986,Reddy General Store,General Trade,C,Guwahati,East 1,REP-040,7362.0,6
+OUT-0987,Khan Mart,General Trade,B,Delhi,North 1,REP-037,20929.0,0
+OUT-0988,Patel Kirana,General Trade,C,Bengaluru,South 2,REP-019,5483.0,4
+OUT-0989,Sharma Provisions,Convenience,C,Bengaluru,South 1,REP-015,5666.0,11
+OUT-0990,Khan Provisions,General Trade,A,Guwahati,East 3,REP-048,58537.0,5
+OUT-0991,Singh Provisions,General Trade,A,Lucknow,North 3,REP-021,44715.0,6
+OUT-0992,Nair Traders,Pharmacy,C,Lucknow,North 3,REP-033,6710.0,6
+OUT-0993,Das General Store,Convenience,B,Guwahati,East 3,REP-012,20684.0,4
+OUT-0994,Singh Traders,Convenience,A,Pune,West 1,REP-026,46339.0,0
+OUT-0995,Sharma Mart,Modern Trade,B,Bhubaneswar,East 2,REP-032,20477.0,2
+OUT-0996,Reddy General Store,General Trade,C,Ahmedabad,West 1,REP-038,3955.0,6
+OUT-0997,Gupta General Store,Modern Trade,B,Bhubaneswar,East 2,REP-032,14555.0,6
+OUT-0998,Singh Kirana,Convenience,B,Ahmedabad,West 3,REP-022,17341.0,4
+OUT-0999,Das Traders,Convenience,C,Pune,West 3,REP-058,4729.0,1
+OUT-1000,Patel Mart,Convenience,B,Bengaluru,South 2,REP-031,19388.0,1
+OUT-1001,Gupta Medicals,General Trade,C,Delhi,North 1,REP-049,5851.0,8
+OUT-1002,Reddy Traders,General Trade,B,Lucknow,North 3,REP-045,20084.0,1
+OUT-1003,Mehta Medicals,Modern Trade,C,Ahmedabad,West 3,REP-034,4219.0,5
+OUT-1004,Khan Mart,General Trade,C,Ahmedabad,West 2,REP-054,5320.0,0
+OUT-1005,Iyer Kirana,General Trade,A,Bhubaneswar,East 2,REP-008,36902.0,0
+OUT-1006,Nair Mart,General Trade,C,Kolkata,East 2,REP-056,2838.0,5
+OUT-1007,Sharma Kirana,Pharmacy,B,Patna,East 1,REP-052,19499.0,4
+OUT-1008,Das Mart,Convenience,A,Chennai,South 2,REP-031,33032.0,4
+OUT-1009,Khan Mart,Pharmacy,A,Chandigarh,North 3,REP-045,22951.0,0
+OUT-1010,Reddy Supermarket,Convenience,C,Bhubaneswar,East 2,REP-032,6132.0,6
+OUT-1011,Reddy Mart,Pharmacy,A,Lucknow,North 2,REP-017,35995.0,1
+OUT-1012,Mehta Mart,Pharmacy,B,Bhubaneswar,East 3,REP-048,14366.0,4
+OUT-1013,Patel Provisions,General Trade,A,Chennai,South 1,REP-015,67310.0,0
+OUT-1014,Nair General Store,Modern Trade,B,Kochi,South 2,REP-019,22580.0,19
+OUT-1015,Khan Kirana,General Trade,B,Bhubaneswar,East 2,REP-032,17327.0,0
+OUT-1016,Reddy Kirana,General Trade,B,Kochi,South 1,REP-051,21994.0,0
+OUT-1017,Gupta Mart,General Trade,B,Bhubaneswar,East 3,REP-024,11927.0,4
+OUT-1018,Singh Kirana,Convenience,A,Ahmedabad,West 2,REP-030,48197.0,0
+OUT-1019,Mehta General Store,Pharmacy,C,Bengaluru,South 1,REP-003,4875.0,2
+OUT-1020,Iyer Medicals,Convenience,B,Hyderabad,South 2,REP-007,24733.0,0
+OUT-1021,Singh Mart,Convenience,C,Kolkata,East 1,REP-004,4527.0,1
+OUT-1022,Mehta Mart,Convenience,A,Lucknow,North 2,REP-005,24745.0,0
+OUT-1023,Khan Traders,General Trade,A,Lucknow,North 2,REP-053,39693.0,1
+OUT-1024,Khan Provisions,Convenience,B,Hyderabad,South 1,REP-051,20133.0,0
+OUT-1025,Das Medicals,Convenience,B,Pune,West 1,REP-050,23135.0,1
+OUT-1026,Reddy Provisions,Convenience,B,Kolkata,East 1,REP-004,12254.0,5
+OUT-1027,Khan Supermarket,General Trade,C,Lucknow,North 2,REP-005,6443.0,5
+OUT-1028,Gupta Supermarket,General Trade,B,Lucknow,North 2,REP-017,24361.0,0
+OUT-1029,Gupta Kirana,Convenience,B,Pune,West 3,REP-034,16489.0,1
+OUT-1030,Gupta Provisions,General Trade,C,Lucknow,North 3,REP-021,3122.0,0
+OUT-1031,Iyer Kirana,General Trade,A,Surat,West 2,REP-030,51194.0,0
+OUT-1032,Patel Traders,General Trade,B,Hyderabad,South 3,REP-011,21915.0,0
+OUT-1033,Das Supermarket,General Trade,B,Kolkata,East 2,REP-044,22806.0,1
+OUT-1034,Reddy Kirana,General Trade,B,Kochi,South 2,REP-019,11800.0,4
+OUT-1035,Singh General Store,Convenience,A,Patna,East 1,REP-004,59690.0,2
+OUT-1036,Sharma Traders,Convenience,C,Lucknow,North 3,REP-045,6056.0,1
+OUT-1037,Gupta Traders,Convenience,C,Kochi,South 2,REP-055,6062.0,9
+OUT-1038,Singh Medicals,General Trade,A,Jaipur,North 1,REP-001,42992.0,0
+OUT-1039,Nair Traders,General Trade,C,Hyderabad,South 1,REP-027,7658.0,20
+OUT-1040,Sharma Medicals,General Trade,C,Mumbai,West 1,REP-050,5033.0,4
+OUT-1041,Singh Kirana,General Trade,B,Kochi,South 2,REP-043,24686.0,0
+OUT-1042,Nair Medicals,General Trade,C,Kolkata,East 1,REP-052,7388.0,13
+OUT-1043,Gupta General Store,Pharmacy,C,Lucknow,North 1,REP-025,7149.0,4
+OUT-1044,Gupta Provisions,Convenience,C,Chennai,South 3,REP-023,8448.0,13
+OUT-1045,Das Kirana,Modern Trade,C,Bengaluru,South 2,REP-043,7732.0,7
+OUT-1046,Nair Mart,General Trade,A,Pune,West 3,REP-010,24469.0,4
+OUT-1047,Gupta Mart,General Trade,B,Kochi,South 1,REP-015,13013.0,0
+OUT-1048,Iyer Mart,General Trade,B,Delhi,North 1,REP-037,19482.0,6
+OUT-1049,Iyer Traders,General Trade,A,Jaipur,North 2,REP-041,49588.0,2
+OUT-1050,Sharma Medicals,Modern Trade,B,Kolkata,East 2,REP-008,19674.0,4
+OUT-1051,Khan Provisions,General Trade,C,Bengaluru,South 2,REP-031,6137.0,1
+OUT-1052,Patel Supermarket,Modern Trade,A,Mumbai,West 3,REP-022,47947.0,0
+OUT-1053,Patel Kirana,Convenience,B,Hyderabad,South 2,REP-031,24691.0,15
+OUT-1054,Khan Kirana,General Trade,C,Surat,West 3,REP-058,5813.0,5
+OUT-1055,Gupta Medicals,General Trade,B,Lucknow,North 2,REP-005,19326.0,43
+OUT-1056,Iyer Medicals,General Trade,B,Guwahati,East 3,REP-060,23321.0,1
+OUT-1057,Patel Traders,General Trade,C,Hyderabad,South 1,REP-027,6475.0,20
+OUT-1058,Iyer Provisions,Modern Trade,B,Chennai,South 3,REP-047,16358.0,5
+OUT-1059,Patel Traders,Convenience,A,Surat,West 1,REP-026,45639.0,2
+OUT-1060,Khan Medicals,Convenience,A,Bengaluru,South 2,REP-019,66915.0,0
+OUT-1061,Khan Provisions,Modern Trade,C,Hyderabad,South 3,REP-047,5950.0,2
+OUT-1062,Das Supermarket,General Trade,B,Mumbai,West 2,REP-042,22701.0,1
+OUT-1063,Das Mart,General Trade,B,Chandigarh,North 3,REP-009,18731.0,2
+OUT-1064,Khan Supermarket,General Trade,A,Bengaluru,South 2,REP-043,67020.0,1
+OUT-1065,Reddy General Store,General Trade,B,Mumbai,West 3,REP-046,16251.0,13
+OUT-1066,Patel Medicals,Convenience,C,Patna,East 3,REP-024,6302.0,1
+OUT-1067,Gupta Mart,General Trade,B,Bhubaneswar,East 2,REP-056,19016.0,2
+OUT-1068,Das Supermarket,General Trade,C,Bengaluru,South 1,REP-039,4282.0,0
+OUT-1069,Singh Provisions,General Trade,B,Jaipur,North 3,REP-021,14272.0,1
+OUT-1070,Singh Mart,General Trade,B,Jaipur,North 1,REP-001,24409.0,0
+OUT-1071,Das Traders,Convenience,C,Lucknow,North 2,REP-041,5222.0,5
+OUT-1072,Khan Supermarket,General Trade,B,Chandigarh,North 1,REP-013,19765.0,6
+OUT-1073,Gupta Traders,General Trade,B,Ahmedabad,West 3,REP-046,13758.0,0
+OUT-1074,Mehta Mart,General Trade,C,Bhubaneswar,East 2,REP-032,7467.0,5
+OUT-1075,Sharma General Store,Convenience,B,Jaipur,North 2,REP-029,17014.0,1
+OUT-1076,Singh Traders,Modern Trade,B,Surat,West 3,REP-010,20304.0,1
+OUT-1077,Khan Supermarket,Modern Trade,C,Bengaluru,South 2,REP-043,8091.0,1
+OUT-1078,Khan Supermarket,General Trade,A,Mumbai,West 3,REP-010,57156.0,53
+OUT-1079,Sharma Mart,General Trade,B,Mumbai,West 1,REP-026,23147.0,5
+OUT-1080,Mehta Kirana,Convenience,A,Chennai,South 1,REP-051,38654.0,2
+OUT-1081,Patel Traders,General Trade,B,Patna,East 2,REP-056,10270.0,2
+OUT-1082,Iyer Mart,General Trade,B,Guwahati,East 3,REP-060,20465.0,9
+OUT-1083,Reddy Medicals,Modern Trade,C,Ahmedabad,West 3,REP-058,6498.0,1
+OUT-1084,Patel Traders,General Trade,A,Pune,West 3,REP-034,47346.0,0
+OUT-1085,Khan Kirana,General Trade,C,Delhi,North 1,REP-013,4826.0,5
+OUT-1086,Singh Provisions,Convenience,B,Hyderabad,South 1,REP-051,21665.0,1
+OUT-1087,Reddy Kirana,General Trade,B,Jaipur,North 1,REP-049,8042.0,4
+OUT-1088,Sharma Supermarket,General Trade,B,Guwahati,East 3,REP-060,20491.0,4
+OUT-1089,Patel General Store,General Trade,C,Patna,East 1,REP-040,5665.0,7
+OUT-1090,Gupta Mart,Pharmacy,B,Lucknow,North 3,REP-009,18152.0,18
+OUT-1091,Khan General Store,General Trade,B,Kochi,South 2,REP-031,14325.0,7
+OUT-1092,Das Medicals,General Trade,C,Chennai,South 1,REP-027,4546.0,2
+OUT-1093,Nair Medicals,Modern Trade,C,Chennai,South 1,REP-051,7824.0,1
+OUT-1094,Khan Mart,Modern Trade,B,Bhubaneswar,East 3,REP-024,21931.0,2
+OUT-1095,Patel Mart,Convenience,C,Patna,East 2,REP-020,5397.0,0
+OUT-1096,Reddy Traders,General Trade,B,Delhi,North 2,REP-005,19824.0,0
+OUT-1097,Reddy Supermarket,General Trade,A,Chennai,South 1,REP-051,56116.0,4
+OUT-1098,Patel Supermarket,Modern Trade,B,Mumbai,West 3,REP-046,23189.0,1
+OUT-1099,Iyer Supermarket,Modern Trade,A,Hyderabad,South 1,REP-003,58567.0,0
+OUT-1100,Nair Provisions,General Trade,B,Bengaluru,South 1,REP-027,16723.0,5
+OUT-1101,Khan Traders,Modern Trade,C,Jaipur,North 2,REP-029,7413.0,6
+OUT-1102,Nair Supermarket,General Trade,A,Chandigarh,North 2,REP-029,56048.0,0
+OUT-1103,Khan Kirana,Convenience,C,Bhubaneswar,East 2,REP-056,4641.0,65
+OUT-1104,Khan Traders,Convenience,C,Ahmedabad,West 3,REP-010,6326.0,6
+OUT-1105,Iyer Provisions,General Trade,C,Hyderabad,South 2,REP-019,7430.0,0
+OUT-1106,Gupta General Store,Convenience,C,Chennai,South 3,REP-011,6269.0,4
+OUT-1107,Mehta Supermarket,Convenience,C,Hyderabad,South 1,REP-015,4040.0,12
+OUT-1108,Sharma Medicals,General Trade,C,Bengaluru,South 2,REP-055,7983.0,4
+OUT-1109,Nair Provisions,General Trade,B,Lucknow,North 3,REP-057,13982.0,0
+OUT-1110,Khan Kirana,Modern Trade,A,Hyderabad,South 1,REP-003,60295.0,1
+OUT-1111,Iyer Traders,General Trade,B,Surat,West 1,REP-038,21700.0,0
+OUT-1112,Gupta Medicals,General Trade,B,Surat,West 1,REP-014,17877.0,6
+OUT-1113,Singh Medicals,General Trade,A,Kolkata,East 3,REP-012,60462.0,2
+OUT-1114,Gupta Kirana,Convenience,C,Pune,West 2,REP-018,4261.0,1
+OUT-1115,Iyer Medicals,General Trade,A,Bhubaneswar,East 3,REP-012,49894.0,12
+OUT-1116,Iyer Mart,Pharmacy,C,Pune,West 2,REP-030,3720.0,5
+OUT-1117,Singh Supermarket,General Trade,B,Bhubaneswar,East 3,REP-060,24051.0,0
+OUT-1118,Iyer Provisions,General Trade,A,Guwahati,East 3,REP-036,54437.0,0
+OUT-1119,Mehta Traders,Convenience,A,Patna,East 2,REP-044,50428.0,1
+OUT-1120,Nair Kirana,General Trade,B,Surat,West 2,REP-030,14860.0,18
+OUT-1121,Das Provisions,General Trade,B,Chandigarh,North 1,REP-001,16656.0,0
+OUT-1122,Nair Medicals,General Trade,A,Surat,West 2,REP-006,57287.0,2
+OUT-1123,Nair Provisions,Pharmacy,B,Delhi,North 2,REP-017,14478.0,6
+OUT-1124,Khan Traders,General Trade,A,Chennai,South 1,REP-015,54841.0,6
+OUT-1125,Khan Provisions,General Trade,B,Bengaluru,South 1,REP-051,11515.0,5
+OUT-1126,Gupta Mart,General Trade,B,Bengaluru,South 1,REP-051,21433.0,8
+OUT-1127,Sharma Kirana,General Trade,B,Kolkata,East 1,REP-052,17525.0,0
+OUT-1128,Singh Kirana,General Trade,B,Chennai,South 1,REP-039,23697.0,1
+OUT-1129,Nair Medicals,Modern Trade,A,Mumbai,West 3,REP-034,47184.0,0
+OUT-1130,Nair Provisions,General Trade,A,Chennai,South 1,REP-039,49747.0,1
+OUT-1131,Gupta Medicals,General Trade,B,Chandigarh,North 1,REP-025,20730.0,0
+OUT-1132,Das Supermarket,Modern Trade,C,Chandigarh,North 2,REP-041,4474.0,8
+OUT-1133,Sharma Traders,Pharmacy,C,Guwahati,East 3,REP-048,5849.0,11
+OUT-1134,Patel Kirana,General Trade,C,Mumbai,West 3,REP-046,7053.0,5
+OUT-1135,Patel Kirana,General Trade,B,Lucknow,North 1,REP-037,22316.0,9
+OUT-1136,Iyer General Store,General Trade,B,Bhubaneswar,East 1,REP-004,20140.0,0
+OUT-1137,Patel Kirana,Convenience,B,Kolkata,East 2,REP-044,19807.0,0
+OUT-1138,Sharma Medicals,General Trade,C,Surat,West 3,REP-022,6587.0,1
+OUT-1139,Das Supermarket,General Trade,C,Jaipur,North 3,REP-045,5275.0,4
+OUT-1140,Patel Medicals,General Trade,C,Chandigarh,North 3,REP-033,3967.0,0
+OUT-1141,Gupta Traders,General Trade,C,Delhi,North 2,REP-053,6541.0,1
+OUT-1142,Sharma Kirana,General Trade,B,Lucknow,North 3,REP-021,19323.0,9
+OUT-1143,Das General Store,General Trade,C,Kolkata,East 2,REP-056,5687.0,6
+OUT-1144,Sharma Traders,Modern Trade,C,Kochi,South 1,REP-051,5681.0,8
+OUT-1145,Nair Kirana,Modern Trade,B,Bhubaneswar,East 2,REP-020,18620.0,2
+OUT-1146,Khan Mart,Pharmacy,C,Delhi,North 2,REP-029,4158.0,4
+OUT-1147,Sharma General Store,Pharmacy,A,Kolkata,East 2,REP-032,38730.0,1
+OUT-1148,Sharma Supermarket,General Trade,C,Chennai,South 3,REP-047,6948.0,0
+OUT-1149,Das Kirana,Convenience,C,Mumbai,West 2,REP-042,6769.0,4
+OUT-1150,Sharma Traders,Pharmacy,A,Kolkata,East 1,REP-052,65383.0,0
+OUT-1151,Mehta Mart,Convenience,C,Kochi,South 3,REP-023,6436.0,2
+OUT-1152,Khan Kirana,Pharmacy,A,Kochi,South 2,REP-031,56300.0,0
+OUT-1153,Iyer Kirana,General Trade,C,Ahmedabad,West 1,REP-026,6019.0,6
+OUT-1154,Khan Kirana,General Trade,C,Kochi,South 2,REP-055,5314.0,12
+OUT-1155,Das Supermarket,General Trade,C,Hyderabad,South 2,REP-019,5906.0,6
+OUT-1156,Sharma General Store,General Trade,C,Kolkata,East 3,REP-036,5110.0,1
+OUT-1157,Khan Provisions,General Trade,A,Bhubaneswar,East 2,REP-008,60436.0,1
+OUT-1158,Sharma General Store,General Trade,B,Kolkata,East 1,REP-052,12170.0,5
+OUT-1159,Gupta Kirana,General Trade,B,Guwahati,East 3,REP-024,18919.0,12
+OUT-1160,Reddy Mart,Convenience,A,Jaipur,North 3,REP-021,48139.0,2
+OUT-1161,Gupta Kirana,Pharmacy,B,Bengaluru,South 3,REP-035,19438.0,4
+OUT-1162,Gupta Mart,Modern Trade,B,Pune,West 2,REP-030,21526.0,1
+OUT-1163,Nair Provisions,General Trade,B,Hyderabad,South 1,REP-051,24694.0,4
+OUT-1164,Iyer Traders,Modern Trade,B,Guwahati,East 2,REP-032,21135.0,2
+OUT-1165,Patel Supermarket,Convenience,C,Bhubaneswar,East 2,REP-032,3753.0,6
+OUT-1166,Sharma Mart,Pharmacy,B,Bengaluru,South 2,REP-007,19188.0,0
+OUT-1167,Das General Store,Modern Trade,C,Surat,West 1,REP-002,6628.0,6
+OUT-1168,Mehta Traders,General Trade,B,Guwahati,East 3,REP-024,19748.0,2
+OUT-1169,Iyer Kirana,General Trade,B,Patna,East 3,REP-060,21152.0,0
+OUT-1170,Gupta Kirana,Pharmacy,B,Bhubaneswar,East 2,REP-056,21212.0,0
+OUT-1171,Singh Provisions,Convenience,B,Surat,West 1,REP-038,18089.0,0
+OUT-1172,Reddy Supermarket,General Trade,B,Pune,West 1,REP-038,22796.0,0
+OUT-1173,Iyer Provisions,General Trade,B,Kolkata,East 3,REP-024,24198.0,2
+OUT-1174,Reddy Traders,General Trade,A,Bengaluru,South 3,REP-011,52851.0,4
+OUT-1175,Das Medicals,General Trade,B,Lucknow,North 1,REP-001,22200.0,4
+OUT-1176,Patel Kirana,Convenience,C,Chandigarh,North 3,REP-021,5048.0,7
+OUT-1177,Iyer Supermarket,Pharmacy,B,Hyderabad,South 2,REP-019,23376.0,1
+OUT-1178,Nair Provisions,General Trade,C,Bhubaneswar,East 3,REP-012,3697.0,1
+OUT-1179,Mehta Supermarket,General Trade,B,Patna,East 1,REP-016,18810.0,5
+OUT-1180,Gupta Provisions,General Trade,C,Pune,West 1,REP-002,7381.0,6
+OUT-1181,Patel Medicals,General Trade,C,Delhi,North 1,REP-037,6510.0,4
+OUT-1182,Das General Store,Modern Trade,C,Patna,East 2,REP-056,3724.0,8
+OUT-1183,Singh Supermarket,Convenience,C,Ahmedabad,West 2,REP-042,7265.0,6
+OUT-1184,Iyer Kirana,Pharmacy,A,Kochi,South 1,REP-027,43717.0,4
+OUT-1185,Khan Provisions,General Trade,B,Surat,West 1,REP-026,17648.0,5
+OUT-1186,Mehta Medicals,Pharmacy,A,Kochi,South 2,REP-019,65620.0,6
+OUT-1187,Gupta General Store,Pharmacy,C,Delhi,North 3,REP-009,7186.0,1
+OUT-1188,Mehta General Store,General Trade,C,Guwahati,East 3,REP-036,7024.0,5
+OUT-1189,Patel General Store,Modern Trade,B,Mumbai,West 3,REP-034,16676.0,1
+OUT-1190,Mehta Kirana,Modern Trade,C,Lucknow,North 1,REP-001,6740.0,16
+OUT-1191,Reddy General Store,Convenience,A,Chandigarh,North 1,REP-025,53863.0,1
+OUT-1192,Khan Medicals,General Trade,C,Chandigarh,North 2,REP-017,6140.0,4
+OUT-1193,Mehta Kirana,General Trade,C,Hyderabad,South 3,REP-011,5518.0,2
+OUT-1194,Gupta Medicals,General Trade,A,Chennai,South 2,REP-043,48290.0,2
+OUT-1195,Mehta Mart,General Trade,C,Bhubaneswar,East 2,REP-032,4659.0,0
+OUT-1196,Mehta Kirana,General Trade,C,Hyderabad,South 1,REP-039,5716.0,2
+OUT-1197,Mehta General Store,Pharmacy,A,Hyderabad,South 2,REP-043,65890.0,2
+OUT-1198,Sharma Provisions,General Trade,B,Chennai,South 3,REP-059,14726.0,1
+OUT-1199,Gupta Mart,General Trade,B,Jaipur,North 1,REP-049,22375.0,1
+OUT-1200,Singh General Store,Convenience,C,Ahmedabad,West 1,REP-038,7050.0,6
+OUT-1201,Gupta Mart,Modern Trade,A,Delhi,North 2,REP-053,34612.0,0
+OUT-1202,Sharma Medicals,General Trade,C,Chandigarh,North 2,REP-029,5584.0,6
+OUT-1203,Singh General Store,Modern Trade,C,Kolkata,East 3,REP-060,8081.0,2
+OUT-1204,Sharma Supermarket,General Trade,A,Surat,West 3,REP-046,46207.0,21
+OUT-1205,Sharma Medicals,General Trade,B,Kolkata,East 1,REP-040,22156.0,1
+OUT-1206,Mehta Medicals,Pharmacy,C,Hyderabad,South 2,REP-055,6714.0,11
+OUT-1207,Reddy Mart,General Trade,C,Chennai,South 2,REP-031,5872.0,2
+OUT-1208,Gupta General Store,General Trade,B,Bhubaneswar,East 2,REP-044,16552.0,0
+OUT-1209,Nair Kirana,General Trade,A,Pune,West 2,REP-018,55806.0,1
+OUT-1210,Das Mart,Convenience,A,Surat,West 3,REP-058,39239.0,2
+OUT-1211,Das Supermarket,General Trade,C,Mumbai,West 1,REP-038,6657.0,0
+OUT-1212,Reddy Traders,Pharmacy,B,Kochi,South 3,REP-047,22006.0,0
+OUT-1213,Sharma Kirana,General Trade,C,Bhubaneswar,East 1,REP-028,5382.0,4
+OUT-1214,Reddy General Store,Modern Trade,B,Chandigarh,North 2,REP-053,19719.0,2
+OUT-1215,Nair Kirana,General Trade,C,Delhi,North 2,REP-005,6512.0,5
+OUT-1216,Sharma Mart,General Trade,A,Bengaluru,South 2,REP-007,47579.0,4
+OUT-1217,Sharma Supermarket,Modern Trade,A,Chennai,South 2,REP-031,58160.0,2
+OUT-1218,Iyer General Store,Pharmacy,C,Patna,East 2,REP-044,6340.0,1
+OUT-1219,Patel Provisions,General Trade,C,Chandigarh,North 1,REP-049,5003.0,1
+OUT-1220,Reddy Supermarket,General Trade,B,Kochi,South 1,REP-027,23477.0,7
+OUT-1221,Khan Mart,General Trade,B,Chennai,South 1,REP-039,22444.0,0
+OUT-1222,Iyer General Store,General Trade,B,Surat,West 3,REP-034,14588.0,5
+OUT-1223,Das Traders,Modern Trade,B,Mumbai,West 3,REP-058,21519.0,2
+OUT-1224,Khan Mart,General Trade,A,Bhubaneswar,East 1,REP-040,49188.0,1
+OUT-1225,Singh Mart,Modern Trade,C,Mumbai,West 1,REP-026,5843.0,0
+OUT-1226,Nair Provisions,General Trade,B,Hyderabad,South 3,REP-059,18748.0,46
+OUT-1227,Das Supermarket,General Trade,C,Chennai,South 2,REP-007,7342.0,7
+OUT-1228,Singh Mart,General Trade,A,Patna,East 3,REP-060,51258.0,0
+OUT-1229,Mehta Kirana,General Trade,A,Pune,West 3,REP-010,51459.0,5
+OUT-1230,Khan Mart,General Trade,C,Pune,West 2,REP-018,5722.0,5
+OUT-1231,Das Provisions,Convenience,B,Surat,West 1,REP-050,21980.0,1
+OUT-1232,Gupta General Store,General Trade,C,Chandigarh,North 3,REP-045,4195.0,8
+OUT-1233,Khan Medicals,Convenience,A,Chennai,South 3,REP-059,54417.0,2
+OUT-1234,Iyer Medicals,General Trade,C,Jaipur,North 3,REP-045,6934.0,5
+OUT-1235,Das General Store,General Trade,C,Hyderabad,South 1,REP-039,9650.0,20
+OUT-1236,Nair Mart,General Trade,C,Lucknow,North 3,REP-021,4908.0,69
+OUT-1237,Khan Traders,General Trade,A,Delhi,North 1,REP-001,62154.0,5
+OUT-1238,Singh Provisions,Pharmacy,B,Bhubaneswar,East 2,REP-008,20802.0,1
+OUT-1239,Khan Kirana,Convenience,B,Surat,West 2,REP-018,23396.0,8
+OUT-1240,Gupta Supermarket,Modern Trade,B,Kochi,South 1,REP-003,22557.0,14
+OUT-1241,Gupta Medicals,Modern Trade,B,Hyderabad,South 2,REP-031,26519.0,1
+OUT-1242,Mehta Medicals,General Trade,A,Chennai,South 3,REP-047,41197.0,0
+OUT-1243,Patel Kirana,General Trade,B,Pune,West 3,REP-058,18364.0,20
+OUT-1244,Khan Kirana,Pharmacy,B,Ahmedabad,West 2,REP-030,25903.0,13
+OUT-1245,Nair Medicals,General Trade,B,Jaipur,North 2,REP-053,24016.0,16
+OUT-1246,Khan Mart,General Trade,A,Kolkata,East 3,REP-060,53056.0,5
+OUT-1247,Khan Medicals,Convenience,B,Bhubaneswar,East 1,REP-052,19207.0,75
+OUT-1248,Iyer General Store,Convenience,C,Kolkata,East 1,REP-028,7110.0,11
+OUT-1249,Mehta Mart,Modern Trade,B,Guwahati,East 2,REP-020,16288.0,5
+OUT-1250,Gupta Medicals,General Trade,B,Chennai,South 3,REP-059,21133.0,2
+OUT-1251,Reddy Traders,Convenience,B,Chennai,South 1,REP-015,23400.0,5
+OUT-1252,Reddy Mart,General Trade,C,Delhi,North 1,REP-025,3344.0,44
+OUT-1253,Patel Mart,General Trade,B,Delhi,North 2,REP-005,17949.0,0
+OUT-1254,Khan Kirana,General Trade,C,Guwahati,East 3,REP-048,5247.0,5
+OUT-1255,Sharma Medicals,Convenience,C,Hyderabad,South 1,REP-039,5551.0,0
+OUT-1256,Gupta General Store,Convenience,B,Surat,West 2,REP-006,20496.0,5
+OUT-1257,Singh General Store,Pharmacy,C,Surat,West 1,REP-014,5391.0,6
+OUT-1258,Nair Kirana,General Trade,C,Mumbai,West 3,REP-034,5424.0,6
+OUT-1259,Nair Provisions,General Trade,A,Jaipur,North 3,REP-033,55240.0,0
+OUT-1260,Mehta Mart,General Trade,B,Chandigarh,North 1,REP-049,19906.0,1
+OUT-1261,Nair Provisions,Convenience,C,Patna,East 1,REP-016,7053.0,8
+OUT-1262,Das Provisions,General Trade,C,Bhubaneswar,East 2,REP-056,5707.0,5
+OUT-1263,Khan Mart,General Trade,B,Hyderabad,South 1,REP-027,19910.0,7
+OUT-1264,Nair Medicals,Pharmacy,A,Ahmedabad,West 1,REP-050,55234.0,0
+OUT-1265,Mehta Supermarket,General Trade,C,Kochi,South 1,REP-015,5511.0,0
+OUT-1266,Das Kirana,Convenience,A,Kochi,South 1,REP-003,48429.0,0
+OUT-1267,Iyer Traders,General Trade,C,Bhubaneswar,East 1,REP-004,8757.0,1
+OUT-1268,Khan Medicals,Convenience,B,Hyderabad,South 3,REP-023,17078.0,0
+OUT-1269,Nair Medicals,General Trade,C,Pune,West 3,REP-058,6122.0,6
+OUT-1270,Sharma Medicals,General Trade,C,Bengaluru,South 1,REP-003,5404.0,0
+OUT-1271,Nair Provisions,General Trade,C,Hyderabad,South 3,REP-023,7521.0,1
+OUT-1272,Khan Kirana,General Trade,C,Bengaluru,South 2,REP-007,5641.0,4
+OUT-1273,Patel Medicals,Modern Trade,C,Bhubaneswar,East 2,REP-056,3574.0,5
+OUT-1274,Das Provisions,General Trade,C,Jaipur,North 2,REP-041,5675.0,1
+OUT-1275,Sharma Mart,General Trade,C,Surat,West 3,REP-046,7951.0,62
+OUT-1276,Singh General Store,Pharmacy,A,Kochi,South 2,REP-043,41278.0,0
+OUT-1277,Nair Traders,General Trade,C,Bhubaneswar,East 1,REP-040,4353.0,4
+OUT-1278,Mehta Medicals,Pharmacy,B,Hyderabad,South 3,REP-047,24197.0,0
+OUT-1279,Singh Traders,Pharmacy,C,Jaipur,North 1,REP-001,6714.0,4
+OUT-1280,Nair Supermarket,General Trade,C,Patna,East 1,REP-052,5828.0,6
+OUT-1281,Mehta General Store,Pharmacy,B,Delhi,North 3,REP-045,12566.0,7
+OUT-1282,Mehta Traders,General Trade,A,Delhi,North 3,REP-045,41055.0,0
+OUT-1283,Patel Supermarket,General Trade,B,Bhubaneswar,East 3,REP-024,17054.0,1
+OUT-1284,Das General Store,General Trade,C,Chandigarh,North 1,REP-049,8699.0,13
+OUT-1285,Sharma Provisions,Convenience,B,Bengaluru,South 3,REP-023,16339.0,1
+OUT-1286,Mehta Mart,Modern Trade,A,Chennai,South 1,REP-003,49313.0,2
+OUT-1287,Mehta Provisions,Modern Trade,C,Hyderabad,South 2,REP-055,2797.0,2
+OUT-1288,Mehta Mart,Convenience,C,Hyderabad,South 1,REP-015,7160.0,2
+OUT-1289,Nair Provisions,General Trade,A,Hyderabad,South 2,REP-007,53669.0,5
+OUT-1290,Mehta Supermarket,Convenience,B,Ahmedabad,West 1,REP-038,12268.0,1
+OUT-1291,Patel General Store,Pharmacy,C,Bengaluru,South 1,REP-015,8287.0,6
+OUT-1292,Reddy General Store,Convenience,C,Patna,East 1,REP-052,3558.0,13
+OUT-1293,Patel General Store,Convenience,C,Chennai,South 1,REP-027,4999.0,4
+OUT-1294,Das Supermarket,Convenience,B,Delhi,North 1,REP-001,23321.0,0
+OUT-1295,Nair Medicals,General Trade,B,Pune,West 3,REP-058,16941.0,0
+OUT-1296,Khan Traders,Pharmacy,A,Chennai,South 2,REP-031,52600.0,1
+OUT-1297,Reddy Kirana,Convenience,C,Guwahati,East 1,REP-016,5133.0,4
+OUT-1298,Patel Supermarket,Modern Trade,A,Jaipur,North 2,REP-041,53692.0,0
+OUT-1299,Mehta Kirana,General Trade,A,Guwahati,East 2,REP-032,52272.0,0
+OUT-1300,Reddy Supermarket,Convenience,C,Ahmedabad,West 1,REP-002,6034.0,4
+OUT-1301,Singh Kirana,General Trade,C,Ahmedabad,West 3,REP-046,6832.0,9
+OUT-1302,Reddy Supermarket,General Trade,C,Chandigarh,North 1,REP-025,5219.0,20
+OUT-1303,Patel Provisions,Modern Trade,B,Surat,West 2,REP-042,12758.0,5
+OUT-1304,Iyer Traders,General Trade,B,Mumbai,West 2,REP-054,22497.0,0
+OUT-1305,Das General Store,Pharmacy,B,Jaipur,North 1,REP-037,19622.0,58
+OUT-1306,Reddy General Store,General Trade,B,Lucknow,North 2,REP-041,23436.0,0
+OUT-1307,Iyer Kirana,Pharmacy,B,Guwahati,East 1,REP-016,21910.0,5
+OUT-1308,Patel Traders,Convenience,B,Bengaluru,South 1,REP-015,16717.0,16
+OUT-1309,Das Provisions,General Trade,C,Jaipur,North 1,REP-025,3725.0,0
+OUT-1310,Sharma Supermarket,Pharmacy,C,Kolkata,East 1,REP-052,6049.0,43
+OUT-1311,Sharma Kirana,General Trade,C,Kolkata,East 2,REP-032,5479.0,60
+OUT-1312,Singh Medicals,Convenience,A,Chandigarh,North 3,REP-021,49359.0,2
+OUT-1313,Reddy Mart,Convenience,B,Bengaluru,South 3,REP-047,25747.0,4
+OUT-1314,Das Medicals,General Trade,A,Guwahati,East 1,REP-052,44976.0,0
+OUT-1315,Reddy General Store,Pharmacy,B,Kochi,South 2,REP-055,12944.0,2
+OUT-1316,Khan Supermarket,Modern Trade,B,Surat,West 2,REP-018,22261.0,0
+OUT-1317,Khan Provisions,Modern Trade,A,Bengaluru,South 2,REP-043,57744.0,2
+OUT-1318,Singh Medicals,Pharmacy,C,Kolkata,East 3,REP-036,2995.0,1
+OUT-1319,Sharma Medicals,General Trade,B,Chennai,South 1,REP-027,16743.0,5
+OUT-1320,Das Traders,Modern Trade,C,Bhubaneswar,East 3,REP-024,5977.0,8
+OUT-1321,Nair Medicals,General Trade,A,Kochi,South 2,REP-007,38116.0,1
+OUT-1322,Mehta Kirana,General Trade,A,Jaipur,North 2,REP-017,40117.0,2
+OUT-1323,Sharma Supermarket,Convenience,B,Delhi,North 3,REP-033,18656.0,4
+OUT-1324,Gupta General Store,General Trade,A,Surat,West 2,REP-054,52304.0,2
+OUT-1325,Singh Mart,Modern Trade,B,Guwahati,East 1,REP-052,23433.0,5
+OUT-1326,Singh Kirana,General Trade,C,Bhubaneswar,East 3,REP-012,3905.0,0
+OUT-1327,Iyer General Store,Convenience,B,Lucknow,North 2,REP-041,20888.0,16
+OUT-1328,Sharma Medicals,Modern Trade,A,Surat,West 2,REP-006,66503.0,0
+OUT-1329,Iyer Medicals,General Trade,C,Jaipur,North 2,REP-041,6826.0,0
+OUT-1330,Reddy Provisions,General Trade,B,Delhi,North 3,REP-021,13577.0,6
+OUT-1331,Mehta General Store,General Trade,C,Hyderabad,South 1,REP-027,7122.0,12
+OUT-1332,Gupta Provisions,Convenience,B,Patna,East 2,REP-044,24671.0,0
+OUT-1333,Iyer General Store,Modern Trade,C,Surat,West 1,REP-026,4061.0,2
+OUT-1334,Singh Kirana,General Trade,A,Chandigarh,North 1,REP-049,65912.0,2
+OUT-1335,Sharma Medicals,Pharmacy,B,Jaipur,North 3,REP-033,8122.0,0
+OUT-1336,Gupta General Store,General Trade,C,Patna,East 3,REP-060,7490.0,39
+OUT-1337,Reddy General Store,General Trade,C,Chennai,South 1,REP-039,4017.0,7
+OUT-1338,Mehta General Store,General Trade,B,Ahmedabad,West 2,REP-018,9696.0,4
+OUT-1339,Das Kirana,General Trade,C,Hyderabad,South 3,REP-047,4397.0,5
+OUT-1340,Nair Medicals,Pharmacy,A,Lucknow,North 1,REP-025,37050.0,2
+OUT-1341,Singh General Store,Convenience,A,Lucknow,North 3,REP-033,40231.0,1
+OUT-1342,Sharma General Store,Convenience,A,Chandigarh,North 3,REP-009,70100.0,2
+OUT-1343,Gupta Kirana,Convenience,C,Patna,East 2,REP-008,5819.0,1
+OUT-1344,Sharma Mart,General Trade,B,Bengaluru,South 3,REP-035,17878.0,2
+OUT-1345,Nair Medicals,General Trade,C,Guwahati,East 3,REP-012,3470.0,6
+OUT-1346,Iyer Provisions,Modern Trade,A,Guwahati,East 3,REP-060,53862.0,0
+OUT-1347,Mehta Medicals,Convenience,C,Bhubaneswar,East 1,REP-052,7243.0,7
+OUT-1348,Khan Provisions,Pharmacy,C,Chennai,South 2,REP-043,5703.0,4
+OUT-1349,Das Kirana,General Trade,A,Jaipur,North 3,REP-045,51394.0,5
+OUT-1350,Khan Medicals,Pharmacy,A,Patna,East 3,REP-036,59777.0,0
+OUT-1351,Nair Mart,Pharmacy,A,Kolkata,East 1,REP-004,55800.0,0
+OUT-1352,Mehta General Store,Convenience,C,Bhubaneswar,East 3,REP-024,2062.0,0
+OUT-1353,Gupta Supermarket,Pharmacy,B,Pune,West 2,REP-030,15267.0,1
+OUT-1354,Nair General Store,General Trade,B,Chennai,South 2,REP-055,19260.0,4
+OUT-1355,Khan Provisions,General Trade,B,Ahmedabad,West 1,REP-014,15680.0,1
+OUT-1356,Reddy Supermarket,General Trade,C,Surat,West 2,REP-030,5983.0,0
+OUT-1357,Singh Provisions,General Trade,B,Delhi,North 3,REP-021,23536.0,2
+OUT-1358,Nair Traders,Convenience,B,Chandigarh,North 3,REP-009,21653.0,2
+OUT-1359,Gupta Kirana,Modern Trade,C,Hyderabad,South 2,REP-007,4814.0,6
+OUT-1360,Gupta Medicals,General Trade,A,Surat,West 3,REP-022,52322.0,2
+OUT-1361,Das Mart,General Trade,C,Jaipur,North 2,REP-005,5917.0,1
+OUT-1362,Das Kirana,Modern Trade,A,Chandigarh,North 2,REP-005,45436.0,0
+OUT-1363,Mehta Supermarket,Modern Trade,B,Ahmedabad,West 3,REP-022,17469.0,9
+OUT-1364,Singh Provisions,General Trade,C,Lucknow,North 1,REP-013,4831.0,2
+OUT-1365,Mehta Medicals,Convenience,C,Ahmedabad,West 3,REP-034,6191.0,0
+OUT-1366,Nair General Store,General Trade,C,Pune,West 1,REP-002,4708.0,75
+OUT-1367,Iyer Kirana,General Trade,B,Hyderabad,South 2,REP-019,22421.0,2
+OUT-1368,Das Supermarket,General Trade,B,Guwahati,East 1,REP-028,17007.0,0
+OUT-1369,Khan Mart,Modern Trade,B,Surat,West 3,REP-058,22072.0,0
+OUT-1370,Das Kirana,Pharmacy,B,Bengaluru,South 1,REP-039,13607.0,5
+OUT-1371,Sharma Mart,Convenience,B,Lucknow,North 2,REP-053,14404.0,0
+OUT-1372,Singh General Store,General Trade,B,Chandigarh,North 3,REP-021,25934.0,4
+OUT-1373,Khan Kirana,Convenience,B,Hyderabad,South 1,REP-027,19150.0,1
+OUT-1374,Sharma Mart,Pharmacy,B,Pune,West 1,REP-026,17962.0,0
+OUT-1375,Mehta Supermarket,General Trade,B,Pune,West 2,REP-054,21533.0,0
+OUT-1376,Reddy Mart,General Trade,A,Ahmedabad,West 3,REP-058,30495.0,2
+OUT-1377,Khan Medicals,General Trade,C,Ahmedabad,West 3,REP-058,4643.0,11
+OUT-1378,Das Mart,Convenience,C,Pune,West 3,REP-046,6121.0,6
+OUT-1379,Das Provisions,General Trade,A,Chennai,South 2,REP-031,53612.0,4
+OUT-1380,Reddy General Store,General Trade,C,Jaipur,North 3,REP-033,7086.0,5
+OUT-1381,Mehta Kirana,Pharmacy,C,Bengaluru,South 3,REP-059,6643.0,4
+OUT-1382,Das Traders,Convenience,B,Mumbai,West 2,REP-018,19659.0,0
+OUT-1383,Reddy Mart,Pharmacy,A,Delhi,North 3,REP-021,57755.0,0
+OUT-1384,Reddy Kirana,Pharmacy,A,Pune,West 2,REP-054,55333.0,56
+OUT-1385,Patel Medicals,General Trade,A,Bhubaneswar,East 3,REP-024,47469.0,1
+OUT-1386,Nair Provisions,Convenience,C,Chennai,South 1,REP-015,5724.0,8
+OUT-1387,Nair Traders,General Trade,C,Surat,West 3,REP-034,6254.0,2
+OUT-1388,Nair Mart,General Trade,A,Kolkata,East 2,REP-020,50730.0,1
+OUT-1389,Singh Medicals,Convenience,C,Pune,West 2,REP-054,3951.0,1
+OUT-1390,Patel Supermarket,General Trade,A,Bengaluru,South 2,REP-055,60706.0,0
+OUT-1391,Nair Mart,General Trade,C,Chennai,South 2,REP-019,4592.0,2
+OUT-1392,Patel Medicals,Modern Trade,C,Bhubaneswar,East 2,REP-032,6079.0,0
+OUT-1393,Reddy Kirana,General Trade,B,Patna,East 3,REP-060,22339.0,0
+OUT-1394,Reddy Supermarket,General Trade,A,Jaipur,North 3,REP-045,39309.0,0
+OUT-1395,Sharma Traders,Modern Trade,C,Lucknow,North 1,REP-013,6500.0,2
+OUT-1396,Nair Kirana,Pharmacy,C,Guwahati,East 3,REP-036,6885.0,5
+OUT-1397,Gupta Mart,Pharmacy,B,Mumbai,West 1,REP-038,21706.0,2
+OUT-1398,Khan Medicals,General Trade,A,Kolkata,East 1,REP-040,59906.0,0
+OUT-1399,Iyer Mart,Modern Trade,A,Mumbai,West 1,REP-002,69212.0,20
+OUT-1400,Singh Medicals,Convenience,C,Ahmedabad,West 2,REP-018,7540.0,1
+OUT-1401,Gupta Medicals,General Trade,C,Guwahati,East 1,REP-052,5161.0,5
+OUT-1402,Das Medicals,General Trade,C,Bengaluru,South 1,REP-015,8121.0,1
+OUT-1403,Nair General Store,General Trade,C,Mumbai,West 2,REP-018,3772.0,2
+OUT-1404,Nair Mart,Modern Trade,C,Bhubaneswar,East 2,REP-020,5188.0,0
+OUT-1405,Das Kirana,General Trade,C,Kochi,South 3,REP-011,7366.0,6
+OUT-1406,Mehta Supermarket,Pharmacy,B,Ahmedabad,West 3,REP-010,19335.0,0
+OUT-1407,Nair Provisions,Convenience,C,Chandigarh,North 3,REP-021,3191.0,5
+OUT-1408,Khan Traders,General Trade,B,Lucknow,North 2,REP-053,19822.0,1
+OUT-1409,Iyer Provisions,Modern Trade,B,Delhi,North 1,REP-001,14767.0,0
+OUT-1410,Das Mart,General Trade,C,Jaipur,North 2,REP-017,4562.0,4
+OUT-1411,Khan Traders,General Trade,C,Guwahati,East 1,REP-004,4850.0,16
+OUT-1412,Gupta General Store,Pharmacy,C,Ahmedabad,West 3,REP-034,5400.0,2
+OUT-1413,Das Medicals,General Trade,B,Kolkata,East 1,REP-016,16740.0,6
+OUT-1414,Reddy Mart,Convenience,B,Kolkata,East 3,REP-048,17167.0,2
+OUT-1415,Gupta Mart,Modern Trade,B,Bhubaneswar,East 3,REP-036,17966.0,5
+OUT-1416,Mehta Medicals,General Trade,A,Patna,East 3,REP-048,53147.0,0
+OUT-1417,Mehta Kirana,General Trade,B,Hyderabad,South 1,REP-039,22855.0,1
+OUT-1418,Mehta General Store,General Trade,B,Chennai,South 1,REP-027,9452.0,5
+OUT-1419,Reddy General Store,Convenience,A,Patna,East 1,REP-052,58218.0,0
+OUT-1420,Gupta Kirana,Pharmacy,C,Lucknow,North 2,REP-029,3955.0,0
+OUT-1421,Reddy Traders,General Trade,A,Delhi,North 3,REP-057,50911.0,0
+OUT-1422,Gupta Mart,Modern Trade,A,Patna,East 3,REP-060,43560.0,0
+OUT-1423,Nair Supermarket,Pharmacy,C,Patna,East 3,REP-036,6927.0,4
+OUT-1424,Reddy Mart,Pharmacy,A,Chandigarh,North 2,REP-041,36240.0,1
+OUT-1425,Iyer Supermarket,General Trade,C,Bhubaneswar,East 1,REP-016,6289.0,21
+OUT-1426,Reddy Traders,General Trade,C,Jaipur,North 1,REP-049,5074.0,2
+OUT-1427,Nair Mart,General Trade,A,Jaipur,North 2,REP-041,39660.0,2
+OUT-1428,Nair General Store,General Trade,C,Bengaluru,South 2,REP-055,6894.0,7
+OUT-1429,Patel Mart,General Trade,C,Delhi,North 2,REP-017,7303.0,11
+OUT-1430,Reddy General Store,General Trade,C,Patna,East 3,REP-048,5875.0,5
+OUT-1431,Mehta Traders,General Trade,C,Chandigarh,North 2,REP-029,6558.0,5
+OUT-1432,Singh Provisions,General Trade,C,Kolkata,East 3,REP-012,7312.0,1
+OUT-1433,Singh Medicals,General Trade,C,Bengaluru,South 3,REP-011,4541.0,1
+OUT-1434,Patel Traders,Convenience,B,Ahmedabad,West 3,REP-034,22892.0,4
+OUT-1435,Das Supermarket,Modern Trade,C,Kolkata,East 2,REP-020,5426.0,0
+OUT-1436,Sharma Kirana,General Trade,C,Kochi,South 2,REP-007,7573.0,1
+OUT-1437,Singh Medicals,Modern Trade,C,Surat,West 1,REP-026,5828.0,5
+OUT-1438,Iyer Mart,General Trade,C,Guwahati,East 1,REP-040,4607.0,4
+OUT-1439,Iyer Traders,Convenience,B,Patna,East 2,REP-020,23092.0,60
+OUT-1440,Iyer Traders,Modern Trade,C,Pune,West 3,REP-058,6470.0,1
+OUT-1441,Khan General Store,General Trade,C,Chennai,South 3,REP-047,5753.0,4
+OUT-1442,Reddy Traders,Convenience,A,Bengaluru,South 2,REP-031,69328.0,1
+OUT-1443,Patel Provisions,Convenience,B,Lucknow,North 3,REP-057,23211.0,1
+OUT-1444,Gupta Provisions,Convenience,B,Surat,West 1,REP-026,14718.0,1
+OUT-1445,Nair General Store,General Trade,B,Jaipur,North 3,REP-009,20612.0,6
+OUT-1446,Mehta Kirana,General Trade,C,Bengaluru,South 1,REP-003,7820.0,0
+OUT-1447,Gupta Traders,Pharmacy,A,Lucknow,North 3,REP-057,25694.0,1
+OUT-1448,Khan Kirana,General Trade,B,Pune,West 3,REP-058,16055.0,11
+OUT-1449,Reddy Kirana,Pharmacy,C,Chandigarh,North 3,REP-045,5359.0,2
+OUT-1450,Das General Store,Pharmacy,C,Kochi,South 2,REP-007,7719.0,5
+OUT-1451,Patel Medicals,General Trade,C,Surat,West 2,REP-018,5454.0,20
+OUT-1452,Nair Provisions,General Trade,C,Chennai,South 1,REP-003,6972.0,6
+OUT-1453,Gupta Supermarket,General Trade,C,Guwahati,East 1,REP-004,6612.0,1
+OUT-1454,Singh Supermarket,General Trade,C,Bengaluru,South 1,REP-015,6442.0,1
+OUT-1455,Iyer Kirana,Pharmacy,C,Chennai,South 3,REP-035,5396.0,0
+OUT-1456,Reddy Traders,Pharmacy,B,Patna,East 1,REP-004,20050.0,4
+OUT-1457,Gupta Mart,General Trade,C,Guwahati,East 3,REP-060,5313.0,1
+OUT-1458,Gupta Supermarket,Pharmacy,A,Bhubaneswar,East 1,REP-028,43575.0,1
+OUT-1459,Iyer General Store,Modern Trade,B,Patna,East 1,REP-016,17906.0,1
+OUT-1460,Das Medicals,Pharmacy,B,Bengaluru,South 2,REP-031,16677.0,1
+OUT-1461,Das Traders,General Trade,C,Guwahati,East 3,REP-048,7021.0,11
+OUT-1462,Gupta Traders,Pharmacy,C,Hyderabad,South 2,REP-019,5689.0,1
+OUT-1463,Iyer Traders,Pharmacy,A,Kochi,South 1,REP-003,63349.0,0
+OUT-1464,Reddy Provisions,General Trade,C,Patna,East 1,REP-004,4293.0,2
+OUT-1465,Gupta Mart,Modern Trade,B,Kolkata,East 1,REP-052,20910.0,1
+OUT-1466,Singh Mart,Convenience,C,Chennai,South 2,REP-007,6711.0,6
+OUT-1467,Nair Mart,General Trade,C,Hyderabad,South 1,REP-039,6615.0,13
+OUT-1468,Iyer Supermarket,Pharmacy,C,Kolkata,East 3,REP-024,3592.0,4
+OUT-1469,Mehta Provisions,Convenience,C,Bengaluru,South 3,REP-047,5534.0,6
+OUT-1470,Singh Mart,Convenience,B,Guwahati,East 1,REP-004,21193.0,0
+OUT-1471,Sharma Provisions,General Trade,B,Ahmedabad,West 2,REP-054,19538.0,68
+OUT-1472,Mehta Mart,Modern Trade,C,Pune,West 2,REP-042,3898.0,1
+OUT-1473,Sharma Supermarket,Convenience,C,Hyderabad,South 1,REP-027,6726.0,15
+OUT-1474,Sharma General Store,Modern Trade,B,Lucknow,North 1,REP-013,9123.0,0
+OUT-1475,Mehta Kirana,General Trade,B,Bengaluru,South 3,REP-059,22651.0,4
+OUT-1476,Patel Supermarket,General Trade,A,Chennai,South 2,REP-019,58067.0,4
+OUT-1477,Iyer Kirana,Pharmacy,A,Pune,West 2,REP-030,42945.0,0
+OUT-1478,Singh Mart,General Trade,A,Kolkata,East 3,REP-024,65298.0,0
+OUT-1479,Gupta Medicals,General Trade,B,Mumbai,West 1,REP-014,20426.0,4
+OUT-1480,Khan Provisions,General Trade,C,Jaipur,North 1,REP-025,5310.0,5
+OUT-1481,Khan Kirana,Pharmacy,B,Ahmedabad,West 3,REP-010,21381.0,7
+OUT-1482,Singh Supermarket,General Trade,B,Lucknow,North 1,REP-001,20073.0,1
+OUT-1483,Singh Medicals,Convenience,A,Surat,West 2,REP-018,39233.0,2
+OUT-1484,Das Mart,Pharmacy,B,Chennai,South 2,REP-007,14454.0,6
+OUT-1485,Iyer Provisions,Convenience,C,Lucknow,North 1,REP-025,4945.0,5
+OUT-1486,Gupta Mart,Convenience,B,Guwahati,East 1,REP-052,21027.0,0
+OUT-1487,Iyer Medicals,General Trade,C,Ahmedabad,West 3,REP-010,6025.0,4
+OUT-1488,Patel General Store,Pharmacy,C,Chandigarh,North 1,REP-001,5583.0,19
+OUT-1489,Das Traders,General Trade,A,Bengaluru,South 2,REP-007,35842.0,58
+OUT-1490,Das Kirana,Convenience,C,Kochi,South 2,REP-031,9099.0,4
+OUT-1491,Mehta Kirana,General Trade,C,Lucknow,North 2,REP-017,5558.0,2
+OUT-1492,Singh Medicals,Pharmacy,B,Ahmedabad,West 2,REP-030,14613.0,2
+OUT-1493,Reddy Provisions,Convenience,A,Mumbai,West 1,REP-002,50663.0,4
+OUT-1494,Das General Store,General Trade,C,Bhubaneswar,East 2,REP-020,6194.0,5
+OUT-1495,Sharma Mart,Convenience,C,Chandigarh,North 1,REP-025,6851.0,1
+OUT-1496,Sharma Traders,General Trade,B,Ahmedabad,West 1,REP-026,21791.0,1
+OUT-1497,Mehta Kirana,General Trade,C,Mumbai,West 3,REP-034,4563.0,13
+OUT-1498,Sharma Kirana,General Trade,B,Chennai,South 3,REP-047,16873.0,4
+OUT-1499,Reddy Medicals,General Trade,C,Lucknow,North 2,REP-029,6845.0,1
+OUT-1500,Sharma Medicals,Modern Trade,B,Kochi,South 1,REP-051,20434.0,4
+OUT-1501,Khan General Store,Convenience,A,Patna,East 2,REP-032,66285.0,0
+OUT-1502,Gupta Kirana,General Trade,C,Guwahati,East 1,REP-016,7993.0,4
+OUT-1503,Das Supermarket,Modern Trade,C,Surat,West 1,REP-014,6434.0,0
+OUT-1504,Das Kirana,Convenience,C,Patna,East 2,REP-020,2861.0,0
+OUT-1505,Sharma General Store,Pharmacy,B,Kolkata,East 3,REP-036,20184.0,4
+OUT-1506,Khan Traders,General Trade,A,Kochi,South 1,REP-015,60147.0,2
+OUT-1507,Das Traders,Convenience,C,Hyderabad,South 2,REP-055,8487.0,2
+OUT-1508,Singh Mart,General Trade,C,Chandigarh,North 2,REP-029,6108.0,6
+OUT-1509,Iyer Medicals,Modern Trade,B,Guwahati,East 1,REP-052,19066.0,11
+OUT-1510,Patel Traders,Modern Trade,C,Jaipur,North 2,REP-041,2907.0,9
+OUT-1511,Das Supermarket,Pharmacy,B,Delhi,North 3,REP-021,23688.0,0
+OUT-1512,Das Kirana,General Trade,B,Surat,West 1,REP-014,17229.0,0
+OUT-1513,Singh Provisions,General Trade,A,Lucknow,North 3,REP-045,43971.0,5
+OUT-1514,Mehta General Store,Pharmacy,A,Kolkata,East 2,REP-020,51539.0,1
+OUT-1515,Nair General Store,General Trade,B,Hyderabad,South 1,REP-015,27076.0,1
+OUT-1516,Reddy Traders,General Trade,C,Kolkata,East 2,REP-056,6440.0,4
+OUT-1517,Gupta Kirana,Pharmacy,A,Jaipur,North 2,REP-029,42914.0,1
+OUT-1518,Singh Traders,Pharmacy,B,Chennai,South 1,REP-003,21082.0,0
+OUT-1519,Gupta Medicals,General Trade,B,Pune,West 2,REP-030,17900.0,6
+OUT-1520,Mehta Mart,General Trade,B,Bhubaneswar,East 1,REP-028,21360.0,0
+OUT-1521,Das General Store,Convenience,A,Guwahati,East 1,REP-052,47403.0,0
+OUT-1522,Nair Traders,General Trade,C,Chennai,South 2,REP-043,4058.0,6
+OUT-1523,Mehta Medicals,General Trade,B,Bhubaneswar,East 3,REP-012,19809.0,4
+OUT-1524,Mehta Medicals,General Trade,C,Surat,West 3,REP-010,6051.0,2
+OUT-1525,Khan Medicals,General Trade,C,Lucknow,North 1,REP-037,6430.0,11
+OUT-1526,Sharma Kirana,Convenience,A,Chennai,South 1,REP-003,40188.0,4
+OUT-1527,Sharma Medicals,General Trade,C,Bhubaneswar,East 2,REP-020,3559.0,5
+OUT-1528,Mehta Supermarket,General Trade,C,Jaipur,North 3,REP-009,5789.0,6
+OUT-1529,Singh Mart,Modern Trade,C,Pune,West 1,REP-002,4641.0,5
+OUT-1530,Mehta Kirana,General Trade,C,Bhubaneswar,East 2,REP-056,7745.0,1
+OUT-1531,Gupta Medicals,General Trade,C,Pune,West 2,REP-006,7710.0,5
+OUT-1532,Gupta Traders,Convenience,C,Delhi,North 1,REP-001,7435.0,1
+OUT-1533,Gupta Supermarket,Pharmacy,C,Guwahati,East 2,REP-056,5163.0,0
+OUT-1534,Singh Kirana,General Trade,A,Bhubaneswar,East 3,REP-012,55506.0,1
+OUT-1535,Nair Kirana,General Trade,C,Delhi,North 1,REP-049,4273.0,0
+OUT-1536,Patel General Store,General Trade,C,Pune,West 1,REP-002,6241.0,12
+OUT-1537,Sharma Supermarket,General Trade,C,Pune,West 3,REP-010,6481.0,4
+OUT-1538,Khan Provisions,Modern Trade,B,Kochi,South 2,REP-007,25663.0,0
+OUT-1539,Das General Store,Modern Trade,A,Kochi,South 2,REP-043,59207.0,6
+OUT-1540,Patel Traders,Pharmacy,B,Ahmedabad,West 1,REP-038,19082.0,0
+OUT-1541,Mehta General Store,Convenience,B,Jaipur,North 2,REP-029,14647.0,7
+OUT-1542,Patel General Store,General Trade,B,Bengaluru,South 1,REP-015,15735.0,4
+OUT-1543,Khan Provisions,Convenience,B,Mumbai,West 2,REP-006,24972.0,15
+OUT-1544,Gupta Kirana,Modern Trade,B,Bengaluru,South 3,REP-035,21339.0,5
+OUT-1545,Patel Traders,General Trade,B,Surat,West 1,REP-014,22905.0,4
+OUT-1546,Nair Mart,Convenience,B,Kolkata,East 3,REP-036,12790.0,0
+OUT-1547,Das Provisions,General Trade,C,Ahmedabad,West 2,REP-042,4512.0,1
+OUT-1548,Reddy Mart,Modern Trade,A,Kochi,South 1,REP-051,55122.0,0
+OUT-1549,Patel Medicals,Pharmacy,B,Pune,West 2,REP-030,14667.0,6
+OUT-1550,Khan Mart,General Trade,B,Lucknow,North 1,REP-001,21066.0,4
+OUT-1551,Reddy General Store,Convenience,B,Chandigarh,North 2,REP-017,15936.0,0
+OUT-1552,Khan Supermarket,General Trade,B,Patna,East 1,REP-052,21608.0,5
+OUT-1553,Reddy General Store,Convenience,C,Patna,East 2,REP-032,7027.0,12
+OUT-1554,Khan Supermarket,General Trade,C,Mumbai,West 1,REP-038,6066.0,5
+OUT-1555,Iyer Mart,General Trade,B,Patna,East 1,REP-028,18431.0,2
+OUT-1556,Patel Medicals,General Trade,C,Surat,West 3,REP-010,3716.0,4
+OUT-1557,Singh Medicals,Convenience,A,Ahmedabad,West 2,REP-054,65894.0,0
+OUT-1558,Nair Medicals,General Trade,B,Bengaluru,South 3,REP-047,22189.0,2
+OUT-1559,Iyer General Store,Convenience,B,Bhubaneswar,East 3,REP-060,22355.0,1
+OUT-1560,Iyer Supermarket,General Trade,A,Bhubaneswar,East 1,REP-052,25903.0,4
+OUT-1561,Gupta Provisions,General Trade,C,Mumbai,West 2,REP-018,3829.0,2
+OUT-1562,Mehta Mart,General Trade,C,Guwahati,East 1,REP-016,5396.0,5
+OUT-1563,Sharma Mart,General Trade,C,Bengaluru,South 1,REP-015,6085.0,5
+OUT-1564,Singh Medicals,Convenience,B,Patna,East 2,REP-056,27205.0,1
+OUT-1565,Sharma Mart,General Trade,C,Pune,West 3,REP-034,6424.0,5
+OUT-1566,Nair Supermarket,Pharmacy,B,Bhubaneswar,East 1,REP-028,17587.0,1
+OUT-1567,Mehta Medicals,Modern Trade,A,Kochi,South 3,REP-059,67784.0,1
+OUT-1568,Reddy General Store,Modern Trade,A,Delhi,North 1,REP-037,54380.0,0
+OUT-1569,Gupta Kirana,Modern Trade,C,Chennai,South 2,REP-055,5974.0,6
+OUT-1570,Mehta Supermarket,Convenience,C,Patna,East 3,REP-060,4732.0,8
+OUT-1571,Nair Traders,Pharmacy,A,Chandigarh,North 2,REP-005,49177.0,21
+OUT-1572,Sharma Provisions,Modern Trade,C,Surat,West 3,REP-022,6093.0,7
+OUT-1573,Singh Mart,Modern Trade,C,Jaipur,North 3,REP-045,4412.0,1
+OUT-1574,Das Traders,Modern Trade,C,Lucknow,North 1,REP-049,7895.0,2
+OUT-1575,Khan Medicals,General Trade,B,Chandigarh,North 3,REP-009,19694.0,1
+OUT-1576,Singh Mart,Modern Trade,C,Guwahati,East 2,REP-020,7715.0,0
+OUT-1577,Iyer Medicals,General Trade,C,Lucknow,North 3,REP-033,4615.0,9
+OUT-1578,Mehta General Store,Pharmacy,C,Bhubaneswar,East 3,REP-048,7490.0,9
+OUT-1579,Singh Kirana,Convenience,A,Kochi,South 2,REP-007,45954.0,4
+OUT-1580,Nair General Store,Convenience,C,Delhi,North 1,REP-037,5676.0,5
+OUT-1581,Gupta Supermarket,Convenience,A,Pune,West 2,REP-018,40944.0,1
+OUT-1582,Gupta Medicals,Modern Trade,C,Lucknow,North 1,REP-013,4165.0,2
+OUT-1583,Mehta Medicals,Pharmacy,A,Bengaluru,South 2,REP-031,49451.0,2
+OUT-1584,Das Provisions,General Trade,A,Lucknow,North 1,REP-025,63643.0,2
+OUT-1585,Gupta Supermarket,General Trade,A,Kochi,South 1,REP-039,47489.0,5
+OUT-1586,Nair Medicals,General Trade,B,Kolkata,East 2,REP-020,10791.0,5
+OUT-1587,Sharma Kirana,General Trade,B,Surat,West 1,REP-050,18691.0,5
+OUT-1588,Khan Provisions,Convenience,A,Jaipur,North 2,REP-005,47259.0,2
+OUT-1589,Sharma Supermarket,Convenience,B,Guwahati,East 1,REP-052,20512.0,6
+OUT-1590,Patel Provisions,Modern Trade,B,Ahmedabad,West 1,REP-002,19772.0,5
+OUT-1591,Singh Mart,General Trade,C,Delhi,North 3,REP-045,4072.0,13
+OUT-1592,Singh Kirana,Pharmacy,C,Lucknow,North 3,REP-021,3853.0,4
+OUT-1593,Mehta Medicals,General Trade,C,Kolkata,East 3,REP-024,5864.0,0
+OUT-1594,Sharma Mart,Convenience,A,Mumbai,West 1,REP-002,56968.0,1
+OUT-1595,Khan Mart,Convenience,B,Kochi,South 2,REP-043,23324.0,0
+OUT-1596,Patel Provisions,General Trade,C,Surat,West 3,REP-010,6348.0,4
+OUT-1597,Singh Kirana,General Trade,A,Kolkata,East 1,REP-040,33526.0,2
+OUT-1598,Reddy Mart,General Trade,B,Patna,East 2,REP-044,19036.0,0
+OUT-1599,Mehta Traders,General Trade,C,Bengaluru,South 1,REP-051,3856.0,13
+OUT-1600,Sharma Traders,General Trade,C,Chennai,South 2,REP-043,6108.0,1
+OUT-1601,Khan Supermarket,General Trade,B,Kochi,South 2,REP-019,14567.0,5
+OUT-1602,Iyer Provisions,General Trade,C,Delhi,North 3,REP-045,4269.0,2
+OUT-1603,Gupta Provisions,General Trade,B,Ahmedabad,West 1,REP-050,23017.0,0
+OUT-1604,Iyer Supermarket,General Trade,C,Guwahati,East 2,REP-020,5618.0,2
+OUT-1605,Iyer Supermarket,Pharmacy,A,Guwahati,East 2,REP-008,38126.0,1
+OUT-1606,Das Traders,General Trade,A,Pune,West 2,REP-054,47402.0,4
+OUT-1607,Mehta Provisions,Convenience,C,Lucknow,North 3,REP-009,6081.0,12
+OUT-1608,Singh Mart,General Trade,B,Patna,East 3,REP-036,17863.0,4
+OUT-1609,Das General Store,General Trade,C,Bengaluru,South 1,REP-015,7239.0,9
+OUT-1610,Patel Provisions,General Trade,B,Kolkata,East 2,REP-008,20423.0,13
+OUT-1611,Patel Provisions,Pharmacy,C,Hyderabad,South 3,REP-047,4988.0,9
+OUT-1612,Khan Traders,General Trade,C,Lucknow,North 3,REP-009,3724.0,6
+OUT-1613,Sharma Supermarket,Modern Trade,B,Lucknow,North 2,REP-041,19308.0,0
+OUT-1614,Das Kirana,General Trade,C,Surat,West 2,REP-042,4883.0,4
+OUT-1615,Singh Traders,Convenience,B,Bhubaneswar,East 1,REP-004,19417.0,19
+OUT-1616,Nair Traders,General Trade,B,Chennai,South 3,REP-011,18612.0,0
+OUT-1617,Nair General Store,General Trade,A,Patna,East 3,REP-048,28154.0,5
+OUT-1618,Khan Kirana,Convenience,C,Kochi,South 2,REP-031,5353.0,1
+OUT-1619,Nair Kirana,General Trade,C,Guwahati,East 2,REP-008,5089.0,6
+OUT-1620,Gupta Kirana,General Trade,C,Kolkata,East 3,REP-060,5616.0,13
+OUT-1621,Reddy Mart,Convenience,C,Guwahati,East 1,REP-016,6145.0,11
+OUT-1622,Gupta Provisions,General Trade,C,Delhi,North 1,REP-001,7368.0,0
+OUT-1623,Das Supermarket,General Trade,B,Guwahati,East 2,REP-056,20878.0,5
+OUT-1624,Mehta Provisions,General Trade,C,Lucknow,North 1,REP-001,7798.0,13
+OUT-1625,Nair General Store,General Trade,C,Ahmedabad,West 3,REP-034,5845.0,2
+OUT-1626,Gupta Supermarket,Convenience,B,Bhubaneswar,East 3,REP-060,25890.0,1
+OUT-1627,Reddy Medicals,Modern Trade,C,Hyderabad,South 3,REP-035,7596.0,8
+OUT-1628,Singh Traders,Modern Trade,B,Patna,East 3,REP-036,11038.0,0
+OUT-1629,Khan Mart,General Trade,B,Guwahati,East 3,REP-024,21869.0,0
+OUT-1630,Patel Mart,Pharmacy,B,Bhubaneswar,East 2,REP-008,20802.0,2
+OUT-1631,Iyer Mart,Pharmacy,A,Hyderabad,South 3,REP-035,60011.0,0
+OUT-1632,Patel Kirana,General Trade,B,Pune,West 2,REP-054,18655.0,4
+OUT-1633,Gupta Traders,Convenience,C,Mumbai,West 2,REP-006,4671.0,2
+OUT-1634,Nair Mart,Modern Trade,C,Lucknow,North 2,REP-053,5686.0,6
+OUT-1635,Das Supermarket,Pharmacy,B,Jaipur,North 1,REP-025,11608.0,2
+OUT-1636,Mehta General Store,General Trade,B,Lucknow,North 3,REP-033,18821.0,48
+OUT-1637,Singh Traders,General Trade,B,Pune,West 3,REP-010,19262.0,0
+OUT-1638,Sharma Supermarket,Pharmacy,B,Surat,West 1,REP-038,19061.0,0
+OUT-1639,Patel Mart,Pharmacy,C,Hyderabad,South 3,REP-011,5759.0,2
+OUT-1640,Mehta Mart,General Trade,A,Jaipur,North 2,REP-017,51117.0,1
+OUT-1641,Nair Mart,General Trade,C,Bhubaneswar,East 2,REP-044,5784.0,5
+OUT-1642,Patel General Store,Convenience,C,Bhubaneswar,East 1,REP-004,8005.0,4
+OUT-1643,Sharma Kirana,General Trade,C,Hyderabad,South 1,REP-027,7652.0,5
+OUT-1644,Khan General Store,General Trade,C,Bhubaneswar,East 3,REP-036,5275.0,0
+OUT-1645,Iyer Mart,Modern Trade,B,Guwahati,East 2,REP-008,23259.0,4
+OUT-1646,Nair Provisions,General Trade,C,Pune,West 2,REP-018,3244.0,5
+OUT-1647,Gupta Provisions,General Trade,C,Jaipur,North 3,REP-021,7010.0,19
+OUT-1648,Patel Mart,General Trade,C,Patna,East 1,REP-040,7793.0,6
+OUT-1649,Das Traders,Convenience,C,Hyderabad,South 3,REP-059,6763.0,4
+OUT-1650,Singh Kirana,General Trade,C,Kochi,South 1,REP-051,8028.0,0
+OUT-1651,Reddy Medicals,Pharmacy,C,Bhubaneswar,East 3,REP-012,6077.0,6
+OUT-1652,Nair Medicals,Convenience,B,Mumbai,West 1,REP-002,15967.0,1
+OUT-1653,Khan General Store,Pharmacy,C,Guwahati,East 1,REP-004,5569.0,16
+OUT-1654,Gupta General Store,Modern Trade,C,Guwahati,East 3,REP-036,5214.0,13
+OUT-1655,Gupta Traders,Modern Trade,B,Pune,West 3,REP-010,14094.0,2
+OUT-1656,Das Provisions,General Trade,C,Mumbai,West 1,REP-014,6257.0,8
+OUT-1657,Khan Provisions,Modern Trade,B,Chennai,South 1,REP-051,20684.0,2
+OUT-1658,Patel General Store,Convenience,C,Chandigarh,North 2,REP-053,5183.0,8
+OUT-1659,Mehta Supermarket,Pharmacy,A,Hyderabad,South 1,REP-051,42298.0,4
+OUT-1660,Khan Mart,General Trade,B,Kolkata,East 1,REP-016,19591.0,1
+OUT-1661,Reddy Supermarket,General Trade,C,Mumbai,West 1,REP-038,6557.0,1
+OUT-1662,Singh Provisions,Convenience,B,Chandigarh,North 1,REP-037,15966.0,0
+OUT-1663,Khan Kirana,General Trade,B,Patna,East 3,REP-012,21043.0,2
+OUT-1664,Patel General Store,Convenience,B,Ahmedabad,West 3,REP-034,18981.0,1
+OUT-1665,Khan Supermarket,General Trade,B,Patna,East 2,REP-032,20698.0,2
+OUT-1666,Patel Traders,Pharmacy,C,Kolkata,East 3,REP-024,4289.0,1
+OUT-1667,Gupta Medicals,Convenience,C,Pune,West 3,REP-046,4555.0,4
+OUT-1668,Mehta Traders,General Trade,A,Lucknow,North 2,REP-041,60896.0,53
+OUT-1669,Iyer Provisions,General Trade,C,Patna,East 2,REP-032,7209.0,2
+OUT-1670,Gupta Mart,Convenience,B,Bhubaneswar,East 2,REP-044,28302.0,1
+OUT-1671,Gupta Mart,General Trade,C,Pune,West 3,REP-046,6179.0,6
+OUT-1672,Khan Traders,General Trade,B,Chennai,South 3,REP-035,23847.0,2
+OUT-1673,Mehta General Store,Modern Trade,B,Jaipur,North 2,REP-017,12296.0,1
+OUT-1674,Singh Mart,General Trade,B,Pune,West 3,REP-046,26904.0,2
+OUT-1675,Sharma Supermarket,Pharmacy,C,Patna,East 2,REP-044,6939.0,9
+OUT-1676,Gupta General Store,General Trade,B,Bhubaneswar,East 3,REP-060,10602.0,6
+OUT-1677,Sharma General Store,General Trade,B,Jaipur,North 3,REP-009,16393.0,58
+OUT-1678,Khan General Store,Convenience,C,Ahmedabad,West 1,REP-026,5569.0,12
+OUT-1679,Das General Store,General Trade,C,Patna,East 2,REP-056,6028.0,4
+OUT-1680,Das Provisions,General Trade,B,Chennai,South 2,REP-031,21645.0,4
+OUT-1681,Das Provisions,Pharmacy,C,Chandigarh,North 3,REP-057,5070.0,11
+OUT-1682,Mehta General Store,Convenience,C,Chandigarh,North 1,REP-001,3229.0,5
+OUT-1683,Iyer Medicals,Modern Trade,A,Chennai,South 1,REP-003,48435.0,0
+OUT-1684,Iyer Medicals,Convenience,C,Patna,East 3,REP-048,8108.0,5
+OUT-1685,Das Provisions,General Trade,B,Ahmedabad,West 3,REP-022,20557.0,6
+OUT-1686,Iyer Traders,General Trade,C,Kolkata,East 2,REP-032,6276.0,55
+OUT-1687,Sharma Mart,Convenience,B,Pune,West 1,REP-026,21901.0,4
+OUT-1688,Reddy Kirana,Convenience,C,Lucknow,North 1,REP-025,7301.0,6
+OUT-1689,Khan Medicals,Modern Trade,B,Lucknow,North 3,REP-057,16900.0,4
+OUT-1690,Das Medicals,General Trade,B,Mumbai,West 2,REP-006,15638.0,37
+OUT-1691,Sharma Kirana,General Trade,C,Bengaluru,South 3,REP-047,8442.0,2
+OUT-1692,Das Mart,General Trade,B,Pune,West 2,REP-054,18814.0,5
+OUT-1693,Khan Medicals,Convenience,C,Kolkata,East 1,REP-040,6537.0,4
+OUT-1694,Das Medicals,Convenience,C,Bhubaneswar,East 3,REP-024,7372.0,12
+OUT-1695,Khan Traders,General Trade,C,Surat,West 3,REP-010,5142.0,4
+OUT-1696,Iyer Supermarket,General Trade,A,Jaipur,North 2,REP-041,61272.0,0
+OUT-1697,Khan Traders,General Trade,C,Jaipur,North 2,REP-029,5118.0,0
+OUT-1698,Patel Kirana,General Trade,A,Delhi,North 3,REP-009,49254.0,0
+OUT-1699,Reddy Kirana,Pharmacy,B,Mumbai,West 3,REP-022,23238.0,2
+OUT-1700,Singh Medicals,Modern Trade,C,Ahmedabad,West 3,REP-058,7093.0,4
+OUT-1701,Khan Provisions,General Trade,C,Patna,East 1,REP-016,4915.0,0
+OUT-1702,Mehta Kirana,Modern Trade,B,Hyderabad,South 3,REP-011,15764.0,0
+OUT-1703,Das Traders,Convenience,B,Lucknow,North 2,REP-041,21182.0,0
+OUT-1704,Singh Traders,General Trade,C,Guwahati,East 3,REP-012,1708.0,0
+OUT-1705,Reddy General Store,General Trade,C,Kolkata,East 2,REP-056,6156.0,6
+OUT-1706,Singh Traders,General Trade,B,Bhubaneswar,East 1,REP-052,12297.0,0
+OUT-1707,Singh General Store,General Trade,C,Guwahati,East 3,REP-060,6382.0,4
+OUT-1708,Nair Traders,Modern Trade,B,Chennai,South 2,REP-055,21253.0,0
+OUT-1709,Khan Mart,Modern Trade,A,Bengaluru,South 1,REP-015,71033.0,4
+OUT-1710,Sharma Traders,General Trade,C,Jaipur,North 1,REP-013,5594.0,6
+OUT-1711,Khan Medicals,General Trade,C,Chandigarh,North 3,REP-021,5661.0,0
+OUT-1712,Khan Mart,Convenience,B,Chandigarh,North 2,REP-029,13608.0,0
+OUT-1713,Reddy Supermarket,General Trade,B,Jaipur,North 2,REP-053,15387.0,1
+OUT-1714,Khan Provisions,Modern Trade,A,Delhi,North 3,REP-045,28434.0,0
+OUT-1715,Khan Kirana,Modern Trade,C,Chennai,South 1,REP-039,6000.0,4
+OUT-1716,Sharma Mart,Convenience,B,Delhi,North 2,REP-053,21620.0,19
+OUT-1717,Singh Traders,Pharmacy,B,Hyderabad,South 1,REP-039,22245.0,11
+OUT-1718,Khan Supermarket,Convenience,C,Kochi,South 3,REP-023,6170.0,0
+OUT-1719,Sharma Kirana,Modern Trade,A,Delhi,North 1,REP-025,66551.0,0
+OUT-1720,Iyer Mart,General Trade,C,Bhubaneswar,East 2,REP-032,6147.0,6
+OUT-1721,Khan Kirana,General Trade,B,Surat,West 2,REP-006,24503.0,4
+OUT-1722,Patel Kirana,General Trade,C,Lucknow,North 3,REP-045,4082.0,0
+OUT-1723,Das Mart,General Trade,B,Guwahati,East 1,REP-040,18077.0,0
+OUT-1724,Mehta Supermarket,General Trade,B,Kolkata,East 2,REP-044,15521.0,1
+OUT-1725,Das General Store,General Trade,A,Lucknow,North 3,REP-033,51042.0,0
+OUT-1726,Das Traders,General Trade,C,Bengaluru,South 3,REP-047,4730.0,0
+OUT-1727,Das Medicals,General Trade,C,Chandigarh,North 3,REP-057,5371.0,2
+OUT-1728,Reddy Mart,General Trade,A,Chennai,South 3,REP-035,43776.0,1
+OUT-1729,Sharma Supermarket,Pharmacy,B,Bengaluru,South 1,REP-027,19998.0,16
+OUT-1730,Das Traders,Modern Trade,C,Hyderabad,South 2,REP-007,5257.0,0
+OUT-1731,Patel Traders,Convenience,A,Hyderabad,South 3,REP-047,55043.0,2
+OUT-1732,Khan Provisions,Modern Trade,B,Chennai,South 2,REP-055,11862.0,4
+OUT-1733,Patel Traders,Convenience,C,Pune,West 2,REP-042,6445.0,6
+OUT-1734,Gupta Mart,Pharmacy,B,Kolkata,East 1,REP-052,20409.0,18
+OUT-1735,Singh Provisions,General Trade,B,Guwahati,East 1,REP-052,23074.0,6
+OUT-1736,Iyer Medicals,Convenience,B,Kolkata,East 3,REP-048,18425.0,4
+OUT-1737,Das Supermarket,General Trade,A,Kochi,South 2,REP-031,56252.0,0
+OUT-1738,Patel General Store,Modern Trade,B,Ahmedabad,West 2,REP-006,15948.0,0
+OUT-1739,Iyer General Store,Pharmacy,C,Lucknow,North 1,REP-001,6732.0,1
+OUT-1740,Reddy Supermarket,General Trade,C,Lucknow,North 1,REP-013,4347.0,6
+OUT-1741,Nair Mart,Modern Trade,A,Surat,West 1,REP-026,47454.0,1
+OUT-1742,Sharma Mart,General Trade,C,Delhi,North 3,REP-045,8482.0,2
+OUT-1743,Khan Medicals,General Trade,A,Guwahati,East 1,REP-028,62465.0,5
+OUT-1744,Iyer Traders,General Trade,C,Mumbai,West 1,REP-002,6205.0,13
+OUT-1745,Nair General Store,General Trade,B,Chandigarh,North 1,REP-013,24059.0,5
+OUT-1746,Reddy General Store,General Trade,C,Chennai,South 3,REP-059,8489.0,1
+OUT-1747,Nair Kirana,Modern Trade,B,Guwahati,East 3,REP-060,20963.0,1
+OUT-1748,Nair Supermarket,Modern Trade,A,Bengaluru,South 3,REP-023,55338.0,0
+OUT-1749,Iyer Provisions,General Trade,B,Jaipur,North 1,REP-049,18770.0,4
+OUT-1750,Mehta General Store,Pharmacy,A,Bhubaneswar,East 2,REP-044,59081.0,0
+OUT-1751,Mehta Mart,General Trade,B,Guwahati,East 2,REP-056,18366.0,5
+OUT-1752,Reddy Kirana,General Trade,C,Mumbai,West 2,REP-054,7009.0,63
+OUT-1753,Sharma Traders,Pharmacy,C,Mumbai,West 1,REP-038,5805.0,4
+OUT-1754,Patel Kirana,Convenience,A,Bhubaneswar,East 3,REP-024,28111.0,2
+OUT-1755,Singh Provisions,General Trade,C,Mumbai,West 1,REP-038,5372.0,9
+OUT-1756,Reddy Kirana,General Trade,C,Guwahati,East 2,REP-020,6169.0,1
+OUT-1757,Khan Traders,Pharmacy,C,Delhi,North 3,REP-021,7098.0,11
+OUT-1758,Gupta Provisions,Convenience,C,Chandigarh,North 1,REP-037,4935.0,2
+OUT-1759,Khan General Store,General Trade,C,Hyderabad,South 3,REP-035,4836.0,2
+OUT-1760,Mehta Provisions,General Trade,B,Kochi,South 3,REP-035,19712.0,7
+OUT-1761,Iyer Kirana,General Trade,C,Kolkata,East 3,REP-024,3713.0,6
+OUT-1762,Singh Kirana,Modern Trade,C,Jaipur,North 1,REP-025,4023.0,5
+OUT-1763,Khan Provisions,Convenience,A,Jaipur,North 1,REP-001,39191.0,0
+OUT-1764,Singh Kirana,Pharmacy,B,Delhi,North 1,REP-037,25076.0,21
+OUT-1765,Patel Kirana,General Trade,A,Bengaluru,South 3,REP-035,50396.0,0
+OUT-1766,Gupta Mart,Modern Trade,C,Jaipur,North 3,REP-057,4792.0,13
+OUT-1767,Nair Supermarket,Convenience,B,Hyderabad,South 2,REP-031,15884.0,35
+OUT-1768,Sharma Kirana,General Trade,C,Lucknow,North 2,REP-029,4454.0,1
+OUT-1769,Das Mart,Convenience,C,Delhi,North 2,REP-005,5917.0,0
+OUT-1770,Nair Supermarket,General Trade,C,Kolkata,East 3,REP-012,5369.0,0
+OUT-1771,Sharma Supermarket,General Trade,A,Lucknow,North 3,REP-021,44208.0,1
+OUT-1772,Reddy Traders,Modern Trade,C,Chennai,South 3,REP-023,5849.0,1
+OUT-1773,Gupta General Store,General Trade,C,Surat,West 3,REP-022,6742.0,26
+OUT-1774,Sharma Kirana,Convenience,A,Patna,East 3,REP-024,64897.0,61
+OUT-1775,Mehta General Store,Modern Trade,C,Chennai,South 3,REP-047,6385.0,4
+OUT-1776,Das General Store,General Trade,B,Kolkata,East 2,REP-008,21881.0,5
+OUT-1777,Khan Kirana,General Trade,C,Patna,East 2,REP-020,7239.0,6
+OUT-1778,Khan General Store,Modern Trade,B,Ahmedabad,West 3,REP-010,18193.0,1
+OUT-1779,Das Mart,General Trade,B,Chennai,South 2,REP-019,21989.0,6
+OUT-1780,Das Supermarket,Pharmacy,A,Ahmedabad,West 2,REP-042,56327.0,6
+OUT-1781,Nair Traders,General Trade,A,Bengaluru,South 1,REP-003,54085.0,0
+OUT-1782,Gupta Provisions,General Trade,A,Lucknow,North 3,REP-021,53457.0,2
+OUT-1783,Mehta Provisions,Modern Trade,C,Pune,West 1,REP-002,7389.0,0
+OUT-1784,Reddy Supermarket,General Trade,B,Surat,West 3,REP-058,23730.0,0
+OUT-1785,Iyer Provisions,Pharmacy,B,Patna,East 2,REP-044,25366.0,0
+OUT-1786,Mehta Provisions,Modern Trade,C,Bengaluru,South 1,REP-015,6386.0,5
+OUT-1787,Patel Traders,General Trade,C,Bhubaneswar,East 3,REP-012,5457.0,1
+OUT-1788,Das Medicals,Pharmacy,B,Mumbai,West 2,REP-006,22129.0,1
+OUT-1789,Iyer General Store,Pharmacy,C,Chandigarh,North 2,REP-029,5971.0,0
+OUT-1790,Patel Supermarket,Convenience,B,Pune,West 3,REP-046,22246.0,1
+OUT-1791,Khan Kirana,General Trade,C,Guwahati,East 3,REP-036,4461.0,1
+OUT-1792,Singh General Store,General Trade,A,Lucknow,North 2,REP-053,55822.0,0
+OUT-1793,Das Mart,Pharmacy,C,Jaipur,North 3,REP-021,5708.0,0
+OUT-1794,Mehta Provisions,Modern Trade,C,Lucknow,North 2,REP-017,5130.0,2
+OUT-1795,Nair Traders,Modern Trade,C,Delhi,North 2,REP-029,4183.0,2
+OUT-1796,Reddy Mart,Modern Trade,C,Delhi,North 1,REP-013,3155.0,5
+OUT-1797,Mehta Mart,Pharmacy,C,Kochi,South 3,REP-059,3945.0,6
+OUT-1798,Khan Kirana,General Trade,B,Guwahati,East 3,REP-012,19004.0,0
+OUT-1799,Gupta Medicals,Modern Trade,C,Chandigarh,North 2,REP-029,6207.0,4
+OUT-1800,Nair Medicals,General Trade,C,Patna,East 2,REP-032,7023.0,8
+OUT-1801,Nair Kirana,General Trade,C,Patna,East 1,REP-004,4807.0,0
+OUT-1802,Patel Mart,Pharmacy,B,Jaipur,North 2,REP-029,23386.0,1
+OUT-1803,Khan General Store,General Trade,A,Bhubaneswar,East 1,REP-028,43662.0,0
+OUT-1804,Iyer Kirana,General Trade,C,Bhubaneswar,East 1,REP-016,4810.0,12
+OUT-1805,Khan Medicals,Convenience,A,Guwahati,East 2,REP-008,58778.0,4
+OUT-1806,Mehta Medicals,Pharmacy,B,Kochi,South 1,REP-003,19400.0,56
+OUT-1807,Sharma Traders,Modern Trade,B,Jaipur,North 1,REP-001,22729.0,4
+OUT-1808,Das Supermarket,Convenience,C,Lucknow,North 2,REP-029,4567.0,0
+OUT-1809,Khan Kirana,General Trade,A,Ahmedabad,West 2,REP-006,53943.0,1
+OUT-1810,Khan Supermarket,Pharmacy,A,Surat,West 3,REP-058,51764.0,0
+OUT-1811,Patel Kirana,General Trade,A,Chennai,South 1,REP-015,22925.0,1
+OUT-1812,Reddy Supermarket,General Trade,C,Kolkata,East 1,REP-040,6951.0,4
+OUT-1813,Singh Kirana,General Trade,C,Jaipur,North 2,REP-041,3590.0,0
+OUT-1814,Iyer Provisions,General Trade,A,Ahmedabad,West 2,REP-030,46250.0,2
+OUT-1815,Gupta Traders,Modern Trade,A,Surat,West 2,REP-054,53964.0,12
+OUT-1816,Sharma General Store,General Trade,C,Kochi,South 2,REP-007,6403.0,0
+OUT-1817,Reddy Mart,Modern Trade,B,Bengaluru,South 1,REP-015,24248.0,6
+OUT-1818,Das Kirana,General Trade,C,Bhubaneswar,East 1,REP-016,4781.0,5
+OUT-1819,Mehta Kirana,General Trade,B,Delhi,North 3,REP-009,13107.0,67
+OUT-1820,Mehta Kirana,Convenience,C,Pune,West 2,REP-018,4667.0,2
+OUT-1821,Iyer Medicals,Pharmacy,B,Kochi,South 2,REP-019,15047.0,7
+OUT-1822,Khan Mart,Convenience,C,Surat,West 3,REP-046,3644.0,6
+OUT-1823,Khan Supermarket,General Trade,A,Bengaluru,South 2,REP-019,50272.0,2
+OUT-1824,Iyer Supermarket,General Trade,C,Delhi,North 2,REP-053,4059.0,2
+OUT-1825,Mehta Traders,Modern Trade,C,Hyderabad,South 3,REP-047,4264.0,6
+OUT-1826,Reddy Traders,Modern Trade,C,Chennai,South 2,REP-055,5486.0,4
+OUT-1827,Singh Mart,General Trade,B,Chennai,South 2,REP-007,20322.0,2
+OUT-1828,Mehta Traders,Convenience,B,Guwahati,East 3,REP-060,24670.0,4
+OUT-1829,Singh Medicals,Modern Trade,C,Chandigarh,North 1,REP-037,6576.0,6
+OUT-1830,Das Provisions,Pharmacy,C,Kochi,South 3,REP-059,6265.0,5
+OUT-1831,Patel Supermarket,General Trade,B,Surat,West 3,REP-022,16313.0,0
+OUT-1832,Sharma Traders,Modern Trade,B,Surat,West 3,REP-058,22903.0,5
+OUT-1833,Sharma Supermarket,General Trade,B,Bhubaneswar,East 3,REP-036,20710.0,4
+OUT-1834,Gupta Medicals,Convenience,C,Chandigarh,North 2,REP-005,6852.0,13
+OUT-1835,Patel Traders,General Trade,C,Lucknow,North 1,REP-025,7819.0,1
+OUT-1836,Gupta Medicals,General Trade,C,Delhi,North 3,REP-009,5867.0,6
+OUT-1837,Singh General Store,General Trade,C,Chandigarh,North 3,REP-057,3603.0,68
+OUT-1838,Khan General Store,Modern Trade,B,Kochi,South 2,REP-019,20456.0,5
+OUT-1839,Singh General Store,Convenience,B,Pune,West 1,REP-014,21190.0,4
+OUT-1840,Singh Mart,Convenience,A,Pune,West 3,REP-034,54752.0,2
+OUT-1841,Sharma Provisions,Pharmacy,C,Ahmedabad,West 1,REP-026,3367.0,8
+OUT-1842,Khan Traders,Convenience,B,Ahmedabad,West 2,REP-006,22921.0,4
+OUT-1843,Gupta Mart,Pharmacy,B,Lucknow,North 1,REP-049,23154.0,57
+OUT-1844,Gupta Kirana,General Trade,B,Chennai,South 1,REP-051,15241.0,22
+OUT-1845,Reddy Traders,Modern Trade,B,Chandigarh,North 3,REP-045,15056.0,2
+OUT-1846,Sharma Traders,General Trade,C,Surat,West 1,REP-038,5715.0,1
+OUT-1847,Nair General Store,General Trade,B,Chandigarh,North 1,REP-025,20662.0,1
+OUT-1848,Patel Supermarket,General Trade,A,Lucknow,North 3,REP-033,54626.0,0
+OUT-1849,Khan General Store,General Trade,C,Kolkata,East 2,REP-032,7106.0,5
+OUT-1850,Das Medicals,Convenience,B,Surat,West 3,REP-010,20130.0,0
+OUT-1851,Sharma Mart,Convenience,B,Delhi,North 2,REP-005,22856.0,6
+OUT-1852,Iyer Medicals,General Trade,B,Kolkata,East 1,REP-016,24129.0,0
+OUT-1853,Sharma Medicals,Pharmacy,C,Patna,East 1,REP-028,8128.0,6
+OUT-1854,Iyer General Store,General Trade,B,Mumbai,West 3,REP-010,13820.0,4
+OUT-1855,Singh General Store,General Trade,C,Hyderabad,South 2,REP-007,4287.0,2
+OUT-1856,Patel Provisions,General Trade,C,Patna,East 1,REP-052,5249.0,7
+OUT-1857,Nair Kirana,General Trade,C,Bengaluru,South 3,REP-023,6306.0,4
+OUT-1858,Gupta Supermarket,General Trade,B,Kolkata,East 3,REP-036,19143.0,23
+OUT-1859,Gupta General Store,General Trade,C,Kolkata,East 2,REP-032,8129.0,6
+OUT-1860,Nair Mart,General Trade,B,Lucknow,North 3,REP-045,19678.0,0
+OUT-1861,Singh Kirana,General Trade,B,Chandigarh,North 3,REP-045,22913.0,0
+OUT-1862,Patel Provisions,Convenience,B,Pune,West 2,REP-018,21948.0,0
+OUT-1863,Reddy Mart,General Trade,B,Bengaluru,South 1,REP-051,19029.0,4
+OUT-1864,Mehta Medicals,General Trade,A,Hyderabad,South 3,REP-023,53789.0,2
+OUT-1865,Singh Supermarket,Modern Trade,B,Kochi,South 1,REP-051,23611.0,1
+OUT-1866,Mehta General Store,General Trade,A,Delhi,North 1,REP-025,60892.0,5
+OUT-1867,Nair Traders,Modern Trade,B,Kochi,South 2,REP-007,22542.0,4
+OUT-1868,Iyer Mart,General Trade,C,Mumbai,West 3,REP-046,7515.0,0
+OUT-1869,Reddy Kirana,Modern Trade,C,Pune,West 1,REP-002,5611.0,12
+OUT-1870,Mehta Supermarket,Modern Trade,A,Hyderabad,South 3,REP-047,59246.0,4
+OUT-1871,Iyer Kirana,Pharmacy,C,Bengaluru,South 1,REP-003,6858.0,6
+OUT-1872,Nair Mart,Modern Trade,B,Jaipur,North 1,REP-013,16795.0,2
+OUT-1873,Nair Supermarket,General Trade,A,Delhi,North 1,REP-037,56492.0,2
+OUT-1874,Reddy Supermarket,General Trade,B,Delhi,North 3,REP-057,21063.0,2
+OUT-1875,Das Kirana,General Trade,A,Chandigarh,North 1,REP-025,60770.0,2
+OUT-1876,Reddy Kirana,Modern Trade,B,Kolkata,East 2,REP-008,23953.0,2
+OUT-1877,Das Mart,General Trade,B,Mumbai,West 1,REP-014,16230.0,6
+OUT-1878,Nair Supermarket,General Trade,B,Mumbai,West 2,REP-054,18172.0,0
+OUT-1879,Iyer Traders,Pharmacy,B,Kolkata,East 2,REP-044,23906.0,5
+OUT-1880,Singh Traders,General Trade,A,Hyderabad,South 2,REP-007,56400.0,1
+OUT-1881,Nair Mart,General Trade,A,Guwahati,East 3,REP-024,51319.0,69
+OUT-1882,Mehta Supermarket,Pharmacy,A,Kolkata,East 1,REP-016,32584.0,4
+OUT-1883,Das Supermarket,General Trade,B,Hyderabad,South 3,REP-011,19199.0,1
+OUT-1884,Iyer Traders,Convenience,B,Chennai,South 1,REP-051,19720.0,2
+OUT-1885,Das Provisions,Convenience,B,Mumbai,West 1,REP-038,17312.0,2
+OUT-1886,Patel Medicals,Convenience,B,Hyderabad,South 3,REP-011,18008.0,1
+OUT-1887,Singh General Store,General Trade,A,Kolkata,East 1,REP-040,31459.0,0
+OUT-1888,Patel Supermarket,General Trade,C,Lucknow,North 1,REP-025,5519.0,1
+OUT-1889,Singh Traders,Modern Trade,A,Bhubaneswar,East 1,REP-004,65164.0,0
+OUT-1890,Gupta Provisions,Modern Trade,A,Hyderabad,South 1,REP-027,55361.0,7
+OUT-1891,Iyer Mart,Modern Trade,A,Kolkata,East 3,REP-012,50315.0,2
+OUT-1892,Mehta Mart,General Trade,C,Chennai,South 1,REP-015,8161.0,1
+OUT-1893,Khan Kirana,General Trade,C,Lucknow,North 2,REP-053,6043.0,5
+OUT-1894,Nair Mart,General Trade,C,Kochi,South 2,REP-043,8985.0,7
+OUT-1895,Gupta Supermarket,General Trade,C,Delhi,North 3,REP-009,8154.0,2
+OUT-1896,Reddy Kirana,General Trade,A,Patna,East 1,REP-052,35781.0,15
+OUT-1897,Sharma Mart,Convenience,C,Kochi,South 3,REP-035,4748.0,8
+OUT-1898,Mehta Kirana,General Trade,B,Jaipur,North 2,REP-053,19229.0,4
+OUT-1899,Gupta Provisions,Modern Trade,C,Jaipur,North 3,REP-045,3913.0,4
+OUT-1900,Das Medicals,Convenience,B,Chandigarh,North 3,REP-021,17888.0,2
+OUT-1901,Das Kirana,General Trade,B,Chandigarh,North 3,REP-033,21430.0,13
+OUT-1902,Gupta Traders,Modern Trade,C,Bhubaneswar,East 2,REP-032,8799.0,5
+OUT-1903,Singh Mart,Pharmacy,A,Bhubaneswar,East 2,REP-044,58247.0,1
+OUT-1904,Singh Provisions,General Trade,C,Hyderabad,South 1,REP-015,6426.0,2
+OUT-1905,Patel Supermarket,General Trade,B,Patna,East 2,REP-020,23746.0,2
+OUT-1906,Mehta Supermarket,Convenience,C,Kochi,South 1,REP-015,5361.0,1
+OUT-1907,Iyer Provisions,Pharmacy,C,Mumbai,West 2,REP-018,6410.0,7
+OUT-1908,Nair General Store,Convenience,A,Mumbai,West 3,REP-010,42186.0,1
+OUT-1909,Reddy Supermarket,Convenience,C,Hyderabad,South 1,REP-003,5305.0,0
+OUT-1910,Khan Mart,General Trade,C,Chandigarh,North 3,REP-057,6480.0,2
+OUT-1911,Das General Store,Pharmacy,C,Chandigarh,North 2,REP-005,5304.0,6
+OUT-1912,Reddy Kirana,Modern Trade,A,Ahmedabad,West 2,REP-054,72209.0,1
+OUT-1913,Sharma Traders,Pharmacy,B,Jaipur,North 1,REP-001,21404.0,4
+OUT-1914,Mehta Provisions,Pharmacy,C,Chennai,South 3,REP-047,3471.0,2
+OUT-1915,Singh Traders,Pharmacy,B,Patna,East 2,REP-020,20746.0,0
+OUT-1916,Sharma Medicals,Convenience,A,Patna,East 2,REP-032,40992.0,5
+OUT-1917,Iyer Medicals,General Trade,B,Jaipur,North 2,REP-017,21446.0,0
+OUT-1918,Patel Supermarket,Pharmacy,C,Mumbai,West 2,REP-030,7394.0,1
+OUT-1919,Nair Provisions,General Trade,A,Patna,East 1,REP-028,55116.0,0
+OUT-1920,Patel Traders,Modern Trade,C,Guwahati,East 2,REP-032,5361.0,67
+OUT-1921,Mehta Traders,Pharmacy,C,Bhubaneswar,East 3,REP-024,6668.0,0
+OUT-1922,Gupta Mart,Pharmacy,A,Delhi,North 3,REP-033,49559.0,1
+OUT-1923,Das Mart,General Trade,A,Pune,West 1,REP-050,54384.0,2
+OUT-1924,Nair Provisions,Modern Trade,C,Chennai,South 1,REP-027,6921.0,0
+OUT-1925,Gupta Kirana,General Trade,A,Pune,West 3,REP-022,51951.0,0
+OUT-1926,Patel Traders,General Trade,C,Bhubaneswar,East 2,REP-008,3846.0,4
+OUT-1927,Singh Mart,General Trade,C,Surat,West 3,REP-022,5805.0,12
+OUT-1928,Gupta Kirana,Convenience,C,Bhubaneswar,East 2,REP-008,6625.0,12
+OUT-1929,Iyer Medicals,General Trade,B,Chennai,South 3,REP-011,20093.0,2
+OUT-1930,Iyer Traders,Convenience,C,Mumbai,West 3,REP-058,5231.0,5
+OUT-1931,Nair Medicals,General Trade,C,Mumbai,West 2,REP-006,5348.0,6
+OUT-1932,Singh Supermarket,Pharmacy,B,Chandigarh,North 2,REP-029,20887.0,0
+OUT-1933,Gupta Medicals,Modern Trade,C,Hyderabad,South 1,REP-051,5316.0,4
+OUT-1934,Reddy Mart,Pharmacy,C,Ahmedabad,West 3,REP-058,7852.0,0
+OUT-1935,Khan Supermarket,Modern Trade,C,Lucknow,North 3,REP-009,5432.0,2
+OUT-1936,Gupta Mart,Pharmacy,B,Surat,West 3,REP-010,23743.0,4
+OUT-1937,Das Traders,Convenience,B,Kochi,South 3,REP-023,19201.0,0
+OUT-1938,Singh Medicals,Modern Trade,A,Mumbai,West 3,REP-034,50821.0,0
+OUT-1939,Mehta Supermarket,General Trade,B,Pune,West 3,REP-058,22702.0,4
+OUT-1940,Nair Mart,General Trade,A,Delhi,North 1,REP-013,62275.0,1
+OUT-1941,Iyer Provisions,Pharmacy,C,Pune,West 3,REP-010,3379.0,2
+OUT-1942,Iyer General Store,General Trade,B,Bhubaneswar,East 1,REP-016,17904.0,0
+OUT-1943,Reddy Supermarket,Modern Trade,C,Delhi,North 2,REP-053,5430.0,62
+OUT-1944,Gupta Provisions,Modern Trade,A,Mumbai,West 1,REP-002,48253.0,1
+OUT-1945,Mehta Kirana,General Trade,B,Chennai,South 3,REP-023,26344.0,0
+OUT-1946,Nair Medicals,Pharmacy,B,Bhubaneswar,East 2,REP-008,20708.0,4
+OUT-1947,Sharma Supermarket,Pharmacy,B,Ahmedabad,West 3,REP-010,12664.0,1
+OUT-1948,Khan Medicals,Pharmacy,C,Kolkata,East 2,REP-056,5293.0,1
+OUT-1949,Singh Supermarket,Pharmacy,C,Delhi,North 1,REP-001,7245.0,6
+OUT-1950,Gupta Supermarket,Convenience,C,Guwahati,East 2,REP-020,6741.0,5
+OUT-1951,Nair Mart,Modern Trade,A,Hyderabad,South 2,REP-055,49741.0,1
+OUT-1952,Reddy Medicals,Convenience,C,Chandigarh,North 1,REP-037,5949.0,0
+OUT-1953,Gupta Mart,General Trade,A,Chandigarh,North 2,REP-005,34304.0,1
+OUT-1954,Singh Provisions,Modern Trade,C,Guwahati,East 1,REP-028,7122.0,13
+OUT-1955,Gupta Mart,Pharmacy,B,Hyderabad,South 3,REP-059,19343.0,2
+OUT-1956,Mehta Mart,General Trade,B,Chandigarh,North 1,REP-025,17196.0,9
+OUT-1957,Khan Provisions,General Trade,A,Patna,East 2,REP-032,56028.0,0
+OUT-1958,Nair Mart,Modern Trade,A,Guwahati,East 2,REP-032,37881.0,4
+OUT-1959,Sharma Traders,General Trade,B,Patna,East 1,REP-040,20302.0,1
+OUT-1960,Gupta Medicals,Convenience,C,Patna,East 3,REP-012,6266.0,8
+OUT-1961,Reddy Mart,General Trade,C,Hyderabad,South 1,REP-051,6818.0,44
+OUT-1962,Das Mart,General Trade,C,Patna,East 3,REP-060,7422.0,4
+OUT-1963,Sharma Kirana,Modern Trade,A,Delhi,North 3,REP-009,48220.0,1
+OUT-1964,Nair Mart,General Trade,C,Surat,West 1,REP-050,5751.0,5
+OUT-1965,Reddy Mart,General Trade,B,Pune,West 1,REP-050,24718.0,6
+OUT-1966,Iyer General Store,Modern Trade,B,Chandigarh,North 3,REP-045,20446.0,0
+OUT-1967,Sharma Traders,Modern Trade,B,Chennai,South 3,REP-023,19358.0,0
+OUT-1968,Sharma Traders,General Trade,B,Chandigarh,North 2,REP-029,22100.0,1
+OUT-1969,Nair General Store,Modern Trade,C,Hyderabad,South 1,REP-051,4940.0,2
+OUT-1970,Gupta Supermarket,Modern Trade,A,Surat,West 3,REP-010,37118.0,18
+OUT-1971,Nair Supermarket,Pharmacy,B,Surat,West 1,REP-050,22332.0,11
+OUT-1972,Singh General Store,General Trade,C,Kolkata,East 2,REP-056,6296.0,8
+OUT-1973,Patel Traders,General Trade,A,Chandigarh,North 2,REP-041,51355.0,2
+OUT-1974,Gupta Provisions,Convenience,C,Chandigarh,North 3,REP-021,7192.0,2
+OUT-1975,Mehta Supermarket,Modern Trade,B,Ahmedabad,West 3,REP-034,18058.0,2
+OUT-1976,Khan Traders,General Trade,C,Guwahati,East 1,REP-004,3816.0,2
+OUT-1977,Sharma Kirana,Convenience,C,Guwahati,East 2,REP-056,4432.0,6
+OUT-1978,Nair Mart,General Trade,C,Lucknow,North 3,REP-021,3534.0,13
+OUT-1979,Das Medicals,Pharmacy,C,Patna,East 1,REP-004,6668.0,4
+OUT-1980,Iyer Provisions,Pharmacy,C,Guwahati,East 3,REP-048,7874.0,6
+OUT-1981,Patel Provisions,Convenience,C,Kolkata,East 1,REP-040,6170.0,0
+OUT-1982,Das Mart,Convenience,B,Ahmedabad,West 1,REP-038,20281.0,0
+OUT-1983,Gupta Traders,General Trade,A,Guwahati,East 1,REP-004,27761.0,0
+OUT-1984,Das Mart,Pharmacy,C,Surat,West 3,REP-046,3630.0,12
+OUT-1985,Reddy Traders,General Trade,A,Chennai,South 1,REP-039,62644.0,4
+OUT-1986,Patel Traders,Modern Trade,B,Kolkata,East 3,REP-048,25512.0,64
+OUT-1987,Gupta Supermarket,Modern Trade,A,Pune,West 1,REP-050,59310.0,5
+OUT-1988,Nair Mart,General Trade,B,Chandigarh,North 1,REP-013,22258.0,5
+OUT-1989,Reddy Provisions,General Trade,A,Lucknow,North 1,REP-013,52961.0,5
+OUT-1990,Reddy General Store,General Trade,C,Kolkata,East 2,REP-056,4693.0,6
+OUT-1991,Khan General Store,General Trade,C,Kolkata,East 2,REP-032,4746.0,6
+OUT-1992,Iyer Medicals,General Trade,C,Chennai,South 1,REP-027,4677.0,6
+OUT-1993,Reddy Supermarket,Convenience,B,Pune,West 2,REP-018,14311.0,2
+OUT-1994,Khan Traders,Modern Trade,B,Bengaluru,South 1,REP-039,13292.0,4
+OUT-1995,Gupta Supermarket,Pharmacy,C,Pune,West 3,REP-046,7353.0,6
+OUT-1996,Iyer Mart,Convenience,B,Jaipur,North 1,REP-001,27229.0,5
+OUT-1997,Mehta Mart,Pharmacy,C,Mumbai,West 3,REP-034,6853.0,6
+OUT-1998,Mehta Kirana,General Trade,B,Kolkata,East 3,REP-060,20738.0,16
+OUT-1999,Mehta Traders,Convenience,C,Lucknow,North 2,REP-017,5224.0,2
+OUT-2000,Nair Supermarket,Pharmacy,A,Chandigarh,North 2,REP-017,50385.0,2

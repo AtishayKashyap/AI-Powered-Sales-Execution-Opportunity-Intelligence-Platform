@@ -1,0 +1,406 @@
+{
+  "tuning_seed": 42,
+  "held_out_seeds": [
+    7,
+    101,
+    2024,
+    31337
+  ],
+  "thresholds": {
+    "revenue_drop": -0.35,
+    "revenue_p_value": 0.01,
+    "inactive_days": 30,
+    "stockout_rate": 0.08,
+    "peer_adoption": 0.9
+  },
+  "summary": [
+    {
+      "opportunity_type": "Cross-Sell",
+      "precision_mean": 0.736,
+      "precision_min": 0.689,
+      "recall_mean": 0.715,
+      "recall_min": 0.625,
+      "f1_mean": 0.724,
+      "decoys_flagged": 19,
+      "decoys": 320
+    },
+    {
+      "opportunity_type": "Inactive Outlet",
+      "precision_mean": 1.0,
+      "precision_min": 1.0,
+      "recall_mean": 1.0,
+      "recall_min": 1.0,
+      "f1_mean": 1.0,
+      "decoys_flagged": 0,
+      "decoys": 320
+    },
+    {
+      "opportunity_type": "Revenue Recovery",
+      "precision_mean": 0.775,
+      "precision_min": 0.745,
+      "recall_mean": 0.678,
+      "recall_min": 0.58,
+      "f1_mean": 0.72,
+      "decoys_flagged": 9,
+      "decoys": 320
+    },
+    {
+      "opportunity_type": "Stock Risk",
+      "precision_mean": 0.959,
+      "precision_min": 0.929,
+      "recall_mean": 0.91,
+      "recall_min": 0.88,
+      "f1_mean": 0.933,
+      "decoys_flagged": 13,
+      "decoys": 320
+    }
+  ],
+  "per_seed": [
+    {
+      "seed": 7,
+      "opportunity_type": "Revenue Recovery",
+      "flagged": 80,
+      "planted": 100,
+      "true_positives": 67,
+      "decoys_flagged": 0,
+      "decoys": 80,
+      "precision": 0.838,
+      "recall": 0.67,
+      "f1": 0.744
+    },
+    {
+      "seed": 7,
+      "opportunity_type": "Inactive Outlet",
+      "flagged": 80,
+      "planted": 80,
+      "true_positives": 80,
+      "decoys_flagged": 0,
+      "decoys": 80,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "seed": 7,
+      "opportunity_type": "Stock Risk",
+      "flagged": 94,
+      "planted": 100,
+      "true_positives": 93,
+      "decoys_flagged": 1,
+      "decoys": 80,
+      "precision": 0.989,
+      "recall": 0.93,
+      "f1": 0.959
+    },
+    {
+      "seed": 7,
+      "opportunity_type": "Cross-Sell",
+      "flagged": 115,
+      "planted": 120,
+      "true_positives": 90,
+      "decoys_flagged": 4,
+      "decoys": 80,
+      "precision": 0.783,
+      "recall": 0.75,
+      "f1": 0.766
+    },
+    {
+      "seed": 101,
+      "opportunity_type": "Revenue Recovery",
+      "flagged": 75,
+      "planted": 100,
+      "true_positives": 58,
+      "decoys_flagged": 2,
+      "decoys": 80,
+      "precision": 0.773,
+      "recall": 0.58,
+      "f1": 0.663
+    },
+    {
+      "seed": 101,
+      "opportunity_type": "Inactive Outlet",
+      "flagged": 80,
+      "planted": 80,
+      "true_positives": 80,
+      "decoys_flagged": 0,
+      "decoys": 80,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "seed": 101,
+      "opportunity_type": "Stock Risk",
+      "flagged": 97,
+      "planted": 100,
+      "true_positives": 91,
+      "decoys_flagged": 6,
+      "decoys": 80,
+      "precision": 0.938,
+      "recall": 0.91,
+      "f1": 0.924
+    },
+    {
+      "seed": 101,
+      "opportunity_type": "Cross-Sell",
+      "flagged": 101,
+      "planted": 120,
+      "true_positives": 75,
+      "decoys_flagged": 7,
+      "decoys": 80,
+      "precision": 0.743,
+      "recall": 0.625,
+      "f1": 0.679
+    },
+    {
+      "seed": 2024,
+      "opportunity_type": "Revenue Recovery",
+      "flagged": 94,
+      "planted": 100,
+      "true_positives": 70,
+      "decoys_flagged": 4,
+      "decoys": 80,
+      "precision": 0.745,
+      "recall": 0.7,
+      "f1": 0.722
+    },
+    {
+      "seed": 2024,
+      "opportunity_type": "Inactive Outlet",
+      "flagged": 80,
+      "planted": 80,
+      "true_positives": 80,
+      "decoys_flagged": 0,
+      "decoys": 80,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "seed": 2024,
+      "opportunity_type": "Stock Risk",
+      "flagged": 99,
+      "planted": 100,
+      "true_positives": 92,
+      "decoys_flagged": 5,
+      "decoys": 80,
+      "precision": 0.929,
+      "recall": 0.92,
+      "f1": 0.925
+    },
+    {
+      "seed": 2024,
+      "opportunity_type": "Cross-Sell",
+      "flagged": 132,
+      "planted": 120,
+      "true_positives": 91,
+      "decoys_flagged": 7,
+      "decoys": 80,
+      "precision": 0.689,
+      "recall": 0.758,
+      "f1": 0.722
+    },
+    {
+      "seed": 31337,
+      "opportunity_type": "Revenue Recovery",
+      "flagged": 102,
+      "planted": 100,
+      "true_positives": 76,
+      "decoys_flagged": 3,
+      "decoys": 80,
+      "precision": 0.745,
+      "recall": 0.76,
+      "f1": 0.752
+    },
+    {
+      "seed": 31337,
+      "opportunity_type": "Inactive Outlet",
+      "flagged": 80,
+      "planted": 80,
+      "true_positives": 80,
+      "decoys_flagged": 0,
+      "decoys": 80,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "seed": 31337,
+      "opportunity_type": "Stock Risk",
+      "flagged": 90,
+      "planted": 100,
+      "true_positives": 88,
+      "decoys_flagged": 1,
+      "decoys": 80,
+      "precision": 0.978,
+      "recall": 0.88,
+      "f1": 0.926
+    },
+    {
+      "seed": 31337,
+      "opportunity_type": "Cross-Sell",
+      "flagged": 119,
+      "planted": 120,
+      "true_positives": 87,
+      "decoys_flagged": 1,
+      "decoys": 80,
+      "precision": 0.731,
+      "recall": 0.725,
+      "f1": 0.728
+    }
+  ],
+  "threshold_sweep": [
+    {
+      "opportunity_type": "Revenue Recovery",
+      "parameter": "revenue_p_value",
+      "value": 0.001,
+      "is_default": false,
+      "precision": 0.938,
+      "recall": 0.61
+    },
+    {
+      "opportunity_type": "Revenue Recovery",
+      "parameter": "revenue_p_value",
+      "value": 0.005,
+      "is_default": false,
+      "precision": 0.838,
+      "recall": 0.67
+    },
+    {
+      "opportunity_type": "Revenue Recovery",
+      "parameter": "revenue_p_value",
+      "value": 0.01,
+      "is_default": true,
+      "precision": 0.809,
+      "recall": 0.72
+    },
+    {
+      "opportunity_type": "Revenue Recovery",
+      "parameter": "revenue_p_value",
+      "value": 0.02,
+      "is_default": false,
+      "precision": 0.76,
+      "recall": 0.76
+    },
+    {
+      "opportunity_type": "Revenue Recovery",
+      "parameter": "revenue_p_value",
+      "value": 0.05,
+      "is_default": false,
+      "precision": 0.664,
+      "recall": 0.81
+    },
+    {
+      "opportunity_type": "Inactive Outlet",
+      "parameter": "inactive_days",
+      "value": 21.0,
+      "is_default": false,
+      "precision": 0.792,
+      "recall": 1.0
+    },
+    {
+      "opportunity_type": "Inactive Outlet",
+      "parameter": "inactive_days",
+      "value": 25.0,
+      "is_default": false,
+      "precision": 0.952,
+      "recall": 1.0
+    },
+    {
+      "opportunity_type": "Inactive Outlet",
+      "parameter": "inactive_days",
+      "value": 30.0,
+      "is_default": true,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "opportunity_type": "Inactive Outlet",
+      "parameter": "inactive_days",
+      "value": 35.0,
+      "is_default": false,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "opportunity_type": "Inactive Outlet",
+      "parameter": "inactive_days",
+      "value": 45.0,
+      "is_default": false,
+      "precision": 1.0,
+      "recall": 0.775
+    },
+    {
+      "opportunity_type": "Stock Risk",
+      "parameter": "stockout_rate",
+      "value": 0.04,
+      "is_default": false,
+      "precision": 0.611,
+      "recall": 0.99
+    },
+    {
+      "opportunity_type": "Stock Risk",
+      "parameter": "stockout_rate",
+      "value": 0.05,
+      "is_default": false,
+      "precision": 0.611,
+      "recall": 0.99
+    },
+    {
+      "opportunity_type": "Stock Risk",
+      "parameter": "stockout_rate",
+      "value": 0.06,
+      "is_default": false,
+      "precision": 0.784,
+      "recall": 0.98
+    },
+    {
+      "opportunity_type": "Stock Risk",
+      "parameter": "stockout_rate",
+      "value": 0.08,
+      "is_default": true,
+      "precision": 0.958,
+      "recall": 0.92
+    },
+    {
+      "opportunity_type": "Stock Risk",
+      "parameter": "stockout_rate",
+      "value": 0.1,
+      "is_default": false,
+      "precision": 0.988,
+      "recall": 0.85
+    },
+    {
+      "opportunity_type": "Cross-Sell",
+      "parameter": "peer_adoption",
+      "value": 0.8,
+      "is_default": false,
+      "precision": 0.352,
+      "recall": 1.0
+    },
+    {
+      "opportunity_type": "Cross-Sell",
+      "parameter": "peer_adoption",
+      "value": 0.85,
+      "is_default": false,
+      "precision": 0.519,
+      "recall": 1.0
+    },
+    {
+      "opportunity_type": "Cross-Sell",
+      "parameter": "peer_adoption",
+      "value": 0.9,
+      "is_default": true,
+      "precision": 0.69,
+      "recall": 0.742
+    },
+    {
+      "opportunity_type": "Cross-Sell",
+      "parameter": "peer_adoption",
+      "value": 0.95,
+      "is_default": false,
+      "precision": 0.929,
+      "recall": 0.217
+    }
+  ]
+}
